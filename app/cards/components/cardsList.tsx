@@ -5,9 +5,9 @@ import Image from 'next/image'
 import type { CardsApiResponse } from './source/cards.type'
 import type { AxieClass } from './source/class.type'
 import type { AxieParts } from './source/parts.type'
-import DropdownList from './dropDownList'
 import CardSection from './cardSection'
 import CardsPart from './cartsPart'
+import SelectButton from './selectButton'
 
 // async function fetchCards() {
 //   // await new Promise((resolve) => setTimeout(resolve, 2000))
@@ -33,14 +33,13 @@ export default async function CardsList() {
   const axieClasses: AxieClass[] = require('./source/class.json')
   const axieParts: AxieParts[] = require('./source/parts.json')
   const cardsDev: CardsApiResponse = require('./source/regularCards.json')
-  const [selectedClass, setSelectedClass] = useState<string>('')
+  const [selectedClass, setSelectedClass] = useState<string[]>([])
   const [filteredByClass, setFilteredByClass] = useState(axieClasses)
-  const [selectedPart, setSelectedPart] = useState<string>('')
+  const [selectedPart, setSelectedPart] = useState<string[]>([])
   const [filteredByPart, setFilteredByPart] = useState(axieParts)
   const [searchKeyword, setSearchKeyword] = useState<string>('')
   const [filteredItems, setFilteredItems] = useState(cardsDev._items)
   const url = 'https://ehzxpvbfwwaraguxdmzg.supabase.co'
-
   // const cards = await fetchCards();
 
   const handleSearch = () => {
@@ -54,19 +53,39 @@ export default async function CardsList() {
     setFilteredByClass(axieClasses)
     setFilteredItems(cardsDev._items)
     setFilteredByPart(axieParts)
+    setSelectedClass([])
+    setSelectedPart([])
   }
 
-  const handleSelectClass = (value: string) => {
-    setSelectedClass(value)
+  const handleSelectClass = (buttonValue: string) => {
+    const isSelected = selectedClass.includes(buttonValue)
+
+    if (isSelected) {
+      setSelectedClass((prevSelected) =>
+        prevSelected.filter((value) => value !== buttonValue)
+      )
+    } else {
+      setSelectedClass((prevSelected) => [...prevSelected, buttonValue])
+    }
   }
 
-  const handleSelectPart = (value: string) => {
-    setSelectedPart(value)
+  const handleSelectPart = (buttonValue: string) => {
+    const isSelected = selectedPart.includes(buttonValue)
+
+    if (isSelected) {
+      setSelectedPart((prevSelected) =>
+        prevSelected.filter((value) => value !== buttonValue)
+      )
+    } else {
+      setSelectedPart((prevSelected) => [...prevSelected, buttonValue])
+    }
   }
 
   useEffect(() => {
-    if (selectedClass) {
-      const filtered = axieClasses.filter((c) => c.jpClass === selectedClass)
+    if (selectedClass && selectedClass.length > 0 && Array.isArray(selectedClass)) {
+      const filtered = axieClasses.filter((c) =>
+        selectedClass.includes(c.jpClass)
+      )
       setFilteredByClass(filtered)
     } else {
       setFilteredByClass(axieClasses)
@@ -74,8 +93,10 @@ export default async function CardsList() {
   }, [selectedClass])
 
   useEffect(() => {
-    if (selectedPart) {
-      const filtered = axieParts.filter((part) => part.jpPart === selectedPart)
+    if (selectedPart && selectedPart.length > 0 && Array.isArray(selectedPart)) {
+      const filtered = axieParts.filter((part) =>
+        selectedPart.includes(part.jpPart)
+      )
       setFilteredByPart(filtered)
     } else {
       setFilteredByPart(axieParts)
@@ -131,15 +152,15 @@ export default async function CardsList() {
             </button>
           </div>
           <div>
-            <DropdownList
-              text="クラス"
-              options={axieClasses.map((option) => option.jpClass)}
-              onSelect={handleSelectClass}
+            <SelectButton
+              options={axieClasses.map((c) => c.jpClass)}
+              handleSelectButton={handleSelectClass}
             />
-            <DropdownList
-              text="パーツ"
-              options={axieParts.map((option) => option.jpPart)}
-              onSelect={handleSelectPart}
+          </div>
+          <div>
+            <SelectButton
+              options={axieParts.map((part) => part.jpPart)}
+              handleSelectButton={handleSelectPart}
             />
           </div>
         </div>
