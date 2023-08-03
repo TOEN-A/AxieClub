@@ -1,9 +1,11 @@
 'use client'
 
 import Image from 'next/image'
-import type { Item, CardsApiResponse } from './source/cards.type'
-import type { AxieClass } from './source/class.type'
-import type { AxieParts } from './source/parts.type'
+import type { Item } from './source/cards.type'
+
+interface JsonData {
+  [key: string]: string;
+}
 
 const CardsPart = ({
   part,
@@ -11,9 +13,9 @@ const CardsPart = ({
   axieClass,
   url,
 }: {
-  part: AxieParts
+  part: JsonData
   cards: Item[]
-  axieClass: AxieClass
+  axieClass: JsonData
   url: string | undefined
 }) => {
   return (

@@ -19,7 +19,3 @@ export interface CardsApiResponse {
   _etag: string
   _items: Item[]
 }
-
-export interface Class{
-  
-}

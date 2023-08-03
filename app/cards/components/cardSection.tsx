@@ -1,14 +1,17 @@
 'use client'
 
 import Image from 'next/image'
-import type { AxieClass } from './source/class.type'
+
+interface JsonData {
+  [key: string]: string;
+}
 
 const CardSection = ({
   axieClass,
   children,
   url,
 }: {
-  axieClass: AxieClass
+  axieClass: JsonData
   children: React.ReactNode
   url: string | undefined
 }) => {

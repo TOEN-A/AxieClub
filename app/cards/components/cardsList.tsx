@@ -3,11 +3,13 @@
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import type { CardsApiResponse } from './source/cards.type'
-import type { AxieClass } from './source/class.type'
-import type { AxieParts } from './source/parts.type'
 import CardSection from './cardSection'
 import CardsPart from './cartsPart'
 import SelectButton from './selectButton'
+
+interface JsonData {
+  [key: string]: string;
+}
 
 // async function fetchCards() {
 //   // await new Promise((resolve) => setTimeout(resolve, 2000))
@@ -29,9 +31,9 @@ import SelectButton from './selectButton'
 //   return cards;
 // }
 
-export default async function CardsList() {
-  const axieClasses: AxieClass[] = require('./source/class.json')
-  const axieParts: AxieParts[] = require('./source/parts.json')
+export default function CardsList() {
+  const axieClasses: JsonData[] = require('./source/class.json')
+  const axieParts: JsonData[] = require('./source/parts.json')
   const cardsDev: CardsApiResponse = require('./source/regularCards.json')
   const [selectedClass, setSelectedClass] = useState<string[]>([])
   const [filteredByClass, setFilteredByClass] = useState(axieClasses)
@@ -39,8 +41,18 @@ export default async function CardsList() {
   const [filteredByPart, setFilteredByPart] = useState(axieParts)
   const [searchKeyword, setSearchKeyword] = useState<string>('')
   const [filteredItems, setFilteredItems] = useState(cardsDev._items)
+  const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
   const url = 'https://ehzxpvbfwwaraguxdmzg.supabase.co'
   // const cards = await fetchCards();
+
+  const handleClick = (option: string, handleSelectButton: (buttonValue: string) => void) => {
+    if (selectedOptions.includes(option)) {
+      setSelectedOptions((prevSelected) => prevSelected.filter((value) => value !== option));
+    } else {
+      setSelectedOptions((prevSelected) => [...prevSelected, option]);
+    }
+    handleSelectButton(option);
+  };
 
   const handleSearch = () => {
     const inputElement = document.getElementById(
@@ -55,6 +67,7 @@ export default async function CardsList() {
     setFilteredByPart(axieParts)
     setSelectedClass([])
     setSelectedPart([])
+    setSelectedOptions([])
   }
 
   const handleSelectClass = (buttonValue: string) => {
@@ -82,40 +95,30 @@ export default async function CardsList() {
   }
 
   useEffect(() => {
-    if (selectedClass && selectedClass.length > 0 && Array.isArray(selectedClass)) {
-      const filtered = axieClasses.filter((c) =>
-        selectedClass.includes(c.jpClass)
-      )
-      setFilteredByClass(filtered)
-    } else {
-      setFilteredByClass(axieClasses)
-    }
-  }, [selectedClass])
+    // クラスのフィルタリング
+    const filteredByClass = selectedClass && selectedClass.length > 0
+      ? axieClasses.filter((c) => selectedClass.includes(c.jpClass))
+      : axieClasses;
 
-  useEffect(() => {
-    if (selectedPart && selectedPart.length > 0 && Array.isArray(selectedPart)) {
-      const filtered = axieParts.filter((part) =>
-        selectedPart.includes(part.jpPart)
-      )
-      setFilteredByPart(filtered)
-    } else {
-      setFilteredByPart(axieParts)
-    }
-  }, [selectedPart])
+    // パーツのフィルタリング
+    const filteredByPart = selectedPart && selectedPart.length > 0
+      ? axieParts.filter((part) => selectedPart.includes(part.jpPart))
+      : axieParts;
 
-  useEffect(() => {
-    if (searchKeyword) {
-      const filtered = cardsDev._items.filter(
-        (card) =>
-          card.name.toLowerCase().includes(searchKeyword.toLowerCase()) ||
-          card.description.toLowerCase().includes(searchKeyword.toLowerCase())
-      )
-      setFilteredItems(filtered)
-    } else {
-      setFilteredItems(cardsDev._items)
-      setFilteredByPart(axieParts)
-    }
-  }, [searchKeyword])
+    // キーワードのフィルタリング
+    const filteredItems = searchKeyword
+      ? cardsDev._items.filter(
+          (card) =>
+            card.name.toLowerCase().includes(searchKeyword.toLowerCase()) ||
+            card.description.toLowerCase().includes(searchKeyword.toLowerCase())
+        )
+      : cardsDev._items;
+
+    // フィルタリングされた結果をセット
+    setFilteredByClass(filteredByClass);
+    setFilteredByPart(filteredByPart);
+    setFilteredItems(filteredItems);
+  }, [selectedClass, selectedPart, searchKeyword]);
 
   return (
     <div className="py-8">
@@ -155,12 +158,17 @@ export default async function CardsList() {
             <SelectButton
               options={axieClasses.map((c) => c.jpClass)}
               handleSelectButton={handleSelectClass}
+              selectedOptions={selectedOptions}
+              handleClick={handleClick}
             />
           </div>
           <div>
             <SelectButton
               options={axieParts.map((part) => part.jpPart)}
               handleSelectButton={handleSelectPart}
+              selectedOptions={selectedOptions}
+              handleClick={handleClick}
+
             />
           </div>
         </div>
