@@ -1,3 +1,13 @@
+'use client'
+
+import React from "react"
+
+interface JsonData {
+  [key: string]: string
+}
+
+const colors: JsonData = require("./source/colors.json")
+
 const SelectButton: React.FC<{
   options: string[];
   handleSelectButton: (buttonValue: string) => void;
@@ -6,16 +16,19 @@ const SelectButton: React.FC<{
   
 }> = ({ options, handleSelectButton, selectedOptions, handleClick }) => {
   
-
   return (
     <>
       {options.map((option) => (
         <button
           key={option}
-          className={`text-xs md:text-sm lg:text-base w-12 md:w-16 lg:w-24 px-0 py-2 rounded-lg focus:outline-none ${
-            selectedOptions.includes(option) ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-blue-300 text-black hover:bg-blue-400'
-          }`}
-          onClick={() => handleClick(option ,handleSelectButton)}
+          className={"mr-0.5 mt-0.5 text-[0.75rem] md:text-sm lg:text-base w-[3.5rem] md:w-16 lg:w-24 px-0 py-2 rounded-full focus:outline-none hover:opacity-75 shadow-md"}
+          style={{
+            background: selectedOptions.includes(option) ? colors[option] : 'rgba(128, 128, 128, 0.7)',
+            color: selectedOptions.includes(option) ? 'white' : 'black',
+            border: '1px solid #ccc',
+            transition: 'color 0.2s', // ホバー時の色変化をスムーズにするためのトランジション
+          }}
+          onClick={() => handleClick(option, handleSelectButton)}
         >
           {option}
         </button>

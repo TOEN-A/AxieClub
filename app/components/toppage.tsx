@@ -1,11 +1,12 @@
 import type { Database } from '../../database.types'
 import { format } from 'date-fns'
+import Link from 'next/link'
 
-type Blog = Database['public']['Tables']['blogs']['Row']
+type news = Database['public']['Tables']['news']['Row']
 
-async function fetchBlogs() {
+async function fetchnews() {
   // await new Promise((resolve) => setTimeout(resolve, 2000))
-  const res = await fetch(`${process.env.url}/rest/v1/blogs?select=*&order=created_at.desc`, {
+  const res = await fetch(`${process.env.url}/rest/v1/news?select=*&order=created_at.desc`, {
     headers: new Headers({
       apikey: process.env.apikey as string,
     }),
@@ -16,22 +17,22 @@ async function fetchBlogs() {
   if (!res.ok) {
     throw new Error('Failed to fetch data in server')
   }
-  const blogs: Blog[] = await res.json()
-  return blogs
+  const news: news[] = await res.json()
+  return news
 }
 
-export default async function BlogsList() {
-  const blogs = await fetchBlogs()
+export default async function newsList() {
+  const news = await fetchnews()
   return (
     <div className="max-w-xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">最新記事</h1>
       <ul className="grid gap-4">
-        {blogs.slice(0, 3).map((blog) => (
-          <li key={blog.id} className="border p-4 rounded-lg shadow-md">
-            <p className="text-xl font-semibold mb-2">{blog.title}</p>
+        {news.slice(0, 3).map((news) => (
+          <li key={news.id} className="border p-4 rounded-lg shadow-md">
+            <Link href="/cards" className="text-xl font-semibold mb-2">{news.title}</Link>
             <p className="text-gray-600">
               <strong className="mr-2">投稿日時:</strong>
-              {blog && format(new Date(blog.created_at), 'yyyy-MM-dd HH:mm:ss')}
+              {news && format(new Date(news.created_at), 'yyyy-MM-dd HH:mm:ss')}
             </p>
           </li>
         ))}

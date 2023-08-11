@@ -44,26 +44,6 @@
       "_etag": "5c60e8cb71b081a604f7a2323b823526"
     },
     {
-      "id": 10300301,
-      "name": "Puff",
-      "description": "Heal 50% of unblocked DMG as HP.",
-      "partClass": "Beast",
-      "partType": "Mouth",
-      "partValue": 3,
-      "energy": 1,
-      "attack": 60,
-      "defense": 0,
-      "healing": 0,
-      "abilityType": "AttackMelee",
-      "stage": 1,
-      "tags": [
-        "attack",
-        "single_attack",
-        "non_multihit"
-      ],
-      "_etag": "2970915c0a7ee848737f3944dd3e2329"
-    },
-    {
       "id": 30500201,
       "name": "Turnip",
       "description": "Target any ally. Apply 4 {Turnip Rocket}.",

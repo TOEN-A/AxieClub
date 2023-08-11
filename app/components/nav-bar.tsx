@@ -16,12 +16,12 @@ export default function NavBar() {
         >
           カード一覧
         </Link>
-        <Link
+        {/* <Link
           href="/auth"
           className="rounded bg-gray-800 px-4 py-2 text-white hover:bg-gray-700 cursor-pointer shadow-md"
         >
           Auth with CRUD
-        </Link>
+        </Link> */}
       </nav>
     </header>
   )

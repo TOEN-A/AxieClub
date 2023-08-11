@@ -5,10 +5,11 @@ import Image from 'next/image'
 import type { CardsApiResponse } from './source/cards.type'
 import CardSection from './cardSection'
 import CardsPart from './cartsPart'
+import SearchAndReset from './searchAndReset'
 import SelectButton from './selectButton'
 
 interface JsonData {
-  [key: string]: string;
+  [key: string]: string
 }
 
 // async function fetchCards() {
@@ -39,20 +40,16 @@ export default function CardsList() {
   const [filteredByClass, setFilteredByClass] = useState(axieClasses)
   const [selectedPart, setSelectedPart] = useState<string[]>([])
   const [filteredByPart, setFilteredByPart] = useState(axieParts)
+  const [inputText, setInputText] = useState<string>('')
   const [searchKeyword, setSearchKeyword] = useState<string>('')
   const [filteredItems, setFilteredItems] = useState(cardsDev._items)
-  const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
+  const [selectedOptions, setSelectedOptions] = useState<string[]>([])
   const url = 'https://ehzxpvbfwwaraguxdmzg.supabase.co'
   // const cards = await fetchCards();
 
-  const handleClick = (option: string, handleSelectButton: (buttonValue: string) => void) => {
-    if (selectedOptions.includes(option)) {
-      setSelectedOptions((prevSelected) => prevSelected.filter((value) => value !== option));
-    } else {
-      setSelectedOptions((prevSelected) => [...prevSelected, option]);
-    }
-    handleSelectButton(option);
-  };
+  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setInputText(event.target.value)
+  }
 
   const handleSearch = () => {
     const inputElement = document.getElementById(
@@ -61,13 +58,29 @@ export default function CardsList() {
     setSearchKeyword(inputElement.value)
   }
 
+  const handleClick = (
+    option: string,
+    handleSelectButton: (buttonValue: string) => void
+  ) => {
+    if (selectedOptions.includes(option)) {
+      setSelectedOptions((prevSelected) =>
+        prevSelected.filter((value) => value !== option)
+      )
+    } else {
+      setSelectedOptions((prevSelected) => [...prevSelected, option])
+    }
+    handleSelectButton(option)
+  }
+
   const handleReset = () => {
+    setSearchKeyword('')
     setFilteredByClass(axieClasses)
     setFilteredItems(cardsDev._items)
     setFilteredByPart(axieParts)
     setSelectedClass([])
     setSelectedPart([])
     setSelectedOptions([])
+    setInputText('')
   }
 
   const handleSelectClass = (buttonValue: string) => {
@@ -96,14 +109,16 @@ export default function CardsList() {
 
   useEffect(() => {
     // クラスのフィルタリング
-    const filteredByClass = selectedClass && selectedClass.length > 0
-      ? axieClasses.filter((c) => selectedClass.includes(c.jpClass))
-      : axieClasses;
+    const filteredByClass =
+      selectedClass && selectedClass.length > 0
+        ? axieClasses.filter((c) => selectedClass.includes(c.jpClass))
+        : axieClasses
 
     // パーツのフィルタリング
-    const filteredByPart = selectedPart && selectedPart.length > 0
-      ? axieParts.filter((part) => selectedPart.includes(part.jpPart))
-      : axieParts;
+    const filteredByPart =
+      selectedPart && selectedPart.length > 0
+        ? axieParts.filter((part) => selectedPart.includes(part.jpPart))
+        : axieParts
 
     // キーワードのフィルタリング
     const filteredItems = searchKeyword
@@ -112,72 +127,57 @@ export default function CardsList() {
             card.name.toLowerCase().includes(searchKeyword.toLowerCase()) ||
             card.description.toLowerCase().includes(searchKeyword.toLowerCase())
         )
-      : cardsDev._items;
+      : cardsDev._items
 
     // フィルタリングされた結果をセット
-    setFilteredByClass(filteredByClass);
-    setFilteredByPart(filteredByPart);
-    setFilteredItems(filteredItems);
-  }, [selectedClass, selectedPart, searchKeyword]);
+    setFilteredByClass(filteredByClass)
+    setFilteredByPart(filteredByPart)
+    setFilteredItems(filteredItems)
+  }, [selectedClass, selectedPart, searchKeyword])
 
   return (
     <div className="py-8">
-      <div className="flex justify-center items-end">
-        <Image
+      <div className="flex justify-center items-center gap-1 mb-4">
+        {/* <Image
           src={`${url}/storage/v1/object/public/images/mediaKit/ThankYou.png`}
-          className="w-28 h-[auto] md:w-32 md:h-[auto] lg:w-36 lg:h-[auto] mr-4"
+          className="w-20 h-[auto] md:w-32 md:h-[auto] lg:w-36 lg:h-[auto] mr-[3%]"
           height={150}
           width={150}
           alt={'煽りアイコン'}
-        />
+        /> */}
         <div className="flex flex-col items-center">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            カード一覧
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-sans font-bold">
+            ORIGINS カード一覧
           </h1>
-          <div>
-            <input
-              type="text"
-              id="search-box"
-              className="text-xs md:text-sm lg:text-base w-32 md:w-52 lg:w-72 px-4 py-2 border border-gray-400 rounded-lg flex-1"
-              placeholder="カード名またはカード説明"
-            />
-            <button
-              className="text-xs md:text-sm lg:text-base w-12 md:w-16 lg:w-24 px-0 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none"
-              onClick={handleSearch}
-            >
-              検索
-            </button>
-            <button
-              className="text-xs md:text-sm lg:text-base w-12 md:w-16 lg:w-24 px-0 py-2 bg-gray-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none"
-              onClick={handleReset}
-            >
-              リセット
-            </button>
-          </div>
-          <div>
-            <SelectButton
-              options={axieClasses.map((c) => c.jpClass)}
-              handleSelectButton={handleSelectClass}
-              selectedOptions={selectedOptions}
-              handleClick={handleClick}
-            />
-          </div>
-          <div>
-            <SelectButton
-              options={axieParts.map((part) => part.jpPart)}
-              handleSelectButton={handleSelectPart}
-              selectedOptions={selectedOptions}
-              handleClick={handleClick}
-
-            />
-          </div>
         </div>
-        <Image
+        {/* <Image
           src={`${url}/storage/v1/object/public/images/mediaKit/Bark.png`}
-          className="w-28 h-[auto] md:w-32 md:h-[auto] lg:w-36 lg:h-[auto] mr-4"
+          className="w-24 h-[auto] md:w-32 md:h-[auto] lg:w-36 lg:h-[auto] ml-[3%]"
           height={150}
           width={150}
           alt={'キレアイコン'}
+        /> */}
+      </div>
+      <SearchAndReset
+        handleSearch={handleSearch}
+        handleReset={handleReset}
+        inputText={inputText}
+        handleInputChange={handleInputChange}
+      />
+      <div>
+        <SelectButton
+          options={axieClasses.map((c) => c.jpClass)}
+          handleSelectButton={handleSelectClass}
+          selectedOptions={selectedOptions}
+          handleClick={handleClick}
+        />
+      </div>
+      <div>
+        <SelectButton
+          options={axieParts.map((part) => part.jpPart)}
+          handleSelectButton={handleSelectPart}
+          selectedOptions={selectedOptions}
+          handleClick={handleClick}
         />
       </div>
       {filteredByClass

@@ -1,7 +1,7 @@
-import BlogsList from './components/toppage'
+import NewsList from './components/toppage'
 import { Suspense } from 'react'
 import Spinner from './components/sample/spinner'
-import RefreshBtn from './components/sample/refresh-btn'
+import RefreshBtn from './components/refresh-btn'
 
 export default function Page() {
   return (
@@ -9,7 +9,7 @@ export default function Page() {
       <div className="m-10 text-center h-screen">
         <Suspense fallback={<Spinner color="border-blue-500" />}>
           {/* @ts-expect-error Async Server Component */}
-          <BlogsList />
+          <NewsList />
         </Suspense>
         {/* <TimerCounter /> */}
         <RefreshBtn />

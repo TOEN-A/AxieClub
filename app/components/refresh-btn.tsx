@@ -10,7 +10,7 @@ export default function RefreshBtn() {
         router.refresh()
       }}
     >
-      Refresh current route
+      更新
     </button>
   )
 }
