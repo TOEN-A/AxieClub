@@ -36,24 +36,24 @@ const CardsPart = ({
         {cards.map((card) =>
           card.partClass === axieClass.class && card.partType === part.part ? (
             <div key={card.id} className="relative">
-              <p>{card.id}</p>
+              {/* <p>{card.id}</p> */}
               <Image
-                className="ml-2"
+                className="ml-2 object-contain"
                 src={`${url}/storage/v1/object/public/images/regularCards/${card.partClass}/${card.id}.png`}
                 height={230}
                 width={230}
                 alt={card.name}
                 // onError={handleImageError}
-                style={{ maxWidth: 'none' }}
+                // style={{ maxWidth: 'none' }}
               />
               <p
-                className="absolute left-[90px] bottom-[147px] w-[75%] h-[5%] text-white font-bold text-left text-[16px] "
+                className="absolute left-[95px] bottom-[143px] w-[75%] h-[5%] text-white font-bold text-left text-[13.5px] "
                 style={{ maxWidth: '75%' }}
               >
                 {card.name}
               </p>
               <p
-                className="absolute left-[40px] bottom-[42px] w-[75%] h-[16%] text-white text-[13px] leading-tight"
+                className="absolute left-[46px] bottom-[40px] w-[75%] h-[16%] text-white text-[12px] leading-tight font-[370]"
                 style={{ maxWidth: '75%' }}
               >
                 {card.description}

@@ -20,11 +20,11 @@ const CardSection = ({
       <div className="flex ml-[5vw]">
         <Image
           src={`${url}/storage/v1/object/public/images/classIcon/${axieClass.class}.png`}
-          height={60}
-          width={60}
+          height={45}
+          width={45}
           alt={axieClass.jpClass}
         />
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-4 text-left">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-4 ml-2 text-left">
           {axieClass.jpClass}
         </h2>
       </div>
