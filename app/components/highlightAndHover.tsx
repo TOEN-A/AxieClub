@@ -6,6 +6,7 @@
 //----------------------------------------------------------------------------------------------------------------
 
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 interface ContentMap {
   [key: string]: {
@@ -96,11 +97,12 @@ const HighlightAndHover: React.FC<{
             ))}
             <div className="flex justify-center flex-wrap">
               {hoveredImages.map((imageUrl, idx) => (
-                <img
+                <Image
                   key={idx}
                   src={imageUrl}
                   alt={`Hovered Image ${idx}`}
-                  className=""
+                  height={170}
+                  width={170}
                 />
               ))}
             </div>
@@ -122,11 +124,12 @@ const HighlightAndHover: React.FC<{
             ))}
             <div className="flex justify-center flex-wrap">
               {hoveredImages2.map((imageUrl, idx) => (
-                <img
+                <Image
                   key={idx}
                   src={imageUrl}
                   alt={`Hovered Image ${idx}`}
-                  className=""
+                  height={170}
+                  width={170}
                 />
               ))}
             </div>
@@ -148,11 +151,12 @@ const HighlightAndHover: React.FC<{
             ))}
             <div className="flex justify-center flex-wrap">
               {hoveredImages3.map((imageUrl, idx) => (
-                <img
+                <Image
                   key={idx}
                   src={imageUrl}
                   alt={`Hovered Image ${idx}`}
-                  className=""
+                  height={170}
+                  width={170}
                 />
               ))}
             </div>
