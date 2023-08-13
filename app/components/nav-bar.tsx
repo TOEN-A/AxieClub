@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { ImTwitter } from "react-icons/im";
 
 export default function NavBar() {
   return (
@@ -15,13 +18,18 @@ export default function NavBar() {
           className="rounded bg-gray-800 px-4 py-2 text-white hover:bg-gray-700 cursor-pointer shadow-md"
         >
           カード一覧
-        </Link>
-        {/* <Link
-          href="/auth"
-          className="rounded bg-gray-800 px-4 py-2 text-white hover:bg-gray-700 cursor-pointer shadow-md"
+        </Link>        
+        <div className='flex'>
+        <Link
+          href={'https://twitter.com/TOENBCG1'}
+          className="rounded-full bg-blue-400 px-2 py-2 text-white hover:bg-blue-500 cursor-pointer shadow-md absolute right-4"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Auth with CRUD
-        </Link> */}
+          <ImTwitter size={24} />
+        </Link>
+        
+        </div>
       </nav>
     </header>
   )

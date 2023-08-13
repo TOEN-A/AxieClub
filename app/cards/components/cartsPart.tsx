@@ -2,10 +2,9 @@
 
 import Image from 'next/image'
 import type { Item } from './source/cards.type'
-
-interface JsonData {
-  [key: string]: string
-}
+import type { ObjectData } from './source/objectData.type'
+import HighlightAndHover from '@/app/components/highlightAndHover'
+import { cardsSubtext } from './source/cardsSubtext'
 
 const CardsPart = ({
   part,
@@ -13,9 +12,9 @@ const CardsPart = ({
   axieClass,
   url,
 }: {
-  part: JsonData
+  part: ObjectData
   cards: Item[]
-  axieClass: JsonData
+  axieClass: ObjectData
   url: string | undefined
 }) => {
   return (
@@ -52,12 +51,12 @@ const CardsPart = ({
               >
                 {card.name}
               </p>
-              <p
+              <div
                 className="absolute left-[46px] bottom-[40px] w-[75%] h-[16%] text-white text-[12px] leading-tight font-[370]"
                 style={{ maxWidth: '75%' }}
               >
-                {card.description}
-              </p>
+                <HighlightAndHover textWithHighlights={card.description} contentMap={cardsSubtext}/>
+              </div>
             </div>
           ) : null
         )}

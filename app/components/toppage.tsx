@@ -1,42 +1,36 @@
-import type { Database } from '../../database.types'
-import { format } from 'date-fns'
-import Link from 'next/link'
+import React from 'react'
 
-type news = Database['public']['Tables']['news']['Row']
-
-async function fetchnews() {
-  // await new Promise((resolve) => setTimeout(resolve, 2000))
-  const res = await fetch(`${process.env.url}/rest/v1/news?select=*&order=created_at.desc`, {
-    headers: new Headers({
-      apikey: process.env.apikey as string,
-    }),
-    //cache: 'no-store',
-    //next: { revalidate: 10 },
-    cache: 'force-cache'
-  })
-  if (!res.ok) {
-    throw new Error('Failed to fetch data in server')
-  }
-  const news: news[] = await res.json()
-  return news
-}
-
-export default async function newsList() {
-  const news = await fetchnews()
+const TopPage: React.FC = () => {
   return (
-    <div className="max-w-xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">最新記事</h1>
-      <ul className="grid gap-4">
-        {news.slice(0, 3).map((news) => (
-          <li key={news.id} className="border p-4 rounded-lg shadow-md">
-            <Link href="/cards" className="text-xl font-semibold mb-2">{news.title}</Link>
-            <p className="text-gray-600">
-              <strong className="mr-2">投稿日時:</strong>
-              {news && format(new Date(news.created_at), 'yyyy-MM-dd HH:mm:ss')}
-            </p>
-          </li>
-        ))}
-      </ul>
+    <div className="flex flex-col justify-center items-center mb-4">
+      <h1 className="text-3xl font-bold mb-4">
+        アクシーインフィニティ(AxieInfinity)
+        の情報について日本語でまとめるサイトにしたい
+      </h1>
+      <div className='max-w-3xl text-left'>
+      <p className="text-base text-gray-700">
+        世界最大のブロックチェーンゲームであるアクシーインフィニティについてまとめていきます。
+        <br />
+        カード一覧作るだけで疲れたので、失踪する可能性大。
+        <br />
+        せめてルーン・チャーム一覧くらいまでは頑張りたい。
+        <br />
+        カードの英語情報だけは管理人が不在になっても自動更新され続けます。
+        <br />
+        要望・意見・バグ見つけた方はお気軽に
+        <a
+          className="underline"
+          href="https://twitter.com/TOENBCG1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
+        まで連絡ください。
+      </p>
+      </div>
     </div>
   )
 }
+
+export default TopPage

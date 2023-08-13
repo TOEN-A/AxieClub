@@ -1,12 +1,7 @@
 'use client'
 
 import React from "react"
-
-interface JsonData {
-  [key: string]: string
-}
-
-const colors: JsonData = require("./source/colors.json")
+import { colors } from "./source/colors"
 
 const SelectButton: React.FC<{
   options: string[];

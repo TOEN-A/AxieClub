@@ -1,10 +1,13 @@
 import { Suspense } from 'react'
+import { Database } from '@/database.types'
 import Spinner from '../components/sample/spinner'
 import CardsList from './components/cardsList'
 import { CardsApiResponse } from './components/source/cards.type'
+import { fetchNews } from '../components/newsAndUpdatedList'
+
+type News = Database['public']['Tables']['news']['Row']
 
 async function fetchCards() {
-  // await new Promise((resolve) => setTimeout(resolve, 2000))
   const res = await fetch(
     'https://api-gateway.skymavis.com/origins/v2/community/cards',
     {
@@ -25,11 +28,12 @@ async function fetchCards() {
 
 export default async function CardsPage() {
   const cardsEN = await fetchCards()
+  const news = (await fetchNews()).find((item) => item.id === "19cdb6bc-b2ce-4500-b0d8-8516e4047640") as News
 
   return (
     <div className="text-center">
       <Suspense fallback={<Spinner color="border-blue-500" />}>
-        <CardsList cardsEN={cardsEN} />
+        <CardsList cardsEN={cardsEN} news={news} />
       </Suspense>
       <div className="my-5 flex justify-center"></div>
     </div>
