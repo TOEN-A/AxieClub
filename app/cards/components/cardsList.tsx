@@ -29,12 +29,11 @@ const toHiragana = (t: string): string =>
   )
 
 const CardsList: React.FC<{
-  cardsEN: CardsApiResponse
+  cardsENItems: Item[]
   news: News
-}> = ({ cardsEN, news }) => {
+}> = ({ cardsENItems, news }) => {
   const cardsJP: CardsApiResponse = require('./source/regularCardsJp.json')
   cardsJP._items.sort((a, b) => a.id - b.id)
-  const cardsENItems = filterJson(cardsEN._items, cardsIdList)
   cardsENItems.sort((a, b) => a.id - b.id)
   const [selectedClass, setSelectedClass] = useState<string[]>([])
   const [filteredByClass, setFilteredByClass] = useState(axieClasses)
@@ -104,7 +103,7 @@ const CardsList: React.FC<{
     } else {
       setFilteredItems(isChecked ? cardsENItems : cardsJP._items)
     }
-  }, [selectedClass, selectedPart, searchKeyword])
+  }, [selectedClass, selectedPart, searchKeyword, isChecked, cardsENItems, cardsJP._items])
 
   //トグルで日⇔英を切替
   const handleToggle = () => {

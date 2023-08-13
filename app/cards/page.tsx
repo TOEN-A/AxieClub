@@ -2,10 +2,16 @@ import { Suspense } from 'react'
 import { Database } from '@/database.types'
 import Spinner from '../components/sample/spinner'
 import CardsList from './components/cardsList'
-import { CardsApiResponse } from './components/source/cards.type'
+import { CardsApiResponse, Item } from './components/source/cards.type'
 import { fetchNews } from '../components/newsAndUpdatedList'
+import { cardsIdList } from './components/source/cardsIdList'
 
 type News = Database['public']['Tables']['news']['Row']
+
+const filterJson = (cards: Item[], cardsIdList: number[]) => {
+  const filtered = cards.filter((card) => cardsIdList.includes(card.id))
+  return filtered
+}
 
 async function fetchCards() {
   const res = await fetch(
@@ -29,11 +35,13 @@ async function fetchCards() {
 export default async function CardsPage() {
   const cardsEN = await fetchCards()
   const news = (await fetchNews()).find((item) => item.id === "19cdb6bc-b2ce-4500-b0d8-8516e4047640") as News
+  const cardsENItems = filterJson(cardsEN._items, cardsIdList)
+
 
   return (
     <div className="text-center">
       <Suspense fallback={<Spinner color="border-blue-500" />}>
-        <CardsList cardsEN={cardsEN} news={news} />
+        <CardsList cardsENItems={cardsENItems} news={news} />
       </Suspense>
       <div className="my-5 flex justify-center"></div>
     </div>
