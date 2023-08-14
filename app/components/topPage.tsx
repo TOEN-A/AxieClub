@@ -3,7 +3,7 @@ import React from 'react'
 const TopPage: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center mb-4">
-      <h1 className="max-w-[39rem] text-2xl md:text-3xl text-gray-800 font-bold mb-8">
+      <h1 className="max-w-[39rem] text-2xl md:text-3xl text-gray-800 font-bold mb-3">
         アクシーインフィニティ(AxieInfinity)
         の情報について日本語でまとめるサイトにしたい
       </h1>
@@ -11,11 +11,11 @@ const TopPage: React.FC = () => {
         <p className="text-[0.8rem] md:text-base text-gray-700">
           世界最大のブロックチェーンゲームであるアクシーインフィニティについてまとめていきます。
           <br />
-          カード一覧作るだけで疲れたので、失踪する可能性大。
+          カード一覧作るだけで疲れたのと、バックエンド側でも遊びたいのでS5の間は新しいことはやらないかも。
           <br />
-          せめてルーン・チャーム一覧くらいまでは頑張りたい。
+          S6あたりを目途にルーン・チャーム一覧くらいまでは頑張りたい。
           <br />
-          カードの英語情報だけは管理人が不在になっても自動更新され続けます。
+          カードの英語情報だけは管理人がやる気なくなって失踪しても自動更新され続けます。
           <br />
           要望・意見・バグ見つけた方はお気軽に
           <a
