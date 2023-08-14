@@ -13,7 +13,7 @@ const CardSection = ({
   url: string | undefined
 }) => {
   return (
-    <div className="justify-center gap-24 my-8 p-4">
+    <div className="justify-center gap-24 p-4 pb-0">
       <div className="flex ml-[5vw]">
         <Image
           src={`${url}/storage/v1/object/public/images/classIcon/${axieClass.class}.png`}
@@ -26,7 +26,7 @@ const CardSection = ({
         </h2>
       </div>
       <div className="h-1 ml-[5vw] w-[36vw] bg-gray-500" />
-      <div className="text-4xl font-bold mb-2 p-4">
+      <div className="text-4xl font-bold p-4 pb-0">
         {children}
       </div>
     </div>

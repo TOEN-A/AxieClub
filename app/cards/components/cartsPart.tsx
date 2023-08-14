@@ -31,7 +31,7 @@ const CardsPart = ({
         </p>
       </div>
       <div className="h-1 ml-[6vw] bg-gray-500" />
-      <div className="flex flex-wrap gap-3 justify-center my-2 pt-4 pb-4">
+      <div className="flex flex-wrap gap-3 justify-center my-2 pt-4 pb-0">
         {cards.map((card) =>
           card.partClass === axieClass.class && card.partType === part.part ? (
             <div key={card.id} className="relative">
