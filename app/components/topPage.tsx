@@ -3,7 +3,7 @@ import React from 'react'
 const TopPage: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center mb-4">
-      <h1 className="max-w-[39rem] text-2xl md:text-3xl font-bold mb-8">
+      <h1 className="max-w-[39rem] text-2xl md:text-3xl text-gray-800 font-bold mb-8">
         アクシーインフィニティ(AxieInfinity)
         の情報について日本語でまとめるサイトにしたい
       </h1>

@@ -26,7 +26,7 @@ const SearchAndReset: React.FC<{
       <input
         type="text"
         id="search-box"
-        className="text-xs md:text-sm lg:text-base w-60 md:w-72 lg:w-[26rem] px-4 py-2 border border-gray-400 rounded-lg flex-1 mb-2 mr-1 shadow-md"
+        className="text-[6px] md:text-sm lg:text-base w-56 md:w-72 lg:w-[26rem] px-4 py-2 border border-gray-400 rounded-lg flex-1 mb-2 mr-1 shadow-md"
         placeholder="カード名またはカード説明を入力　スペースでアンド検索"
         onKeyDown={handleKeyDown}
         value={inputText}

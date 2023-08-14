@@ -26,7 +26,7 @@ const CardsPart = ({
           width={40}
           alt={part.jpPart}
         />
-        <p className="text-2xl md:text-3xl lg:text-4xl text-left ml-2">
+        <p className="text-2xl md:text-3xl lg:text-4xl text-left text-gray-800 ml-2">
           {part.jpPart}
         </p>
       </div>

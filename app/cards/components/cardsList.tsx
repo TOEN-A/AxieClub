@@ -9,7 +9,6 @@ import CardSection from './cardSection'
 import CardsPart from './cartsPart'
 import SearchAndReset from './searchAndReset'
 import SelectButton from './selectButton'
-import { cardsIdList } from './source/cardsIdList'
 import { axieClasses } from './source/axieClasses'
 import { axieParts } from './source/axieParts'
 
@@ -194,7 +193,7 @@ const CardsList: React.FC<{
       <div className="pt-16 mb-64">
         <div className="flex justify-center items-center gap-1">
           <div className="flex flex-col items-center">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-sans font-bold mb-1">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 font-sans font-bold mb-1">
               ORIGINS {news.title}
             </h1>
             <p className="text-gray-600 mb-4">

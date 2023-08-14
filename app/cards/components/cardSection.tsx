@@ -21,7 +21,7 @@ const CardSection = ({
           width={45}
           alt={axieClass.jpClass}
         />
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-4 ml-2 text-left">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl text-gray-800 font-bold mt-4 ml-2 text-left">
           {axieClass.jpClass}
         </h2>
       </div>
