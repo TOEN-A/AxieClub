@@ -14,7 +14,7 @@ export default function NavBar() {
           ホーム
         </Link>
         <Link
-          href="/cards"
+          href="/axieinfinity/cards"
           className="rounded bg-gray-800 px-4 py-2 text-white hover:bg-gray-700 cursor-pointer shadow-md"
         >
           カード一覧

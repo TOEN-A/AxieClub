@@ -2,8 +2,8 @@ import NavBar from './components/nav-bar'
 import './globals.css'
 
 export const metadata = {
-  title: 'アクシーインフィニティ(AxieInfinity) 日本語情報サイト',
-  description: 'アクシーインフィニティ(AxieInfinity) の日本語情報についてまとめるサイト',
+  title: 'アクシーインフィニティ(AxieInfinity)の情報について日本語でまとめるサイトになるかもしれないし、全然違うサイトになるかもしれない',
+  description: '世界最大のブロックチェーンゲーム(BCG)アクシーインフィニティ(AxieInfinity)についてまとめていきます。',
 }
 
 export default function RootLayout({

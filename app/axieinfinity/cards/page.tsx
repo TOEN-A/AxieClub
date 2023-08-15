@@ -1,12 +1,17 @@
 import { Suspense } from 'react'
 import { Database } from '@/database.types'
-import Spinner from '../components/sample/spinner'
+import Spinner from '@/app/components/sample/spinner'
 import CardsList from './components/cardsList'
 import { CardsApiResponse, Item } from './components/source/cards.type'
-import { fetchNews } from '../components/newsAndUpdatedList'
+import { fetchNews } from '@/app/components/newsAndUpdatedList'
 import { cardsIdList } from './components/source/cardsIdList'
 
 type News = Database['public']['Tables']['news']['Row']
+
+export const metadata = {
+  title: 'アクシーインフィニティオリジンズ(AxieInfinityOrigins)のカード一覧',
+  description: 'S5最新のカード情報',
+}
 
 const filterJson = (cards: Item[], cardsIdList: number[]) => {
   const filtered = cards.filter((card) => cardsIdList.includes(card.id))

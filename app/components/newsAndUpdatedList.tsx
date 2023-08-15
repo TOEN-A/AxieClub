@@ -24,11 +24,11 @@ export default async function newsList() {
   const news = await fetchNews()
   return (
     <div className="max-w-xl mx-auto px-4 py-8 border border-gray-400 shadow-md rounded-lg p-4">
-      <h1 className="text-xl md:text-2xl text-gray-800 font-bold mb-3 md:mb-6">最新記事</h1>
+      <h1 className="text-xl md:text-2xl text-gray-800 font-bold mb-3 md:mb-4">最新記事</h1>
       <ul className="grid gap-4">
         {news.slice(0, 3).map((news) => (
           <li key={news.id} className="border p-4 rounded-lg shadow-md">
-            <Link href="/cards" className="text-[1.1rem] md:text-xl text-gray-800 font-semibold">{news.title}</Link>
+            <Link href={news.link} className="text-[1.1rem] md:text-xl text-gray-800 font-semibold">{news.title}</Link>
             <p className="text-[1.2rem] md:text-xl text-gray-600">
               <strong className="text-[0.7rem] md:text-[0.9rem] mr-2">投稿日時:{news && format(new Date(news.created_at), 'yyyy-MM-dd HH:mm:ss')}</strong>
             </p>
