@@ -39,20 +39,20 @@ const CardsPart = ({
               <Image
                 className="ml-2 object-contain"
                 src={`${url}/storage/v1/object/public/images/regularCards/${card.partClass}/${card.id}.png`}
-                height={230}
-                width={230}
+                height={220}
+                width={220}
                 alt={card.name}
                 // onError={handleImageError}
                 // style={{ maxWidth: 'none' }}
               />
               <p
-                className="absolute left-[95px] bottom-[143px] w-[75%] h-[5%] text-white font-bold text-left text-[12.5px] md:text-[13.5px] "
+                className="absolute left-[93px] bottom-[140px] w-[75%] h-[5%] text-white font-bold text-left text-[12.5px] md:text-[13.5px] "
                 style={{ maxWidth: '75%' }}
               >
                 {card.name}
               </p>
               <div
-                className="absolute left-[46px] bottom-[40px] w-[75%] h-[16%] text-white text-[12px] leading-tight font-[370]"
+                className="absolute left-[45px] bottom-[42px] w-[75%] h-[16%] text-white text-[12px] leading-tight font-[370]"
                 style={{ maxWidth: '75%' }}
               >
                 <HighlightAndHover textWithHighlights={card.description} contentMap={cardsSubtext}/>

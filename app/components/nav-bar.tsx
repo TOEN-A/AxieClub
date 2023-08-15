@@ -22,11 +22,14 @@ export default function NavBar() {
         <div className='flex'>
         <Link
           href={'https://twitter.com/TOENBCG1'}
-          className="rounded-full bg-blue-400 px-2 py-2 text-white hover:bg-blue-500 cursor-pointer shadow-md absolute right-4"
+          className="flex rounded-full bg-blue-400 px-2 py-2 text-white hover:bg-blue-500 cursor-pointer shadow-md absolute right-4"
           target="_blank"
           rel="noopener noreferrer"
         >
           <ImTwitter size={24} />
+          <p className='text-white ml-1'>
+            TOEN's Twitter
+          </p>
         </Link>
         
         </div>

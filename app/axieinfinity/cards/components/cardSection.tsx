@@ -25,7 +25,7 @@ const CardSection = ({
           {axieClass.jpClass}
         </h2>
       </div>
-      <div className="h-1 ml-[5vw] w-[36vw] bg-gray-500" />
+      <div className="h-1 ml-[5vw] w-[39vw] bg-gray-500" />
       <div className="text-4xl font-bold p-4 pb-0">
         {children}
       </div>
