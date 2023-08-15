@@ -26,8 +26,8 @@ async function fetchCards() {
         'X-API-Key': 'bvFGDxIjma8Lkk8dmnvGi5ONraerFaEe',
       }),
       //cache: 'no-store',
-      //next: { revalidate: 10 },
-      cache: 'force-cache',
+      next: { revalidate: 3600 },
+      // cache: 'force-cache',
     }
   )
   if (!res.ok) {

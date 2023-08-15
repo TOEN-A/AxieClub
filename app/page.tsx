@@ -13,7 +13,6 @@ export default function Page() {
           {/* @ts-expect-error Async Server Component */}
           <NewsList />
         </Suspense>
-        {/* <RefreshBtn /> */}
       </div>
     </main>
   )
