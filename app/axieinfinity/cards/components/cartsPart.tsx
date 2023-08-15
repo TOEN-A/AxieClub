@@ -46,7 +46,7 @@ const CardsPart = ({
                 // style={{ maxWidth: 'none' }}
               />
               <p
-                className="absolute left-[95px] bottom-[143px] w-[75%] h-[5%] text-white font-bold text-left text-[13.5px] "
+                className="absolute left-[95px] bottom-[143px] w-[75%] h-[5%] text-white font-bold text-left text-[12.5px] md:text-[13.5px] "
                 style={{ maxWidth: '75%' }}
               >
                 {card.name}
