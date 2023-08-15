@@ -28,7 +28,7 @@ export default function NavBar() {
         >
           <ImTwitter size={24} />
           <p className='text-white ml-1'>
-            TOEN's Twitter
+            TOEN&apos;s Twitter
           </p>
         </Link>
         
