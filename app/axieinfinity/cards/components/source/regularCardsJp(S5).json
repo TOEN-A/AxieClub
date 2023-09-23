@@ -84,7 +84,7 @@
     {
       "id": 40301001,
       "name": "リトルオウル",
-      "description": "<アンブッシュ>1回攻撃する。このアクシーのリトルオウルカードのヒット数を+1する(上限:+5ヒット)。",
+      "description": "1回攻撃する。このアクシーのリトルオウルカードのヒット数を+1する(上限:+5ヒット)。",
       "partClass": "Bird",
       "partType": "Mouth",
       "partValue": 10,
@@ -95,13 +95,12 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "71e8e9809afa724f7a3558601bc16794",
-      "isChanged": true
+      "_etag": "71e8e9809afa724f7a3558601bc16794"
     },
     {
       "id": 60100201,
       "name": "ゲッコー",
-      "description": "自身を攻撃する。他の味方のアクシーを15HP回復し、3回<クレンズ>する。",
+      "description": "自身を攻撃する。他の味方のアクシーを15HP回復し、1回<クレンズ>する。",
       "partClass": "Reptile",
       "partType": "Eyes",
       "partValue": 2,
@@ -112,8 +111,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "cleanse"],
-      "_etag": "dae32962a82994df1f67944529d1f615",
-      "isChanged": true
+      "_etag": "dae32962a82994df1f67944529d1f615"
     },
     {
       "id": 60500601,
@@ -182,7 +180,7 @@
     {
       "id": 40400601,
       "name": "トランプ",
-      "description": "<アンブッシュ>4回攻撃する。",
+      "description": "4回攻撃する。",
       "partClass": "Bird",
       "partType": "Horn",
       "partValue": 6,
@@ -193,13 +191,12 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "65a49e443a0100b318dc3ef31ba93a73",
-      "isChanged": true
+      "_etag": "65a49e443a0100b318dc3ef31ba93a73"
     },
     {
       "id": 10500801,
       "name": "リスキービースト",
-      "description": "<イニシャル>:+30ダメージ&自分に3<ブリード>を与える。",
+      "description": "<イニシャル>:+30ダメージ&自分に3<ヘックス>を与える。",
       "partClass": "Beast",
       "partType": "Back",
       "partValue": 8,
@@ -210,8 +207,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "92f130b2ef6929a0f38fa9ce2ae2ee3d",
-      "isChanged": true
+      "_etag": "92f130b2ef6929a0f38fa9ce2ae2ee3d"
     },
     {
       "id": 20301001,
@@ -232,7 +228,7 @@
     {
       "id": 20401001,
       "name": "オランダ",
-      "description": "任意の敵を選択。5回<ディスペル>する。",
+      "description": "任意の敵を選択。1回<ディスペル>する。",
       "partClass": "Aquatic",
       "partType": "Horn",
       "partValue": 10,
@@ -243,8 +239,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "dispel"],
-      "_etag": "5c73a046ed70c15b025799970fb578cf",
-      "isChanged": true
+      "_etag": "5c73a046ed70c15b025799970fb578cf"
     },
     {
       "id": 40501201,
@@ -297,19 +292,18 @@
     {
       "id": 60601001,
       "name": "ギラ",
-      "description": "敵全体を攻撃する。対象の<ポイズン>のスタックごとにダメージを+3する(最大+75DMG)。",
+      "description": "敵全体を攻撃する。対象の<ポイズン>のスタックごとにダメージを+2する。",
       "partClass": "Reptile",
       "partType": "Tail",
       "partValue": 10,
       "energy": 2,
-      "attack": 45,
+      "attack": 40,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "non_multihit", "aoe_attack"],
-      "_etag": "51d28b1575b915fd0d82381cc26d1a47",
-      "isChanged": true
+      "_etag": "51d28b1575b915fd0d82381cc26d1a47"
     },
     {
       "id": 10501001,
@@ -362,19 +356,18 @@
     {
       "id": 10601201,
       "name": "ジャービル",
-      "description": "全ての敵を攻撃する。<ディテクト>:1。ターゲットがシークレットを持っていた場合、+10DMGする",
+      "description": "任意の敵を選択する。シークレットのない対象に対してはダメージを+20する。それ以外の場合は、<ディテクト>:1。",
       "partClass": "Beast",
       "partType": "Tail",
       "partValue": 12,
       "energy": 1,
-      "attack": 25,
+      "attack": 55,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "606060646b97c1750377daa17f92de1e",
-      "isChanged": true
+      "_etag": "606060646b97c1750377daa17f92de1e"
     },
     {
       "id": 30401001,
@@ -395,7 +388,7 @@
     {
       "id": 40600401,
       "name": "フェザーファン",
-      "description": "<アンブッシュ>最大で3つの<フェザー>を消費する。4回攻撃し、<フェザー>ごとに追加の1回攻撃をする。",
+      "description": "最大で3つの<フェザー>を消費する。4回攻撃し、<フェザー>ごとに追加の1回攻撃をする。",
       "partClass": "Bird",
       "partType": "Tail",
       "partValue": 4,
@@ -406,13 +399,12 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "a67ebf8023a8e2968a53755fdd991b29",
-      "isChanged": true
+      "_etag": "a67ebf8023a8e2968a53755fdd991b29"
     },
     {
       "id": 10500601,
       "name": "ジャガー",
-      "description": "<ブリード>のある対象には、+20ダメージ。そうでなけれは、6<ブリード>を与える。",
+      "description": "<ブリード>のある対象には、+20ダメージ。そうでなけれは、4<ブリード>を与える。",
       "partClass": "Beast",
       "partType": "Back",
       "partValue": 6,
@@ -423,8 +415,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "72ee86eb053c055bcd6d243048aaf5d2",
-      "isChanged": true
+      "_etag": "72ee86eb053c055bcd6d243048aaf5d2"
     },
     {
       "id": 10600601,
@@ -434,14 +425,13 @@
       "partType": "Tail",
       "partValue": 6,
       "energy": 2,
-      "attack": 140,
+      "attack": 130,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "buff"],
-      "_etag": "1bb505c16bf5b2d17572145a08a5eb23",
-      "isChanged": true
+      "_etag": "1bb505c16bf5b2d17572145a08a5eb23"
     },
     {
       "id": 50300401,
@@ -494,7 +484,7 @@
     {
       "id": 60400401,
       "name": "スケーリースピアー",
-      "description": "自身に<スパイク>を+1与える。自分のデッキのスピアカードごとに、スピアカードを所有する味方に<スパイク>を+1与える。",
+      "description": "自分のデッキのスピアカードごとに、スピアカードを所有する味方に人<スパイク>を+1与える。",
       "partClass": "Reptile",
       "partType": "Horn",
       "partValue": 4,
@@ -505,8 +495,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "buff", "non_multihit"],
-      "_etag": "9a8aae59c1d753f12cb0a6a0b228d6b9",
-      "isChanged": true
+      "_etag": "9a8aae59c1d753f12cb0a6a0b228d6b9"
     },
     {
       "id": 50601001,
@@ -575,7 +564,7 @@
     {
       "id": 60400801,
       "name": "スケーリースプーン",
-      "description": "任意の味方を選択。次のターン、攻撃によって対象のシールドが破壊された場合、攻撃者を6回<ディスペル>する。",
+      "description": "任意の味方を選択。次のターン、攻撃によって対象のシールドが破壊された場合、攻撃者を2回<ディスペル>する。",
       "partClass": "Reptile",
       "partType": "Horn",
       "partValue": 8,
@@ -586,13 +575,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "dispel"],
-      "_etag": "1eb5d3dc082b368a3fe4cc07263b5869",
-      "isChanged": true
+      "_etag": "1eb5d3dc082b368a3fe4cc07263b5869"
     },
     {
       "id": 10200201,
       "name": "ニャン",
-      "description": "<ブリード>がある対象に対しては、タメージが+20されます。それ以外の場合は、<ブリード>を6つ付与します。",
+      "description": "<ブリード>がある対象に対しては、タメージが+20されます。それ以外の場合は、<ブリード>を4つ付与します。",
       "partClass": "Beast",
       "partType": "Ears",
       "partValue": 2,
@@ -603,8 +591,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "270de983c115a402fc9a6191aecc018d",
-      "isChanged": true
+      "_etag": "270de983c115a402fc9a6191aecc018d"
     },
     {
       "id": 20100801,
@@ -705,7 +692,7 @@
     {
       "id": 10301001,
       "name": "コンフィデント",
-      "description": "任意の味方を選択。2回<クレンズ>し、<レイジ>を+1する。",
+      "description": "任意の味方を選択。1回<クレンズ>し、<レイジ>を+1する。",
       "partClass": "Beast",
       "partType": "Mouth",
       "partValue": 10,
@@ -716,8 +703,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "cleanse", "buff", "heal"],
-      "_etag": "2146c51bde341547d88bf8040363089e",
-      "isChanged": true
+      "_etag": "2146c51bde341547d88bf8040363089e"
     },
     {
       "id": 30600201,
@@ -738,19 +724,18 @@
     {
       "id": 50500601,
       "name": "バズバズ",
-      "description": "敵全体を攻撃。このターンにプレイヤーによって捨てられた/バニッシュされたカードごとに+8DMG(上限:+32DMG)",
+      "description": "<リテイン>。敵の手札からランダムに1枚のカードを捨てる。",
       "partClass": "Bug",
       "partType": "Back",
       "partValue": 6,
       "energy": 1,
-      "attack": 18,
+      "attack": 20,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "aoe_attack"],
-      "_etag": "4171f56a83ee517dd33d5eba21b706ea",
-      "isChanged": true
+      "_etag": "4171f56a83ee517dd33d5eba21b706ea"
     },
     {
       "id": 20500401,
@@ -787,7 +772,7 @@
     {
       "id": 40200601,
       "name": "リトルオウル",
-      "description": "<アンブッシュ>1回攻撃する。このアクシーのリトルオウルカードのヒット数を+1する(上限:+5ヒット)。",
+      "description": "1回攻撃する。このアクシーのリトルオウルカードのヒット数を+1する(上限:+5ヒット)。",
       "partClass": "Bird",
       "partType": "Ears",
       "partValue": 6,
@@ -798,8 +783,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "4c5e9ef3b11fdf7d1a731ed243785489",
-      "isChanged": true
+      "_etag": "4c5e9ef3b11fdf7d1a731ed243785489"
     },
     {
       "id": 40400201,
@@ -820,7 +804,7 @@
     {
       "id": 40400801,
       "name": "ケストレル",
-      "description": "1回攻撃。各攻撃は<ディスペル>を3回行う。手札3枚ごとに、攻撃を+1回する。",
+      "description": "1回攻撃。各攻撃は<ディスペル>を1回行う。手札3枚ごとに、攻撃を+1回する。",
       "partClass": "Bird",
       "partType": "Horn",
       "partValue": 8,
@@ -831,8 +815,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit", "dispel"],
-      "_etag": "84242bc127fa3ef8610db63b577965f1",
-      "isChanged": true
+      "_etag": "84242bc127fa3ef8610db63b577965f1"
     },
     {
       "id": 60101001,
@@ -853,7 +836,7 @@
     {
       "id": 50600201,
       "name": "アント",
-      "description": "次のターン、自分に<トーント>を3つ与える。",
+      "description": "自分に<トーント>を4つ与える。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 2,
@@ -864,8 +847,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "taunt"],
-      "_etag": "9f2e5e451d91c04891e83db889491e9e",
-      "isChanged": true
+      "_etag": "9f2e5e451d91c04891e83db889491e9e"
     },
     {
       "id": 10200601,
@@ -1094,19 +1076,18 @@
     {
       "id": 30200201,
       "name": "リーフィー",
-      "description": "最大で4つの<リーフ>を消費する。ランダムに3回攻撃を行う。各<リーフ>の消費ごとにダメージが+8される。",
+      "description": "最大で3つの<リーフ>を消費する。ランダムに3回攻撃を行う。各<リーフ>の消費ごとにダメージが+10される。",
       "partClass": "Plant",
       "partType": "Ears",
       "partValue": 2,
       "energy": 1,
-      "attack": 18,
+      "attack": 20,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "c7b1c29d2e23ae4b356549d99710df02",
-      "isChanged": true
+      "_etag": "c7b1c29d2e23ae4b356549d99710df02"
     },
     {
       "id": 30300201,
@@ -1239,7 +1220,7 @@
     {
       "id": 50500401,
       "name": "ガリッシュワーム",
-      "description": "<リテイン>。<イニシャル>。敵の手札からランダムに1枚のカードを捨てる。",
+      "description": "<リテイン>。敵の手札からランダムに1枚のカードを捨てる。",
       "partClass": "Bug",
       "partType": "Back",
       "partValue": 4,
@@ -1250,8 +1231,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "card"],
-      "_etag": "19ef3d848864b2d6f584810a42739ff2",
-      "isChanged": true
+      "_etag": "19ef3d848864b2d6f584810a42739ff2"
     },
     {
       "id": 20601001,
@@ -1272,7 +1252,7 @@
     {
       "id": 30501001,
       "name": "ミント",
-      "description": "味方全体にシールドを付与する。<クレンザー>を+3する。",
+      "description": "味方全体にシールドを付与する。<クレンザー>を+1する。",
       "partClass": "Plant",
       "partType": "Back",
       "partValue": 10,
@@ -1283,8 +1263,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "buff"],
-      "_etag": "2469f31893df2309dd52ab93ebef81a7",
-      "isChanged": true
+      "_etag": "2469f31893df2309dd52ab93ebef81a7"
     },
     {
       "id": 40600601,
@@ -1369,19 +1348,18 @@
     {
       "id": 20600201,
       "name": "コイ",
-      "description": "<アンブッシュ>。最大で2つまでの<バブル>を消費する。消費したバブル1つにつき、15%のスプラッシュDMGを与える。",
+      "description": "最も近い敵または最も遠い敵を標的にする。",
       "partClass": "Aquatic",
       "partType": "Tail",
       "partValue": 2,
       "energy": 2,
-      "attack": 145,
+      "attack": 140,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "e01d37900a399e2e1970e50d11b09bf1",
-      "isChanged": true
+      "_etag": "e01d37900a399e2e1970e50d11b09bf1"
     },
     {
       "id": 30100201,
@@ -1402,7 +1380,7 @@
     {
       "id": 60200601,
       "name": "カーブドスパイン",
-      "description": "任意の味方を選択。対象が次に攻拏を受ける際、攻撃者に<ブリード>を6つ与える。",
+      "description": "任意の味方を選択。対象が次に攻拏を受ける際、攻撃者に<ブリード>を4つ与える。",
       "partClass": "Reptile",
       "partType": "Ears",
       "partValue": 6,
@@ -1413,25 +1391,23 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
-      "_etag": "4d1f299ee2b5cf6dd719fb7630272c5a",
-      "isChanged": true
+      "_etag": "4d1f299ee2b5cf6dd719fb7630272c5a"
     },
     {
       "id": 50301001,
       "name": "スクエアティース",
-      "description": "最大60のシールドを消費する。消費したシールド分の50%のホーナスダメージを与える。",
+      "description": "最大50のシールドを消費する。消費したシールド分のホーナスダメージを与える。",
       "partClass": "Bug",
       "partType": "Mouth",
       "partValue": 10,
       "energy": 0,
-      "attack": 10,
+      "attack": 15,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "813e6793ee0785b34926210a6e0fdc7e",
-      "isChanged": true
+      "_etag": "813e6793ee0785b34926210a6e0fdc7e"
     },
     {
       "id": 10200801,
@@ -1452,7 +1428,7 @@
     {
       "id": 20300801,
       "name": "リスキーフィッシュ",
-      "description": "<イニシャル>:+30ダメージ&自分に3<ブリード>を与える。",
+      "description": "<イニシャル>:+30ダメージ&自分に3フィアを与える。",
       "partClass": "Aquatic",
       "partType": "Mouth",
       "partValue": 8,
@@ -1463,8 +1439,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "46ef4670aa9614f815ce5288ee083805",
-      "isChanged": true
+      "_etag": "46ef4670aa9614f815ce5288ee083805"
     },
     {
       "id": 30200801,
@@ -1581,19 +1556,18 @@
     {
       "id": 40401001,
       "name": "ウィングホーン",
-      "description": "ランダムに4回攻撃する。このカードが対象を倒すか、対象のHPが50%末満の場合、<フェザーダガー>を2つ手札に加える。",
+      "description": "ランダムに3回攻撃する。このカードが対象を倒すか、対象のHPが50%末満の場合、<フェザーダガー>を2つ手札に加える。",
       "partClass": "Bird",
       "partType": "Horn",
       "partValue": 10,
       "energy": 2,
-      "attack": 35,
+      "attack": 40,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit", "card"],
-      "_etag": "5ea60cef258343884c387d0991c16bd5",
-      "isChanged": true
+      "_etag": "5ea60cef258343884c387d0991c16bd5"
     },
     {
       "id": 20100401,
@@ -1726,7 +1700,7 @@
     {
       "id": 60501201,
       "name": "クロック",
-      "description": "任意の味方を選択。次に敵がスキルまたはシークレットカードを使用する際、<ブリード>を6つ与える。",
+      "description": "任意の味方を選択。次に敵がスキルまたはシークレットカードを使用する際、<ブリード>を4つ与える。",
       "partClass": "Reptile",
       "partType": "Back",
       "partValue": 12,
@@ -1737,8 +1711,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
-      "_etag": "79a1ce1b6840d9febb6ec01290e27887",
-      "isChanged": true
+      "_etag": "79a1ce1b6840d9febb6ec01290e27887"
     },
     {
       "id": 10200401,
@@ -1903,19 +1876,18 @@
     {
       "id": 20400801,
       "name": "アネモネ",
-      "description": "<アンブッシュ>プレイすると、このカードのATKは10減少する。もし敵のアクシーを倒した場合、このカードのATKは20増加する",
+      "description": "プレイすると、このカードのATKが20減少。もし敵のアクシーを倒した場合、デッキ内のすべてのアネモネカードのATKがリセットされる。",
       "partClass": "Aquatic",
       "partType": "Horn",
       "partValue": 8,
       "energy": 1,
-      "attack": 80,
+      "attack": 85,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "c61d19c786d559cd5a5126d34bba2b1e",
-      "isChanged": true
+      "_etag": "c61d19c786d559cd5a5126d34bba2b1e"
     },
     {
       "id": 20200801,
@@ -1952,7 +1924,7 @@
     {
       "id": 50600401,
       "name": "ツインテール",
-      "description": "任意の味方を選択。<リミット>1:次のターン、ターゲットが攻撃された場合、敵の手札からランダムに1枚捨てる。",
+      "description": "シールドを持つ対象に対して、ダメージを+25%与える。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 4,
@@ -1963,8 +1935,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield"],
-      "_etag": "39364ea0d8ec9f37cfff6947455f37bb",
-      "isChanged": true
+      "_etag": "39364ea0d8ec9f37cfff6947455f37bb"
     },
     {
       "id": 60500801,
@@ -2017,7 +1988,7 @@
     {
       "id": 30400201,
       "name": "バンブースピアー",
-      "description": "自身に<リーフ>を+1する。デッキにあるスピアカードごとに、スピアカードを持つ味方のカード所有者に<リーフ>を+1する。",
+      "description": "デッキにあるスピアカードごとに、スピアカードを持つ味方のカード所有者に<リーフ>を+1する。",
       "partClass": "Plant",
       "partType": "Horn",
       "partValue": 2,
@@ -2028,25 +1999,23 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "buff"],
-      "_etag": "912ab3f5c50c21a403c335679385c94f",
-      "isChanged": true
+      "_etag": "912ab3f5c50c21a403c335679385c94f"
     },
     {
       "id": 30400401,
       "name": "ビーチ",
-      "description": "現在のHPから15%失う。失ったHP×2倍のDMGを相手に与える。<イニシャル>:<ディテクト> 4。",
+      "description": "<ディテクト>:全て。",
       "partClass": "Plant",
       "partType": "Horn",
       "partValue": 4,
       "energy": 2,
-      "attack": 80,
+      "attack": 120,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "1ca3eb0ceef6518b9ff076cc4f1065c6",
-      "isChanged":true
+      "_etag": "1ca3eb0ceef6518b9ff076cc4f1065c6"
     },
     {
       "id": 40500801,
@@ -2067,19 +2036,18 @@
     {
       "id": 10400201,
       "name": "リトルブランチ",
-      "description": "生存している味方ごとにを<レイジ>を+1する。（召喚獣を含む）",
+      "description": "生存している味方ごとにを<レイジ>を+1する。",
       "partClass": "Beast",
       "partType": "Horn",
       "partValue": 2,
       "energy": 2,
-      "attack": 140,
+      "attack": 130,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "non_multihit", "single_attack", "buff"],
-      "_etag": "779b8409e5261da518315af33eedd241",
-      "isChanged": true
+      "_etag": "779b8409e5261da518315af33eedd241"
     },
     {
       "id": 10600201,
@@ -2148,7 +2116,7 @@
     {
       "id": 60300801,
       "name": "レイザーバイト",
-      "description": "ブロックされていないダメージの50%を体力として回復する。<ブリード>がない対象には<ブリード>を6つ与える。",
+      "description": "ブロックされていないダメージの50%を体力として回復する。<ブリード>がない対象には<ブリード>を2つ与える。",
       "partClass": "Reptile",
       "partType": "Mouth",
       "partValue": 8,
@@ -2159,8 +2127,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "4ee5f049fdfd567df3385d0e9c002428",
-      "isChanged": true
+      "_etag": "4ee5f049fdfd567df3385d0e9c002428"
     },
     {
       "id": 60501001,
@@ -2293,7 +2260,7 @@
     {
       "id": 30400601,
       "name": "ローズバッド",
-      "description": "任意の味方を選択。<クレンザー>を10与える。",
+      "description": "任意の味方を選択。<クレンザー>を2つ与える。",
       "partClass": "Plant",
       "partType": "Horn",
       "partValue": 6,
@@ -2304,13 +2271,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "buff"],
-      "_etag": "81718204c2fb347d23bd5da777b4626f",
-      "isChanged": true
+      "_etag": "81718204c2fb347d23bd5da777b4626f"
     },
     {
       "id": 30600401,
       "name": "キャットテイル",
-      "description": "任意の味方を選択。次のターン、自身に<トーント>を3つ付与する。",
+      "description": "任意の味方を選択。自身に<トーント>を4つ付与する。",
       "partClass": "Plant",
       "partType": "Tail",
       "partValue": 4,
@@ -2321,13 +2287,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "taunt"],
-      "_etag": "edb36009bba3eea200078e3b86ff1222",
-      "isChanged": true
+      "_etag": "edb36009bba3eea200078e3b86ff1222"
     },
     {
       "id": 40401201,
       "name": "フェザースピア",
-      "description": "2回攻撃する。自身に<フェザー>を+1する。デッキ内のスピアカードごとに<フェザー>が+1され、スピアカードを持つ味方に与えられる。",
+      "description": "2回攻撃する。デッキ内のスピアカードごとに<フェザー>が+1され、スピアカードを持つ味方に与えられる。",
       "partClass": "Bird",
       "partType": "Horn",
       "partValue": 12,
@@ -2338,8 +2303,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit", "buff"],
-      "_etag": "8fd48aebf304acef41552fcb45a53eac",
-      "isChanged": true
+      "_etag": "8fd48aebf304acef41552fcb45a53eac"
     },
     {
       "id": 10400801,
@@ -2408,7 +2372,7 @@
     {
       "id": 10300401,
       "name": "ゴーダ",
-      "description": "敵の<エナジーフラグメント>を-1する。敵の捨山に+1<グー>。",
+      "description": "敵の<エナジーフラグメント>を-1する。敵の捨山に+1<ヴォイド>。",
       "partClass": "Beast",
       "partType": "Mouth",
       "partValue": 4,
@@ -2419,8 +2383,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "curse"],
-      "_etag": "092f2f6ae92f1b9ce913f15c0e6fb57e",
-      "isChanged": true
+      "_etag": "092f2f6ae92f1b9ce913f15c0e6fb57e"
     },
     {
       "id": 10501201,
@@ -2473,19 +2436,18 @@
     {
       "id": 20501001,
       "name": "アネモネ",
-      "description": "<アンブッシュ>プレイすると、このカードのATKは10減少する。もし敵のアクシーを倒した場合、このカードのATKは20増加する",
+      "description": "プレイすると、このカードのATKが20減少。もし敵のアクシーを倒した場合、デッキ内のすべてのアネモネカードのATKがリセットされる。",
       "partClass": "Aquatic",
       "partType": "Back",
       "partValue": 10,
       "energy": 1,
-      "attack": 80,
+      "attack": 85,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "f92de322d8a71415835d862fb8d41e0a",
-      "isChanged": true
+      "_etag": "f92de322d8a71415835d862fb8d41e0a"
     },
     {
       "id": 10600401,
@@ -2538,7 +2500,7 @@
     {
       "id": 30500601,
       "name": "バイデンズ",
-      "description": "任意の味方を選択。対象に対して8回<クレンズ>し、<リーフ>を+2する。",
+      "description": "任意の味方を選択。対象に対して2回<クレンズ>し、<リーフ>を+2する。",
       "partClass": "Plant",
       "partType": "Back",
       "partValue": 6,
@@ -2549,8 +2511,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "cleanse", "buff"],
-      "_etag": "445c4cd81216babc3e8100ee156976c2",
-      "isChanged": true
+      "_etag": "445c4cd81216babc3e8100ee156976c2"
     },
     {
       "id": 50501201,
@@ -2635,36 +2596,34 @@
     {
       "id": 20201201,
       "name": "シースラッグ",
-      "description": "<アンブッシュ>。自身にデバフがある場合、4回<クレンズ>して+15DMGする。そうでなければ<クレンザー>を+4する。",
+      "description": "<クレンズ>:1。<クレンザー>を+1する。",
       "partClass": "Aquatic",
       "partType": "Ears",
       "partValue": 12,
       "energy": 1,
-      "attack": 65,
+      "attack": 60,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "cleanse"],
-      "_etag": "47ed2bc5676b28bc301f290af5793d4d",
-      "isChanged": true
+      "_etag": "47ed2bc5676b28bc301f290af5793d4d"
     },
     {
       "id": 60600801,
       "name": "スネークジャー",
-      "description": "任意の味方のアクシーを対象にする。<スネークジャー>を与え、このカードのシールドの数値分HPを減らす。",
+      "description": "任意の味方のアクシーを対象にする。対象の体力が300未満の場合、<スネークジャー>を与える。",
       "partClass": "Reptile",
       "partType": "Tail",
       "partValue": 8,
       "energy": 1,
       "attack": 0,
-      "defense": 50,
-      "healing": 0,
+      "defense": 0,
+      "healing": 60,
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "buff"],
-      "_etag": "22abc4dd20e73f486b33317a2b38489f",
-      "isChanged": true
+      "_etag": "22abc4dd20e73f486b33317a2b38489f"
     },
     {
       "id": 10201001,
@@ -2749,7 +2708,7 @@
     {
       "id": 10101001,
       "name": "チャビー",
-      "description": "全ての敵に攻撃する。<ブリード>を6つ付与する。",
+      "description": "全ての敵に攻撃する。<ブリード>を2つ付与する。",
       "partClass": "Beast",
       "partType": "Eyes",
       "partValue": 10,
@@ -2760,8 +2719,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "aoe_attack", "debuff"],
-      "_etag": "50c7a04f0ae905bacbbedb544f2cac04",
-      "isChanged": true
+      "_etag": "50c7a04f0ae905bacbbedb544f2cac04"
     },
     {
       "id": 10100201,
@@ -2958,7 +2916,7 @@
     {
       "id": 40100801,
       "name": "リトルオウル",
-      "description": "<アンブッシュ>1回攻撃する。このアクシーのリトルオウルカードのヒット数を+1する(上限:+5ヒット)。",
+      "description": "1回攻撃する。このアクシーのリトルオウルカードのヒット数を+1する(上限:+5ヒット)。",
       "partClass": "Bird",
       "partType": "Eyes",
       "partValue": 8,
@@ -2969,8 +2927,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "5d4ab661bd21e606aec461f29555e30e",
-      "isChanged": true
+      "_etag": "5d4ab661bd21e606aec461f29555e30e"
     },
     {
       "id": 50600601,
@@ -3023,19 +2980,18 @@
     {
       "id": 10401201,
       "name": "アルコ",
-      "description": "全ての敵を攻撃する。<ディテクト>:1。ターゲットがシークレットを持っていた場合、+10DMGする",
+      "description": "<ディテクト>:2。",
       "partClass": "Beast",
       "partType": "Horn",
       "partValue": 12,
       "energy": 1,
-      "attack": 25,
+      "attack": 65,
       "defense": 0,
       "healing": 0,
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "non_multihit", "single_attack"],
-      "_etag": "765800a8fecc119de805c946e8840185",
-      "isChanged": true
+      "_etag": "765800a8fecc119de805c946e8840185"
     },
     {
       "id": 30600601,

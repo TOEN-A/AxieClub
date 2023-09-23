@@ -13,6 +13,7 @@ export interface Item {
   stage: number
   tags: string[]
   _etag: string
+  isChanged?: boolean
 }
 
 export interface CardsApiResponse {
