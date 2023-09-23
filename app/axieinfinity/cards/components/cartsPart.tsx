@@ -19,14 +19,14 @@ const CardsPart = ({
 }) => {
   return (
     <>
-      <div className="flex ml-[6vw]">
+      <div className="flex ml-[6vw] mt-12">
         <Image
           src={`${url}/storage/v1/object/public/images/partIcon/${part.part}.png`}
           height={40}
           width={40}
           alt={part.jpPart}
         />
-        <p className="text-2xl md:text-3xl lg:text-4xl text-left text-gray-800 ml-2">
+        <p className="text-2xl md:text-3xl lg:text-4xl text-left text-secondary ml-2">
           {part.jpPart}
         </p>
       </div>

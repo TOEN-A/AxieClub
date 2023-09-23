@@ -11,6 +11,7 @@ import SearchAndReset from './searchAndReset'
 import SelectButton from './selectButton'
 import { axieClasses } from './source/axieClasses'
 import { axieParts } from './source/axieParts'
+import { styles } from '@/app/styles'
 
 type News = Database['public']['Tables']['news']['Row']
 
@@ -24,7 +25,7 @@ const filterJson = (cards: Item[], cardsIdList: number[]) => {
 const katakanaRegex: RegExp = /[\u30A1-\u30FA]/g
 const toHiragana = (t: string): string =>
   t.replace(katakanaRegex, (x: string) =>
-    String.fromCharCode(x.charCodeAt(0) - 0x60)
+    String.fromCharCode(x.charCodeAt(0) - 0x60),
   )
 
 const CardsList: React.FC<{
@@ -71,15 +72,15 @@ const CardsList: React.FC<{
         searchKeyword.every(
           (keyword) =>
             card.name.toLowerCase().includes(keyword.toLowerCase()) ||
-            card.description.toLowerCase().includes(keyword.toLowerCase())
-        )
+            card.description.toLowerCase().includes(keyword.toLowerCase()),
+        ),
       )
       const filteredByKeywordJP = cardsJP._items.filter((card) =>
         searchKeyword.every(
           (keyword) =>
             toHiragana(card.name).includes(toHiragana(keyword)) ||
-            toHiragana(card.description).includes(toHiragana(keyword))
-        )
+            toHiragana(card.description).includes(toHiragana(keyword)),
+        ),
       )
 
       //IDを抽出
@@ -95,14 +96,21 @@ const CardsList: React.FC<{
       //IDを元にJsonファイルをフィルタリング
       const finalFilteredItems = filterJson(
         isChecked ? cardsENItems : cardsJP._items,
-        combinedFilterdItemsId
+        combinedFilterdItemsId,
       )
 
       setFilteredItems(finalFilteredItems)
     } else {
       setFilteredItems(isChecked ? cardsENItems : cardsJP._items)
     }
-  }, [selectedClass, selectedPart, searchKeyword, isChecked, cardsENItems, cardsJP._items])
+  }, [
+    selectedClass,
+    selectedPart,
+    searchKeyword,
+    isChecked,
+    cardsENItems,
+    cardsJP._items,
+  ])
 
   //トグルで日⇔英を切替
   const handleToggle = () => {
@@ -111,8 +119,8 @@ const CardsList: React.FC<{
     setFilteredItems(
       filterJson(
         isChecked ? cardsJP._items : cardsENItems,
-        currentFilteredItemsId
-      )
+        currentFilteredItemsId,
+      ),
     )
     setResetItems(isChecked ? cardsJP._items : cardsENItems)
   }
@@ -125,7 +133,7 @@ const CardsList: React.FC<{
   //検索が押されたときにサーチキーワードを保持する
   const handleSearch = () => {
     const inputElement = document.getElementById(
-      'search-box'
+      'search-box',
     ) as HTMLInputElement
     setSearchKeyword(inputElement.value.replace(/　/g, ' ').split(' '))
   }
@@ -133,11 +141,11 @@ const CardsList: React.FC<{
   //フィルタボタンで押されたボタンの文字列を保持する（ボタンが押されているかの確認）
   const handleClick = (
     option: string,
-    handleSelectButton: (buttonValue: string) => void
+    handleSelectButton: (buttonValue: string) => void,
   ) => {
     if (selectedOptions.includes(option)) {
       setSelectedOptions((prevSelected) =>
-        prevSelected.filter((value) => value !== option)
+        prevSelected.filter((value) => value !== option),
       )
     } else {
       setSelectedOptions((prevSelected) => [...prevSelected, option])
@@ -163,7 +171,7 @@ const CardsList: React.FC<{
 
     if (isSelected) {
       setSelectedClass((prevSelected) =>
-        prevSelected.filter((value) => value !== buttonValue)
+        prevSelected.filter((value) => value !== buttonValue),
       )
     } else {
       setSelectedClass((prevSelected) => [...prevSelected, buttonValue])
@@ -176,7 +184,7 @@ const CardsList: React.FC<{
 
     if (isSelected) {
       setSelectedPart((prevSelected) =>
-        prevSelected.filter((value) => value !== buttonValue)
+        prevSelected.filter((value) => value !== buttonValue),
       )
     } else {
       setSelectedPart((prevSelected) => [...prevSelected, buttonValue])
@@ -184,77 +192,88 @@ const CardsList: React.FC<{
   }
 
   return (
-    <>
-      <Toggle
-        isChecked={isChecked}
-        handleToggle={handleToggle}
-        text="日本語/英語 切替"
-      />
-      <div className="pt-16 mb-64">
-        <div className="flex justify-center items-center gap-1">
-          <div className="flex flex-col items-center">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 font-sans font-bold mb-1">
-              ORIGINS {news.title}
-            </h1>
-            <p className="text-gray-600 mb-4">
-              <strong className="mr-2">更新日:</strong>
-              {news && format(new Date(news.updated_at), 'yyyy-MM-dd')}
-            </p>
+    <div className="m-10 text-center h-screen">
+      <div
+        className={`absolute inset-0 
+        top-[120px] max-w-[95rem] mx-auto`}
+      >
+        <div className="absolute top-0 right-0 m-4">
+          <Toggle
+            isChecked={isChecked}
+            handleToggle={handleToggle}
+            text="日本語/英語 切替"
+          />
+        </div>
+        <div className="pt-16 mb-64">
+          <div className="flex justify-center items-center gap-1">
+            <div className="flex flex-col items-center">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl text-secondary font-sans font-bold mb-1">
+                ORIGINS {news.title}
+              </h1>
+              <p className="text-gray-400 mb-4">
+                <strong className="mr-2">更新日:</strong>
+                {news && format(new Date(news.updated_at), 'yyyy-MM-dd')}
+              </p>
+            </div>
           </div>
-        </div>
-        <SearchAndReset
-          handleSearch={handleSearch}
-          handleReset={handleReset}
-          inputText={inputText}
-          handleInputChange={handleInputChange}
-        />
-        <div>
-          <SelectButton
-            options={axieClasses.map((c) => c.jpClass)}
-            handleSelectButton={handleSelectClass}
-            selectedOptions={selectedOptions}
-            handleClick={handleClick}
+          <SearchAndReset
+            handleSearch={handleSearch}
+            handleReset={handleReset}
+            inputText={inputText}
+            handleInputChange={handleInputChange}
           />
-        </div>
-        <div>
-          <SelectButton
-            options={axieParts.map((part) => part.jpPart)}
-            handleSelectButton={handleSelectPart}
-            selectedOptions={selectedOptions}
-            handleClick={handleClick}
-          />
-        </div>
-        {filteredByClass
-          .filter((axieClass) =>
-            filteredItems.some(
-              (card) =>
-                card.partClass === axieClass.class &&
-                filteredByPart.some((part) => part.part === card.partType)
+          <div>
+            <SelectButton
+              options={axieClasses.map((c) => c.jpClass)}
+              handleSelectButton={handleSelectClass}
+              selectedOptions={selectedOptions}
+              handleClick={handleClick}
+            />
+          </div>
+          <div>
+            <SelectButton
+              options={axieParts.map((part) => part.jpPart)}
+              handleSelectButton={handleSelectPart}
+              selectedOptions={selectedOptions}
+              handleClick={handleClick}
+            />
+          </div>
+          {filteredByClass
+            .filter((axieClass) =>
+              filteredItems.some(
+                (card) =>
+                  card.partClass === axieClass.class &&
+                  filteredByPart.some((part) => part.part === card.partType),
+              ),
             )
-          )
-          .map((axieClass) => (
-            <CardSection key={axieClass.class} axieClass={axieClass} url={url}>
-              {filteredByPart
-                .filter((part) =>
-                  filteredItems.some(
-                    (card) =>
-                      card.partClass === axieClass.class &&
-                      part.part === card.partType
+            .map((axieClass) => (
+              <CardSection
+                key={axieClass.class}
+                axieClass={axieClass}
+                url={url}
+              >
+                {filteredByPart
+                  .filter((part) =>
+                    filteredItems.some(
+                      (card) =>
+                        card.partClass === axieClass.class &&
+                        part.part === card.partType,
+                    ),
                   )
-                )
-                .map((part) => (
-                  <CardsPart
-                    key={part.part}
-                    part={part}
-                    cards={filteredItems}
-                    axieClass={axieClass}
-                    url={url}
-                  />
-                ))}
-            </CardSection>
-          ))}
+                  .map((part) => (
+                    <CardsPart
+                      key={part.part}
+                      part={part}
+                      cards={filteredItems}
+                      axieClass={axieClass}
+                      url={url}
+                    />
+                  ))}
+              </CardSection>
+            ))}
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 

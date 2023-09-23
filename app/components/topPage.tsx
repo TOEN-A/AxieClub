@@ -3,12 +3,14 @@ import React from 'react'
 const TopPage: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center mb-4">
-      <h1 className="max-w-[39rem] text-2xl md:text-3xl text-gray-800 font-bold mb-3">
+      <h1 className="max-w-[39rem] text-2xl md:text-3xl text-secondary font-bold mb-3">
         アクシーインフィニティ(AxieInfinity)
-        の情報について日本語でまとめるサイトになるかもしれないし、全然違うサイトになるかもしれない
+      </h1>
+      <h1 className="max-w-[39rem] text-2xl md:text-3xl text-secondary font-bold mb-3">
+        日本語情報サイト(仮)
       </h1>
       <div className="max-w-[36rem] text-left">
-        <p className="text-[0.8rem] md:text-base text-gray-700">
+        <p className="text-[0.8rem] md:text-base text-secondary">
           　世界最大のブロックチェーンゲームであるアクシーインフィニティについてまとめていきます。が、私のブロックチェーン技術を含めたプログラミングスキル向上がぶっちゃけたサイト立ち上げ理由なので、気付いたら全然違うサイトになってるかもです。
           <br />
           　ルーン・チャーム一覧くらいまではページ作成頑張りたいけど、カード一覧作るだけで疲れたのと、バックエンド側でも遊びたいのでS5の間はやらないかも。
