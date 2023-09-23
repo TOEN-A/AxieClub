@@ -30,7 +30,7 @@ export default async function newsList() {
           <li key={news.id} className="border p-4 rounded-lg shadow-md">
             <Link href={news.link} className="text-[1.1rem] md:text-xl text-gray-800 font-semibold">{news.title}</Link>
             <p className="text-[1.2rem] md:text-xl text-gray-600">
-              <strong className="text-[0.7rem] md:text-[0.9rem] mr-2">更新日時:{news && format(new Date(news.updated_at), 'yyyy-MM-dd HH:mm:ss')}</strong>
+              <strong className="text-[0.7rem] md:text-[0.9rem] mr-2">更新日:{news && format(new Date(news.updated_at), 'yyyy-MM-dd')}</strong>
             </p>
           </li>
         ))}

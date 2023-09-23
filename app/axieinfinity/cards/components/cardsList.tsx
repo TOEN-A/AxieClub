@@ -214,7 +214,7 @@ const CardsList: React.FC<{
         <Toggle
           isChecked={isCheckedSeazon}
           handleToggle={handleToggleSeazon}
-          text="S6で変更されたカードのみ表示(日本語のみ機能)"
+          text="S6で変更されたカードのみ表示(日本語限定)"
         />
       </div>
       <div className="absolute top-[100px] right-0 m-4">
