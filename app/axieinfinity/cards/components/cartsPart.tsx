@@ -19,7 +19,7 @@ const CardsPart = ({
 }) => {
   return (
     <>
-      <div className="flex ml-[6vw] mt-12">
+      <div className="flex ml-[2vw] mt-12">
         <Image
           src={`${url}/storage/v1/object/public/images/partIcon/${part.part}.png`}
           height={40}
@@ -30,8 +30,8 @@ const CardsPart = ({
           {part.jpPart}
         </p>
       </div>
-      <div className="h-1 ml-[6vw] bg-gray-500" />
-      <div className="flex flex-wrap gap-3 justify-center my-2 pt-4 pb-0">
+      <div className="h-1 ml-[2vw] w-[75vw] bg-gray-500" />
+      <div className="flex flex-wrap gap-3 my-2 pt-4 pb-0 justify-center md:justify-start">
         {cards.map((card) =>
           card.partClass === axieClass.class && card.partType === part.part ? (
             <div key={card.id} className="relative">

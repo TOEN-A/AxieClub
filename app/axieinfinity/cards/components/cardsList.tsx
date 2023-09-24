@@ -45,6 +45,7 @@ const CardsList: React.FC<{
   const [resetItems, setResetItems] = useState(cardsJP._items)
   const [selectedOptions, setSelectedOptions] = useState<string[]>([])
   const [isChecked, setIsChecked] = useState(false)
+  const [isCheckedSeazon, setIsCheckedSeazon] = useState(false)
   const url = 'https://ehzxpvbfwwaraguxdmzg.supabase.co'
 
   useEffect(() => {
@@ -94,14 +95,11 @@ const CardsList: React.FC<{
       ]
 
       //IDを元にJsonファイルをフィルタリング
-      const finalFilteredItems = filterJson(
-        isChecked ? cardsENItems : cardsJP._items,
-        combinedFilterdItemsId,
-      )
+      const finalFilteredItems = filterJson(resetItems, combinedFilterdItemsId)
 
       setFilteredItems(finalFilteredItems)
     } else {
-      setFilteredItems(isChecked ? cardsENItems : cardsJP._items)
+      setFilteredItems(resetItems)
     }
   }, [
     selectedClass,
@@ -110,11 +108,15 @@ const CardsList: React.FC<{
     isChecked,
     cardsENItems,
     cardsJP._items,
+    resetItems,
   ])
 
   //トグルで日⇔英を切替
-  const handleToggle = () => {
+  const handleToggleENJP = () => {
     setIsChecked((prevChecked) => !prevChecked)
+    if (isCheckedSeazon) {
+      setIsCheckedSeazon(false)
+    }
     const currentFilteredItemsId = filteredItems.map((item) => item.id)
     setFilteredItems(
       filterJson(
@@ -123,6 +125,23 @@ const CardsList: React.FC<{
       ),
     )
     setResetItems(isChecked ? cardsJP._items : cardsENItems)
+  }
+
+  const handleToggleSeazon = () => {
+    setIsCheckedSeazon((prevChecked) => !prevChecked)
+    if (isChecked) {
+      setIsChecked(false)
+    }
+    const currentFilteredItemsId = filteredItems.map((item) => item.id)
+    //cardsJP._itemsからisChangedがtrueのものを抽出
+    const filteredBySeazon = cardsJP._items.filter((card) => card.isChanged)
+    setFilteredItems(
+      filterJson(
+        isCheckedSeazon ? cardsJP._items : filteredBySeazon,
+        currentFilteredItemsId,
+      ),
+    )
+    setResetItems(isCheckedSeazon ? cardsJP._items : filteredBySeazon)
   }
 
   //検索のインプットを保存
@@ -193,18 +212,22 @@ const CardsList: React.FC<{
 
   return (
     <div className="m-10 text-center h-screen">
-      <div
-        className={`absolute inset-0 
-        top-[120px] max-w-[95rem] mx-auto`}
-      >
-        <div className="absolute top-0 right-0 m-4">
-          <Toggle
-            isChecked={isChecked}
-            handleToggle={handleToggle}
-            text="日本語/英語 切替"
-          />
-        </div>
-        <div className="pt-16 mb-64">
+      <div className="absolute top-[72px] right-0 m-4">
+        <Toggle
+          isChecked={isCheckedSeazon}
+          handleToggle={handleToggleSeazon}
+          text="S6で変更されたカードのみ表示(日本語限定)"
+        />
+      </div>
+      <div className="absolute top-[100px] right-0 m-4">
+        <Toggle
+          isChecked={isChecked}
+          handleToggle={handleToggleENJP}
+          text="日本語/英語 切替"
+        />
+      </div>
+      <div className="flex justify-center">
+        <div className="pt-24 mb-64 max-w-[1500px]">
           <div className="flex justify-center items-center gap-1">
             <div className="flex flex-col items-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl text-secondary font-sans font-bold mb-1">

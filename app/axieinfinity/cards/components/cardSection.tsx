@@ -15,7 +15,7 @@ const CardSection = ({
   return (
     <div className="justify-center gap-24 p-4 pb-0 mt-10">
       <div className='mb-[-40px]'>
-        <div className="flex ml-[5vw]">
+        <div className="flex ml-[1vw]">
           <Image
             src={`${url}/storage/v1/object/public/images/classIcon/${axieClass.class}.png`}
             height={45}
@@ -26,7 +26,7 @@ const CardSection = ({
             {axieClass.jpClass}
           </h2>
         </div>
-        <div className="h-1 ml-[5vw] w-[39vw] bg-gray-500" />
+        <div className="h-1 ml-[1vw] w-[42vw] bg-gray-500" />
       </div>
       <div className="text-4xl font-bold p-4 pb-0">{children}</div>
     </div>
