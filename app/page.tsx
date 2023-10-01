@@ -1,7 +1,7 @@
 import NewsList from './components/newsAndUpdatedList'
 import TopPage from './components/topPage'
 import { Suspense } from 'react'
-import Spinner from './components/sample/spinner'
+import Spinner from './components/spinner'
 // import RefreshBtn from './components/refresh-btn'
 
 export default function Page() {

@@ -1,10 +1,10 @@
 import { Suspense } from 'react'
 import { Database } from '@/database.types'
-import Spinner from '@/app/components/sample/spinner'
+import Spinner from '@/app/components/spinner'
 import CardsList from './components/cardsList'
-import { CardsApiResponse, Item } from './components/source/cards.type'
+import { CardsApiResponse, Item } from './models/cards.type'
 import { fetchNews } from '@/app/components/newsAndUpdatedList'
-import { cardsIdList } from './components/source/cardsIdList'
+import { cardsIdList } from './models/cardsIdList'
 
 type News = Database['public']['Tables']['news']['Row']
 

@@ -3,14 +3,14 @@
 import React, { useState, useEffect } from 'react'
 import { Database } from '@/database.types'
 import { format } from 'date-fns'
-import type { CardsApiResponse, Item } from './source/cards.type'
+import type { CardsApiResponse, Item } from '../models/cards.type'
 import Toggle from '@/app/components/toggle'
 import CardSection from './cardSection'
 import CardsPart from './cartsPart'
 import SearchAndReset from './searchAndReset'
 import SelectButton from './selectButton'
-import { axieClasses } from './source/axieClasses'
-import { axieParts } from './source/axieParts'
+import { axieClasses } from '../models/axieClasses'
+import { axieParts } from '../models/axieParts'
 
 type News = Database['public']['Tables']['news']['Row']
 
@@ -31,7 +31,7 @@ const CardsList: React.FC<{
   cardsENItems: Item[]
   news: News
 }> = ({ cardsENItems, news }) => {
-  const cardsJP: CardsApiResponse = require('./source/regularCardsJp.json')
+  const cardsJP: CardsApiResponse = require('../models/regularCardsJp.json')
   cardsJP._items.sort((a, b) => a.id - b.id)
   cardsENItems.sort((a, b) => a.id - b.id)
   const [selectedClass, setSelectedClass] = useState<string[]>([])

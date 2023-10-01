@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import type { ObjectData } from './source/objectData.type'
+import type { ObjectData } from '../models/objectData.type'
 
 const CardSection = ({
   axieClass,

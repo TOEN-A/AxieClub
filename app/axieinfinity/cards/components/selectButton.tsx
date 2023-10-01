@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react"
-import { colors } from "./source/colors"
+import { colors } from "../models/colors";
 
 const SelectButton: React.FC<{
   options: string[];
