@@ -7,12 +7,10 @@ import Spinner from './components/sample/spinner'
 export default function Page() {
   return (
     <main>
-      <div className="m-10 text-center h-screen">
-        <Suspense fallback={<Spinner color="border-blue-500" />}>
+      <div className="m-10 mt-28 text-center h-screen">
           <TopPage />
           {/* @ts-expect-error Async Server Component */}
           <NewsList />
-        </Suspense>
       </div>
     </main>
   )

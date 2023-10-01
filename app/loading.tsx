@@ -1,5 +1,9 @@
-import Spinner from "./components/sample/spinner"
+import Spinner from './components/sample/spinner'
 
 export default function Loading() {
-  return <Spinner />
+  return (
+    <div className="pt-32">
+      <Spinner />
+    </div>
+  )
 }

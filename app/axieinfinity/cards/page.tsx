@@ -10,7 +10,7 @@ type News = Database['public']['Tables']['news']['Row']
 
 export const metadata = {
   title: 'アクシーインフィニティオリジンズ(AxieInfinityOrigins)のカード一覧',
-  description: 'S5最新のカード情報',
+  description: 'S6最新のカード情報',
 }
 
 const filterJson = (cards: Item[], cardsIdList: number[]) => {
@@ -44,10 +44,8 @@ export default async function CardsPage() {
 
 
   return (
-    <div className="text-center">
-      <Suspense fallback={<Spinner color="border-blue-500" />}>
+    <div className="text-center pt-44">
         <CardsList cardsENItems={cardsENItems} news={news} />
-      </Suspense>
       <div className="my-5 flex justify-center"></div>
     </div>
   )

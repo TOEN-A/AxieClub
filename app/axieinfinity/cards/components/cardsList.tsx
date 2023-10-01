@@ -210,14 +210,14 @@ const CardsList: React.FC<{
 
   return (
     <>
-      <div className="absolute top-[72px] right-0 m-4">
+      <div className="absolute top-[72px] right-0 lg:right-44 m-4">
         <Toggle
           isChecked={isCheckedSeazon}
           handleToggle={handleToggleSeazon}
           text="S6で変更されたカードのみ表示(日本語限定)"
         />
       </div>
-      <div className="absolute top-[100px] right-0 m-4">
+      <div className="absolute top-[100px] right-0 lg:right-44 m-4">
         <Toggle
           isChecked={isChecked}
           handleToggle={handleToggleENJP}
@@ -225,7 +225,7 @@ const CardsList: React.FC<{
         />
       </div>
       <div className="flex justify-center">
-        <div className="pt-24 mb-64 max-w-[1500px]">
+        <div className="mb-64 max-w-[1500px]">
           <div className="flex justify-center items-center gap-1">
             <div className="flex flex-col items-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 font-sans font-bold mb-1">
