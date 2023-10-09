@@ -1,0 +1,531 @@
+{
+    "_etag": "2ef48a53d6df75374c97abd55b38387d",
+    "_items": [
+      {
+        "rune": "plant_4010_s5_nondec",
+        "class": "Plant",
+        "craftable": false,
+        "weight": 0,
+        "hp": 40,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_plant_4010_s6_nondec",
+          "displayOrder": 540099,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "{Solo}. Allied Axies Max HP +40. When your turn starts, heal allied Axies for 2% of this Axie's Max HP.",
+          "name": "Gaia's Embrace (S5.5)",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_plant_defensive_1.png"
+        },
+        "season": {
+          "id": 6,
+          "name": "Season 5"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "bug_4010_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_bug_4010_s6_nft",
+          "displayOrder": 340100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "{Solo}. When your turn starts, on Odd <Round>, draw 1 Card; on Even <Round>, gain 45 Shield.",
+          "name": "Collect & Protect",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+          "tokenId": "1006020",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bug_utility_1.png"
+        },
+        "season": {
+          "id": 7,
+          "name": "Season 6"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "aquatic_2010_s1",
+        "class": "Aquatic",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_aquatic_2010_s1",
+          "displayOrder": 620101,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "When the battle starts, this Axie gains 1 {Bubble}, then its Attacks deal 10% bonus DMG for the rest of the battle.",
+          "name": "Way of Aquatic (S1.5)",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_way_of_aquatic.png"
+        },
+        "season": {
+          "id": 2,
+          "name": "Season 1"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "bug_4010_s1",
+        "class": "Bug",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_bug_4010_s1",
+          "displayOrder": 340101,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "{Solo}. When your turn starts in Odd <Round>, draw 1 bonus Card; in even <Round>, gain 60 Shield.",
+          "name": "Collect And Protect (S1.5)",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bug_utility_1.png"
+        },
+        "season": {
+          "id": 2,
+          "name": "Season 1"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "plant_2002_s0",
+        "class": "Plant",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_plant_2002_s0",
+          "displayOrder": 10520021,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "All teammates regen 4 HP when your turn ends. Increase Healing card effects by 10%.",
+          "name": "Healing Pulse",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_plant_utility_1.png"
+        },
+        "season": {
+          "id": 1,
+          "name": "Season 0"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "beast_defensive_1",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_beast_defensive_1",
+          "displayOrder": 10220010,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "Cannot gain Shield. Take 15% less DMG.",
+          "name": "Pangolin Scale",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_beast_defensive_1.png"
+        },
+        "season": {
+          "id": 0,
+          "name": "Season Alpha"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "bug_3010_s4_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_bug_3010_s4_nft",
+          "displayOrder": 330100,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "{Solo}. When your turn starts, steal 35% Shield from the enemy Axie with the most Shield. If none have Shield, {Steal} 6 HP from enemy Axies.",
+          "name": "Leech",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+          "tokenId": "1004017",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bug_hybrid_1.png"
+        },
+        "season": {
+          "id": 5,
+          "name": "Season 4"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "neutral_2011_s3",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_neutral_2011_s3_nft",
+          "displayOrder": 120110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "Other allied Axies' Heal and Shield cards have 10% bonus stats when played.",
+          "name": "Pure Skill",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+          "tokenId": "1003002",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_defensive_2.png"
+        },
+        "season": {
+          "id": 4,
+          "name": "Season 3"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "dusk_2010_s4_nondec",
+        "class": "Dusk",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_dusk_2010_s4_nondec",
+          "displayOrder": 1020102,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "Before the battle starts, add 1 [Purge] to your Deck. This Axie's Cards gain +10% Stats.",
+          "name": "Dark Flame",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dark_flame.png"
+        },
+        "season": {
+          "id": 5,
+          "name": "Season 4"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "plant_4010_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 40,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_plant_4010_s6_nft",
+          "displayOrder": 540100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "{Solo}. Allied Axies Max HP +40. When your turn starts, heal allied Axies for 2% of this Axie's Max HP.",
+          "name": "Gaia's Embrace",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+          "tokenId": "1006034",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_plant_defensive_1.png"
+        },
+        "season": {
+          "id": 7,
+          "name": "Season 6"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "dawn_3010_s5",
+        "class": "Dawn",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_dawn_3010_s5",
+          "displayOrder": 930101,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "{Solo}. This Axie's Heals and Shields gain +15% Stats and apply 2 {Cleanser}. Apply 2 bonus {Cleanser} on Single Targets.",
+          "name": "Rejuvenate",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_rejuvenate.png"
+        },
+        "season": {
+          "id": 6,
+          "name": "Season 5"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "neutral_3012_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 40,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_neutral_3012_s5",
+          "displayOrder": 130121,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "{Solo}. Max HP +40. On death, Shield other allies and deal DMG to enemies for 10% of Max HP.",
+          "name": "Last Wish",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_last_wish.png"
+        },
+        "season": {
+          "id": 6,
+          "name": "Season 5"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "aquatic_3011_s5",
+        "class": "Aquatic",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_aquatic_3011_s5",
+          "displayOrder": 630111,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "{Solo}. When your turn starts, gain Shield equal to 10% of Max HP.",
+          "name": "Calcium Armor",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_aquatic_defensive_1.png"
+        },
+        "season": {
+          "id": 6,
+          "name": "Season 5"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "bird_2011_s5",
+        "class": "Bird",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_bird_2011_s5",
+          "displayOrder": 420111,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "When your turn starts, randomly deal 10 DMG and apply 3 {Weak} to an enemy Axie without {Weak}.",
+          "name": "Frail Egg",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bird_defensive_1.png"
+        },
+        "season": {
+          "id": 6,
+          "name": "Season 5"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "bird_2001_s0_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_bird_2001_s0_nft",
+          "displayOrder": 10420010,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "Summons summoned by this Axie gain 14 bonus max HP.",
+          "name": "The Incubator",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+          "tokenId": "1000009",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bird_defensive_1.png"
+        },
+        "season": {
+          "id": 1,
+          "name": "Season 0"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "reptile_4010_s5",
+        "class": "Reptile",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_reptile_4010_s6",
+          "displayOrder": 740101,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "{Solo}. When your turn starts, heal 10% of Max HP and <Cleanse>: 4.",
+          "name": "Regenerator",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_reptile_utility_1.png"
+        },
+        "season": {
+          "id": 7,
+          "name": "Season 6"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "aquatic_3011_s5_nondec",
+        "class": "Aquatic",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_aquatic_3011_s5_nondec",
+          "displayOrder": 630112,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "{Solo}. When your turn starts, gain Shield equal to 10% of Max HP.",
+          "name": "Calcium Armor",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_aquatic_defensive_1.png"
+        },
+        "season": {
+          "id": 6,
+          "name": "Season 5"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "bird_2011_s3",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_bird_2011_s3_nft",
+          "displayOrder": 420110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "When your turn starts, randomly apply Weak for 3 turns to an enemy Axie that doesn’t have Weak.",
+          "name": "Frail Egg",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+          "tokenId": "1003023",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bird_defensive_1.png"
+        },
+        "season": {
+          "id": 4,
+          "name": "Season 3"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "reptile_4001_s0",
+        "class": "Reptile",
+        "craftable": false,
+        "weight": 0,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_reptile_4001_s0",
+          "displayOrder": 10740011,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "{Solo}. When your turn start, {Cleanse} 2 random debuffs if HP is above 75% or recover 10% of max HP if not.",
+          "name": "Regenerator",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_reptile_utility_1.png"
+        },
+        "season": {
+          "id": 1,
+          "name": "Season 0"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      },
+      {
+        "rune": "neutral_2001_s0",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+          "id": "rune_neutral_2001_s0",
+          "displayOrder": 10120011,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "Healing and Shield cards gain 15% {Class Bonus}.        ",
+          "name": "Pure Skill",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_defensive_2.png"
+        },
+        "season": {
+          "id": 1,
+          "name": "Season 0"
+        },
+        "_etag": "3e8756c6121033f9b8004c7b7a8c26e0"
+      }
+    ],
+    "_metadata": {
+      "limit": 20,
+      "offset": 0,
+      "total": 1346,
+      "hasNext": true
+    }
+  }

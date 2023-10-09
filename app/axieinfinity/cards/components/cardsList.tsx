@@ -11,6 +11,7 @@ import SearchAndReset from './searchAndReset'
 import SelectButton from './selectButton'
 import { axieClasses } from '../models/axieClasses'
 import { axieParts } from '../models/axieParts'
+import { FadeInSlideDown } from '@/app/motion/fadeInSlideDown'
 
 type News = Database['public']['Tables']['news']['Row']
 
@@ -24,7 +25,7 @@ const filterJson = (cards: Item[], cardsIdList: number[]) => {
 const katakanaRegex: RegExp = /[\u30A1-\u30FA]/g
 const toHiragana = (t: string): string =>
   t.replace(katakanaRegex, (x: string) =>
-    String.fromCharCode(x.charCodeAt(0) - 0x60),
+    String.fromCharCode(x.charCodeAt(0) - 0x60)
   )
 
 const CardsList: React.FC<{
@@ -71,15 +72,15 @@ const CardsList: React.FC<{
         searchKeyword.every(
           (keyword) =>
             card.name.toLowerCase().includes(keyword.toLowerCase()) ||
-            card.description.toLowerCase().includes(keyword.toLowerCase()),
-        ),
+            card.description.toLowerCase().includes(keyword.toLowerCase())
+        )
       )
       const filteredByKeywordJP = cardsJP._items.filter((card) =>
         searchKeyword.every(
           (keyword) =>
             toHiragana(card.name).includes(toHiragana(keyword)) ||
-            toHiragana(card.description).includes(toHiragana(keyword)),
-        ),
+            toHiragana(card.description).includes(toHiragana(keyword))
+        )
       )
 
       //IDを抽出
@@ -119,8 +120,8 @@ const CardsList: React.FC<{
     setFilteredItems(
       filterJson(
         isChecked ? cardsJP._items : cardsENItems,
-        currentFilteredItemsId,
-      ),
+        currentFilteredItemsId
+      )
     )
     setResetItems(isChecked ? cardsJP._items : cardsENItems)
   }
@@ -136,8 +137,8 @@ const CardsList: React.FC<{
     setFilteredItems(
       filterJson(
         isCheckedSeazon ? cardsJP._items : filteredBySeazon,
-        currentFilteredItemsId,
-      ),
+        currentFilteredItemsId
+      )
     )
     setResetItems(isCheckedSeazon ? cardsJP._items : filteredBySeazon)
   }
@@ -150,7 +151,7 @@ const CardsList: React.FC<{
   //検索が押されたときにサーチキーワードを保持する
   const handleSearch = () => {
     const inputElement = document.getElementById(
-      'search-box',
+      'search-box'
     ) as HTMLInputElement
     setSearchKeyword(inputElement.value.replace(/　/g, ' ').split(' '))
   }
@@ -158,11 +159,11 @@ const CardsList: React.FC<{
   //フィルタボタンで押されたボタンの文字列を保持する（ボタンが押されているかの確認）
   const handleClick = (
     option: string,
-    handleSelectButton: (buttonValue: string) => void,
+    handleSelectButton: (buttonValue: string) => void
   ) => {
     if (selectedOptions.includes(option)) {
       setSelectedOptions((prevSelected) =>
-        prevSelected.filter((value) => value !== option),
+        prevSelected.filter((value) => value !== option)
       )
     } else {
       setSelectedOptions((prevSelected) => [...prevSelected, option])
@@ -188,7 +189,7 @@ const CardsList: React.FC<{
 
     if (isSelected) {
       setSelectedClass((prevSelected) =>
-        prevSelected.filter((value) => value !== buttonValue),
+        prevSelected.filter((value) => value !== buttonValue)
       )
     } else {
       setSelectedClass((prevSelected) => [...prevSelected, buttonValue])
@@ -201,7 +202,7 @@ const CardsList: React.FC<{
 
     if (isSelected) {
       setSelectedPart((prevSelected) =>
-        prevSelected.filter((value) => value !== buttonValue),
+        prevSelected.filter((value) => value !== buttonValue)
       )
     } else {
       setSelectedPart((prevSelected) => [...prevSelected, buttonValue])
@@ -211,61 +212,69 @@ const CardsList: React.FC<{
   return (
     <>
       <div className="absolute top-[72px] right-0 lg:right-44 m-4">
-        <Toggle
-          isChecked={isCheckedSeazon}
-          handleToggle={handleToggleSeazon}
-          text="S6で変更されたカードのみ表示(日本語限定)"
-        />
+        <FadeInSlideDown>
+          <Toggle
+            isChecked={isCheckedSeazon}
+            handleToggle={handleToggleSeazon}
+            text="S6で変更されたカードのみ表示(日本語限定)"
+          />
+        </FadeInSlideDown>
       </div>
       <div className="absolute top-[100px] right-0 lg:right-44 m-4">
-        <Toggle
-          isChecked={isChecked}
-          handleToggle={handleToggleENJP}
-          text="日本語/英語 切替"
-        />
+        <FadeInSlideDown>
+          <Toggle
+            isChecked={isChecked}
+            handleToggle={handleToggleENJP}
+            text="日本語/英語 切替"
+          />
+        </FadeInSlideDown>
       </div>
       <div className="flex justify-center">
         <div className="mb-64 max-w-[1500px]">
           <div className="flex justify-center items-center gap-1">
-            <div className="flex flex-col items-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 font-sans font-bold mb-1">
-                ORIGINS {news.title}
-              </h1>
-              <p className="text-gray-600 mb-4">
-                <strong className="mr-2">更新日:</strong>
-                {news && format(new Date(news.updated_at), 'yyyy-MM-dd')}
-              </p>
+            <FadeInSlideDown>
+              <div className="flex flex-col items-center">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 font-sans font-bold mb-1">
+                  ORIGINS {news.title}
+                </h1>
+                <p className="text-gray-600 mb-4">
+                  <strong className="mr-2">更新日:</strong>
+                  {news && format(new Date(news.updated_at), 'yyyy-MM-dd')}
+                </p>
+              </div>
+            </FadeInSlideDown>
+          </div>
+          <FadeInSlideDown>
+            <SearchAndReset
+              handleSearch={handleSearch}
+              handleReset={handleReset}
+              inputText={inputText}
+              handleInputChange={handleInputChange}
+            />
+            <div>
+              <SelectButton
+                options={axieClasses.map((c) => c.jpClass)}
+                handleSelectButton={handleSelectClass}
+                selectedOptions={selectedOptions}
+                handleClick={handleClick}
+              />
             </div>
-          </div>
-          <SearchAndReset
-            handleSearch={handleSearch}
-            handleReset={handleReset}
-            inputText={inputText}
-            handleInputChange={handleInputChange}
-          />
-          <div>
-            <SelectButton
-              options={axieClasses.map((c) => c.jpClass)}
-              handleSelectButton={handleSelectClass}
-              selectedOptions={selectedOptions}
-              handleClick={handleClick}
-            />
-          </div>
-          <div>
-            <SelectButton
-              options={axieParts.map((part) => part.jpPart)}
-              handleSelectButton={handleSelectPart}
-              selectedOptions={selectedOptions}
-              handleClick={handleClick}
-            />
-          </div>
+            <div>
+              <SelectButton
+                options={axieParts.map((part) => part.jpPart)}
+                handleSelectButton={handleSelectPart}
+                selectedOptions={selectedOptions}
+                handleClick={handleClick}
+              />
+            </div>
+          </FadeInSlideDown>
           {filteredByClass
             .filter((axieClass) =>
               filteredItems.some(
                 (card) =>
                   card.partClass === axieClass.class &&
-                  filteredByPart.some((part) => part.part === card.partType),
-              ),
+                  filteredByPart.some((part) => part.part === card.partType)
+              )
             )
             .map((axieClass) => (
               <CardSection
@@ -278,8 +287,8 @@ const CardsList: React.FC<{
                     filteredItems.some(
                       (card) =>
                         card.partClass === axieClass.class &&
-                        part.part === card.partType,
-                    ),
+                        part.part === card.partType
+                    )
                   )
                   .map((part) => (
                     <CardsPart

@@ -5,6 +5,8 @@ import type { Item } from '../models/cards.type'
 import type { ObjectData } from '../models/objectData.type'
 import HighlightAndHover from '@/app/components/highlightAndHover'
 import { cardsSubtext } from '../models/cardsSubtext'
+import { FadeIn } from '@/app/motion/fadeIn'
+import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
 
 const CardsPart = ({
   part,
@@ -19,48 +21,56 @@ const CardsPart = ({
 }) => {
   return (
     <>
-      <div className="flex ml-[2vw] mt-12">
-        <Image
-          src={`${url}/storage/v1/object/public/images/partIcon/${part.part}.png`}
-          height={40}
-          width={40}
-          alt={part.jpPart}
-        />
-        <p className="text-2xl md:text-3xl lg:text-4xl text-left text-gray-800 ml-2">
-          {part.jpPart}
-        </p>
-      </div>
-      <div className="h-1 ml-[2vw] w-[75vw] bg-gray-500" />
-      <div className="flex flex-wrap gap-3 my-2 pt-4 pb-0 justify-center md:justify-start">
-        {cards.map((card) =>
-          card.partClass === axieClass.class && card.partType === part.part ? (
-            <div key={card.id} className="relative">
-              {/* <p>{card.id}</p> */}
-              <Image
-                className="ml-2 object-contain"
-                src={`${url}/storage/v1/object/public/images/regularCards/${card.partClass}/${card.id}.png`}
-                height={220}
-                width={220}
-                alt={card.name}
-                // onError={handleImageError}
-                // style={{ maxWidth: 'none' }}
-              />
-              <p
-                className="absolute left-[93px] bottom-[140px] w-[75%] h-[5%] text-white font-bold text-left text-[12.5px] md:text-[13.5px] "
-                style={{ maxWidth: '75%' }}
-              >
-                {card.name}
-              </p>
-              <div
-                className="absolute left-[45px] bottom-[42px] w-[75%] h-[16%] text-white text-[12px] leading-tight font-[370]"
-                style={{ maxWidth: '75%' }}
-              >
-                <HighlightAndHover textWithHighlights={card.description} contentMap={cardsSubtext}/>
+      <FadeInSlideLeft delayTime={0.4}>
+        <div className="flex ml-[2vw] mt-12">
+          <Image
+            src={`${url}/storage/v1/object/public/images/partIcon/${part.part}.png`}
+            height={40}
+            width={40}
+            alt={part.jpPart}
+          />
+          <p className="text-2xl md:text-3xl lg:text-4xl text-left text-gray-800 ml-2">
+            {part.jpPart}
+          </p>
+        </div>
+        <div className="h-1 ml-[2vw] w-[75vw] bg-gray-500" />
+      </FadeInSlideLeft>
+      <FadeIn>
+        <div className="flex flex-wrap gap-3 my-2 pt-4 pb-0 justify-center md:justify-start">
+          {cards.map((card) =>
+            card.partClass === axieClass.class &&
+            card.partType === part.part ? (
+              <div key={card.id} className="relative">
+                {/* <p>{card.id}</p> */}
+                <Image
+                  className="ml-2 object-contain"
+                  src={`${url}/storage/v1/object/public/images/regularCards/${card.partClass}/${card.id}.png`}
+                  height={220}
+                  width={220}
+                  alt={card.name}
+                  // onError={handleImageError}
+                  // style={{ maxWidth: 'none' }}
+                />
+                <p
+                  className="absolute left-[93px] bottom-[140px] w-[75%] h-[5%] text-white font-bold text-left text-[12.5px] md:text-[13.5px] "
+                  style={{ maxWidth: '75%' }}
+                >
+                  {card.name}
+                </p>
+                <div
+                  className="absolute left-[45px] bottom-[42px] w-[75%] h-[16%] text-white text-[12px] leading-tight font-[370]"
+                  style={{ maxWidth: '75%' }}
+                >
+                  <HighlightAndHover
+                    textWithHighlights={card.description}
+                    contentMap={cardsSubtext}
+                  />
+                </div>
               </div>
-            </div>
-          ) : null
-        )}
-      </div>
+            ) : null
+          )}
+        </div>
+      </FadeIn>
     </>
   )
 }
