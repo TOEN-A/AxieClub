@@ -4,17 +4,52 @@ import React from 'react'
 import { Rune } from '../models/runes.type'
 import { Database } from '@/database.types'
 import format from 'date-fns/format'
-import { FadeIn } from '@/app/motion/fadeIn'
-import { SlideInY } from '@/app/motion/slideInY'
 import { FadeInSlideUp } from '@/app/motion/fadeInSlideUp'
-import RuneInfo from './runeInfo'
+import ClassFilter from './classFilter'
+import RarityFilter from './rarityFilter'
+import { useState } from 'react'
+import { createContext } from 'react'
+import TiltCard from '@/app/motion/tiltCard'
 
 type News = Database['public']['Tables']['news']['Row']
+
+export const SelectedOption = createContext<string[]>([])
 
 const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
   runesEN,
   news,
 }) => {
+  const [selectedClasses, setSelectedClasses] = useState<string[]>([])
+  const [selectedRarity, setSelectedRarity] = useState<string[]>([])
+  console.log(selectedClasses)
+  console.log(selectedRarity)
+
+  //クラスのフィルタボタンが押されたときにフィルタ用のステイトに値を保持
+  const handleSelectClass = (buttonValue: string) => {
+    const isSelected = selectedClasses.includes(buttonValue)
+
+    if (isSelected) {
+      setSelectedClasses((prevSelected) =>
+        prevSelected.filter((value) => value !== buttonValue)
+      )
+    } else {
+      setSelectedClasses((prevSelected) => [...prevSelected, buttonValue])
+    }
+  }
+
+  //レアリティのフィルタボタンが押されたときにフィルタ用のステイトに値を保持
+  const handleSelectRarity = (buttonValue: string) => {
+    const isSelected = selectedRarity.includes(buttonValue)
+
+    if (isSelected) {
+      setSelectedRarity((prevSelected) =>
+        prevSelected.filter((value) => value !== buttonValue)
+      )
+    } else {
+      setSelectedRarity((prevSelected) => [...prevSelected, buttonValue])
+    }
+  }
+
   return (
     <div className="flex justify-center">
       <div className="mb-64 max-w-[1500px]">
@@ -32,8 +67,19 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
           </div>
         </div>
         <div>
-          <RuneInfo />
+          <SelectedOption.Provider value={selectedClasses}>
+            <ClassFilter handleSelectButton={handleSelectClass} />
+          </SelectedOption.Provider>
         </div>
+        <div>
+          <SelectedOption.Provider value={selectedRarity}>
+            <RarityFilter handleSelectButton={handleSelectRarity} />
+          </SelectedOption.Provider>
+        </div>
+
+        <TiltCard index={1}>
+          <div>test</div>
+        </TiltCard>
       </div>
     </div>
   )

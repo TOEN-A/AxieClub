@@ -12,6 +12,9 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      boxShadow: {
+        card: "0px 35px 120px -15px #211e35",
+      },
     },
   },
   plugins: [require('daisyui')],
