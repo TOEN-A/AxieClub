@@ -13,7 +13,12 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: '20px 10px 35px -20px #211e35',
+      },
+      colors: {
+        Neutral: '#4B7E8E',
+        Bird: '#FA59A0',
+        Aquatic: '#01EEF1',
       },
     },
   },

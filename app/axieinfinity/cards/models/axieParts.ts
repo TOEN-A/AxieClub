@@ -1,4 +1,4 @@
-import type { ObjectData } from './objectData.type'
+import type { ObjectData } from '../../models/objectData.type'
 
 export const axieParts: ObjectData[] = [
   { part: 'Eyes', jpPart: '目' },

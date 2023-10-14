@@ -1,0 +1,1926 @@
+[
+    {
+        "rune": "neutral_4011_s5_nft",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_4011_s6_nft",
+            "displayOrder": 140110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. Until <Round> 2, when your turn ends, lose 2 <Energy Fragment>. After that, when your turn starts, gain 3 Fragments.",
+            "name": "Shady Exchange",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006007",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_utility_2.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "neutral_4010_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_4010_s6",
+            "displayOrder": 140101,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. Other allied Axie's Cards gain +5% Value when played. +5% more per unique Axie Class in your team.",
+            "name": "Pure Instinct",
+            "maxCopies": -1,
+            "tokenStandard": "",
+            "tokenAddress": "",
+            "tokenId": "",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_hybrid_2.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "bird_4010_s5_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bird_4010_s6_nft",
+            "displayOrder": 440100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, +2 {Feather}. Once per turn, at 10 stacks, consume 3 {Feather}, +3 [Feather Dagger] to Hand. [Feather Dagger]s deal 2 hits.",
+            "name": "Feather Descend",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006027",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bird_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bird_4011_s5_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bird_4011_s6_nft",
+            "displayOrder": 440110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, consume all {Feather} to heal allies for 1 HP per {Feather}. Deal +15% DMG. +15% DMG per hit this Axie deals until end of turn. (Cap: 2 hits)",
+            "name": "Raven's Tactic",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006028",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bird_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "aquatic_4011_s5_nft",
+        "class": "Aquatic",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_aquatic_4011_s6_nft",
+            "displayOrder": 640110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. Single Attacks {Steal} 21 HP per Energy Spent. Multihit & <AoE> Attacks {Steal} 7 HP per hit.",
+            "name": "Bloodlust",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006042",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_aquatic_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "aquatic_4010_s5_nft",
+        "class": "Aquatic",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_aquatic_4010_s6_nft",
+            "displayOrder": 640100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, +1 {Bubble}. This Axie's {Bubble Bomb} deal +50% DMG.",
+            "name": "Heart of Ocean",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006041",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_aquatic_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "plant_4010_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 40,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_plant_4010_s6_nft",
+            "displayOrder": 540100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. Allied Axies Max HP +40. When your turn starts, heal allied Axies for 2% of this Axie's Max HP.",
+            "name": "Gaia's Embrace",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006034",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_plant_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "plant_4011_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_plant_4011_s6_nft",
+            "displayOrder": 540110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. +20% Heal Stat. Whenever this Axie overheals, that amount is granted as Shield to its target and dealt as DMG to 1 random enemy.",
+            "name": "Healing Pulse",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006035",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_plant_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "reptile_4011_s5_nft",
+        "class": "Reptile",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_reptile_4011_s6_nft",
+            "displayOrder": 740110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. Debuff Cards apply 2 {Doubt} then deal <Pure DMG> equal to (1 + total number of debuffs on the target) to enemy Axies. (Cap: 20 DMG)",
+            "name": "Paralyzing Glare",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006049",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_paralyzing_glare.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "reptile_4010_s5_nft",
+        "class": "Reptile",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_reptile_4010_s6_nft",
+            "displayOrder": 740100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, heal 10% of Max HP and <Cleanse>: 4.",
+            "name": "Regenerator",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006048",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_reptile_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "beast_4011_s5_nft",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_beast_4011_s6_nft",
+            "displayOrder": 240110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. On targets with Bleed, Single and <AoE> Attacks create <Bloodstorm> then double the {Bleed} stacks on targets with < 10 {Bleed}.",
+            "name": "Brutal Claw",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006014",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_brutal_claw.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "beast_4010_s5_nft",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_beast_4010_s6_nft",
+            "displayOrder": 240100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, +2 {Rage}. {Rage} on this Axie now grants +2 DMG per stack.",
+            "name": "Endless Anger",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006013",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_beast_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bug_4010_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bug_4010_s6_nft",
+            "displayOrder": 340100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, on Odd <Round>, draw 1 Card; on Even <Round>, gain 45 Shield.",
+            "name": "Collect & Protect",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006020",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bug_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "bug_4011_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bug_4011_s6_nft",
+            "displayOrder": 340110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, +2 {Cocoon} and deal DMG equal to 8% of current Shield per {Cocoon} to enemy Axies.",
+            "name": "Metamorphosis",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006021",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_metamorphosis.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dawn_4011_s5_nft",
+        "class": "Dawn",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dawn_4011_s6_nft",
+            "displayOrder": 940110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. This Axie's Cards gain +35% Value when played. They are <Banish>ed after being played twice.",
+            "name": "Celestial Might",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006063",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dawn_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dawn_4010_s5_nft",
+        "class": "Dawn",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dawn_4010_s6_nft",
+            "displayOrder": 940100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, <Purify>: 1.\nAllied Axie's Cards gain +10% Value; +5% more while there are Cursed Cards in your Deck.",
+            "name": "Holy Prayer",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006062",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dawn_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "dusk_4011_s5_nft",
+        "class": "Dusk",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dusk_4011_s6_nft",
+            "displayOrder": 1040110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, allied Axies Lose HP equal to 6% of Max HP and their Cards gain +6% Base Stats.",
+            "name": "Soul Eater",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006070",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_soul_eater.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dusk_4010_s5_nft",
+        "class": "Dusk",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dusk_4010_s6_nft",
+            "displayOrder": 1040100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. When your turn starts, on Odd <Round>, randomly apply 3 {Hex} or 3 {Fear} to Enemy Axies.",
+            "name": "Gloomy Dice",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006069",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dusk_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "mech_4011_s5_nft",
+        "class": "Mech",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_mech_4011_s6_nft",
+            "displayOrder": 840110,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. Once per battle, if this Axie would die, gain <Immortal> for 2 turns, <Cleanse> all Debuffs, lose any {Taunt}, & +30% Value while <Immortal>.",
+            "name": "Last Stand",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006056",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_mech_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "mech_4010_s5_nft",
+        "class": "Mech",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_mech_4010_s6_nft",
+            "displayOrder": 840100,
+            "category": "Special",
+            "rarity": "Mystic",
+            "description": "{Solo}. This Axie's Shields grant +20% Shield. While Shielded, take -20% DMG from Attacks. Retain 50% of leftover Shield.",
+            "name": "Shield Backup",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006055",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_mech_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "neutral_3011_s5_nft",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_3011_s6_nft",
+            "displayOrder": 130110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When the battle starts, gain 1 <Energy Fragment> per unique Axie Class in your team. Creating an <Energy Burst> deals 30 DMG to all enemies and heals allied Axies for 30 HP.",
+            "name": "Energy Shard",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006004",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_energy_shard.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "neutral_3012_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 40,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_3012_s6",
+            "displayOrder": 130121,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Max HP +40. On death, Shield other allies and deal DMG to enemies for 10% of Max HP.",
+            "name": "Last Wish",
+            "maxCopies": -1,
+            "tokenStandard": "",
+            "tokenAddress": "",
+            "tokenId": "",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_last_wish.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "neutral_3010_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_3010_s6",
+            "displayOrder": 130101,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, if Hand and Draw Pile have > 1 Cursed Card, draw 1 Card; otherwise, gain +15% Value until your turn ends.",
+            "name": "Pure Luck",
+            "maxCopies": -1,
+            "tokenStandard": "",
+            "tokenAddress": "",
+            "tokenId": "",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_pure_luck.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bird_3011_s5_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bird_3011_s6_nft",
+            "displayOrder": 430110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. On targets without Shield, attacks deal +25% DMG; otherwise, deal +15% DMG.",
+            "name": "Sharp Talon",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006025",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_sharp_talon.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "bird_3010_s5_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bird_3010_s6_nft",
+            "displayOrder": 430100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, gain 1 <Energy Fragment>. Attacks deal 7 DMG per Energy Spent to enemy Axies.",
+            "name": "Energy Guru",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006024",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bird_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bird_3012_s5_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bird_3012_s6_nft",
+            "displayOrder": 430120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Once per battle, if this Axie would die, it survives with 1 HP, then Heals 5% of Max HP per {Feather}. Deal 20 DMG to enemies.",
+            "name": "Sacred Feather",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006026",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_sacred_feather.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "aquatic_3010_s5_nft",
+        "class": "Aquatic",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_aquatic_3010_s6_nft",
+            "displayOrder": 630100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. On targets with HP >= 50%, Attacks deal +25% DMG; otherwise deal +15% DMG.",
+            "name": "Hearty Warrior",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006038",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_aquatic_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "aquatic_3011_s5_nft",
+        "class": "Aquatic",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_aquatic_3011_s6_nft",
+            "displayOrder": 630110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, gain Shield equal to 10% of Max HP.",
+            "name": "Calcium Armor",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006039",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_aquatic_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "aquatic_3012_s5_nft",
+        "class": "Aquatic",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_aquatic_3012_s6_nft",
+            "displayOrder": 630120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Before the battle starts, add 1 [Giant Bubble] to your Deck. On death, grant 50% of this Axie's {Bubble Bomb} stacks to other allied Axies.",
+            "name": "Giant Bubble",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006040",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_giant_bubble.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "plant_3011_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_plant_3011_s6_nft",
+            "displayOrder": 530110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Whenever hit, if this Axie has {Leaf}, take -20% DMG, -1 {Leaf}, then +1 {Leaf} to other allied Axies; otherwise, +2 {Leaf}.",
+            "name": "Leaf Cloak",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006032",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_leaf_cloak.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "plant_3010_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_plant_3010_s6_nft",
+            "displayOrder": 530100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Before the battle starts, add 1 [Forest Breath] to your Deck. Once per turn, when an ally is <Cleanse>, add 1 [Forest Wrath] to Hand.",
+            "name": "Rise & Ruin",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006031",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_plant_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "plant_3012_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_plant_3012_s6_nft",
+            "displayOrder": 530120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, +1 {Leaf}. Attacks deal +1 DMG per {Leaf}. If this Axie has > 4 {Leaf}, Attacks +20% DMG.",
+            "name": "Miracle Leaf",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006033",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_plant_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "reptile_3011_s5_nft",
+        "class": "Reptile",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_reptile_3011_s6_nft",
+            "displayOrder": 730110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When allied Secrets are triggered, deal 15 <Pure DMG> to enemy Axies then Heal 15 HP.",
+            "name": "Shellshock",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006046",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_reptile_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "reptile_3010_s5_nft",
+        "class": "Reptile",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_reptile_3010_s6_nft",
+            "displayOrder": 730100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Before the battle starts, add 1 [Venom Burst] to your Deck. Cards apply 2 {Poison} per Energy spent to a random Enemy.",
+            "name": "Venom Master",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006045",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_reptile_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "reptile_3012_s5_nft",
+        "class": "Reptile",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_reptile_3012_s6_nft",
+            "displayOrder": 730120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, +1 {Spike}. {Spike} on this Axie grant +3 {Bloodspike}. Whenever hit, heal 10 HP.",
+            "name": "Prehistoric Armor",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006047",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_prehistoric_armor.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "beast_3012_s5_nft",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_beast_3012_s6_nft",
+            "displayOrder": 230120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Attacks no longer grant <Energy Fragment>. Whenever this Axie attacks, its Attack Cards gain 8% Base ATK per Energy Spent.",
+            "name": "Glorious Mane",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006012",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_glorious_mane.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "beast_3010_s5_nft",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_beast_3010_s6_nft",
+            "displayOrder": 230100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Attacks deal +25% DMG. Take +10% DMG from Attacks.",
+            "name": "Reckless Hunter",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006010",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_beast_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "beast_3011_s5_nft",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_beast_3011_s6_nft",
+            "displayOrder": 230110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Take -20% unblocked DMG from Attacks.",
+            "name": "Pangolin Scale",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006011",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_beast_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "bug_3012_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bug_3012_s6_nft",
+            "displayOrder": 330120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Enemy Cards discarded by your team lose -15% Stats and deal DMG to their owner equal to 3x that amount. Allied Cards discarded by your team gain +15% Stats.",
+            "name": "Fate Maker",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006019",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_fate_maker.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bug_3010_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bug_3010_s6_nft",
+            "displayOrder": 330100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, steal 35% Shield from the enemy Axie with the most Shield. If none have Shield, {Steal} 6 HP from enemy Axies.",
+            "name": "Leech",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006017",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bug_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bug_3011_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bug_3011_s6_nft",
+            "displayOrder": 330110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Single Attacks that cost energy consume 25% of current Shield and deal 3x that amount as bonus DMG.",
+            "name": "Sturdy Fighter",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006018",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bug_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dawn_3012_s5_nft",
+        "class": "Dawn",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dawn_3012_s6_nft",
+            "displayOrder": 930120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, heal allies for 8 HP and for each living ally, deal 4 DMG to enemies.",
+            "name": "Healing Force",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006061",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_healing_force.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dawn_3011_s5_nft",
+        "class": "Dawn",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dawn_3011_s6_nft",
+            "displayOrder": 930110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. After attacking, until your turn ends, other allied Axies' Attacks deal +20% DMG. Once per turn, after playing a Skill or Secret, other allies gain 20 Shield.",
+            "name": "Heaven's Echoes",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006060",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dawn_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dawn_3010_s5_nft",
+        "class": "Dawn",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dawn_3010_s6_nft",
+            "displayOrder": 930100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. This Axie's Heals and Shields gain +15% Stats and apply 2 {Cleanser}. Apply 2 bonus {Cleanser} on Single Targets.",
+            "name": "Rejuvenate",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006059",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_rejuvenate.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "dusk_3012_s5_nft",
+        "class": "Dusk",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dusk_3012_s6_nft",
+            "displayOrder": 1030120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. When your turn starts, if you have less <Energy Fragment> or <Energy Burst> Level than your Enemy, Steal 1 Fragment. When your turn ends, Heal HP equal 4x your Fragment.",
+            "name": "Moonlight Thief",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006068",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_moonlight_thief.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dusk_3010_s5_nft",
+        "class": "Dusk",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dusk_3010_s6_nft",
+            "displayOrder": 1030100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Whenever an ally plays a Card that applies Curse, allied Axies gain 12 Shield.",
+            "name": "Wicked Ward",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006066",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dusk_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dusk_3011_s5_nft",
+        "class": "Dusk",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dusk_3011_s6_nft",
+            "displayOrder": 1030110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. On targets with Debuffs, Attacks deal +20% DMG. From attackers with Debuffs, take -20% DMG.",
+            "name": "Malediction",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006067",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dusk_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "mech_3011_s5_nft",
+        "class": "Mech",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_mech_3011_s6_nft",
+            "displayOrder": 830110,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Receive +15% Shield from Cards. For every 75 Shield cumulatively received from Cards, gain 1 <Energy Fragment>.",
+            "name": "Adaptive Program",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006053",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_mech_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "mech_3010_s5_nft",
+        "class": "Mech",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_mech_3010_s6_nft",
+            "displayOrder": 830100,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. While Shielded, Attacks deal +20% DMG and take -20% DMG from Attacks.",
+            "name": "Zap Armor",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006052",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_mech_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "mech_3012_s5_nft",
+        "class": "Mech",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_mech_3012_s6_nft",
+            "displayOrder": 830120,
+            "category": "Special",
+            "rarity": "Epic",
+            "description": "{Solo}. Attacks remove up to 1 Secret from their targets. On targets without Secrets, deal +20% DMG.",
+            "name": "Lens of Truth",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006054",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_lens_of_truth.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "neutral_2011_s5_nft",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_2011_s6_nft",
+            "displayOrder": 120110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Other allied Axie's Heals & Shields gain +10% Value.",
+            "name": "Pure Skill",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006002",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_defensive_2.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "neutral_2010_s5_nft",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_2010_s6_nft",
+            "displayOrder": 120100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Other allied Axie's Attacks gain +10% Value.",
+            "name": "Pure Power",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006001",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_offensive_2.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bird_2011_s5_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bird_2011_s6_nft",
+            "displayOrder": 420110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When your turn starts, randomly deal 10 DMG and apply 3 {Weak} to an enemy Axie without {Weak}.",
+            "name": "Frail Egg",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006023",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bird_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bird_2010_s5_nft",
+        "class": "Bird",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bird_2010_s6_nft",
+            "displayOrder": 420100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When the battle starts, +2 {Feather}. Attacks deal +15% DMG.",
+            "name": "Way of Bird",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006022",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_way_of_bird.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "aquatic_2010_s5_nft",
+        "class": "Aquatic",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_aquatic_2010_s6_nft",
+            "displayOrder": 620100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When the battle starts, gain 1 {Bubble}. Attacks deal +15% DMG.",
+            "name": "Way of Aquatic",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006036",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_way_of_aquatic.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "aquatic_2011_s5_nft",
+        "class": "Aquatic",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_aquatic_2011_s6_nft",
+            "displayOrder": 620110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Attacks grant 1 <Energy Fragment> per Energy Spent. If this Axie doesn't have Weak, apply 2 {Weak} to self.",
+            "name": "Blunt Teeth",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006037",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_blunt_teeth.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "plant_2011_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_plant_2011_s6_nft",
+            "displayOrder": 520110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "This Axie's Summons gain +14 Max HP. When this Axie's Summons die, deal DMG equal to 8% of this Axie's Current HP to the closest enemy Axie.",
+            "name": "Destiny Leaf",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006030",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_memento_leaf.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "plant_2010_s5_nft",
+        "class": "Plant",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 8,
+        "item": {
+            "id": "rune_plant_2010_s6_nft",
+            "displayOrder": 520100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When the battle starts, +2 {Leaf}. Max HP +8%.",
+            "name": "Way of Plant",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006029",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_way_of_plant.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "reptile_2011_s5_nft",
+        "class": "Reptile",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_reptile_2011_s6_nft",
+            "displayOrder": 720110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Whenever hit, apply 1 {Poison} to the attacker. Take -1.5% DMG per {Poison} on the attacker. (Cap: -15% DMG).",
+            "name": "Poison Touch",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006044",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_reptile_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "reptile_2010_s5_nft",
+        "class": "Reptile",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_reptile_2010_s6_nft",
+            "displayOrder": 720100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When the battle starts, +2 {Spike}. When your turn ends, heal 5% Max HP.",
+            "name": "Way of Reptile",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006043",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_way_of_reptile.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "beast_2011_s5_nft",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_beast_2011_s6_nft",
+            "displayOrder": 220110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "On targets with {Bleed}, Attacks deal +10% DMG then heal 12 HP. On targets without {Bleed}, Single Attacks apply 3 {Bleed}.",
+            "name": "Dominant Predator",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006009",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_beast_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "beast_2010_s5_nft",
+        "class": "Beast",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_beast_2010_s6_nft",
+            "displayOrder": 220100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When the battle starts, +2 {Rage}. Attacks deal +15% DMG.",
+            "name": "Way of Beast",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006008",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_way_of_beast.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bug_2011_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bug_2011_s6_nft",
+            "displayOrder": 320110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When your turn starts, gain 1 Shield per Card in Draw Pile. When your turn ends, gain 3 Shield per Card in Discard Pile.",
+            "name": "Vault Builder",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006016",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_bug_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "bug_2010_s5_nft",
+        "class": "Bug",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_bug_2010_s6_nft",
+            "displayOrder": 320100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When the battle starts, +2 {Cocoon}. Gain +15% Shield from all sources.",
+            "name": "Way of Bug",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006015",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_way_of_bug.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "dawn_2010_s5_nft",
+        "class": "Dawn",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dawn_2010_s6_nft",
+            "displayOrder": 920100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Before the battle starts, +1 [Prayer] to your Deck. This Axie's Cards gain +10% Value.",
+            "name": "Divine Ring",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006057",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_divine_ring.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dawn_2011_s5_nft",
+        "class": "Dawn",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dawn_2011_s6_nft",
+            "displayOrder": 920110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Take -5% DMG from all sources. Bonus -5% per Buff or Secret on this Axie. (Cap: bonus -10% DMG)",
+            "name": "Arcane Protection",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006058",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dawn_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "dusk_2011_s5_nft",
+        "class": "Dusk",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dusk_2011_s6_nft",
+            "displayOrder": 1020110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "When your turn ends, the closest enemy Axie takes 5 DMG per Cursed Card in the Enemy Deck. (Cap: 25 DMG)",
+            "name": "Cursed Ritual",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006065",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dusk_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "dusk_2010_s5_nft",
+        "class": "Dusk",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_dusk_2010_s6_nft",
+            "displayOrder": 1020100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Before the battle starts, +1 [Purge] to your Deck. This Axie's Cards gain +10% Value.",
+            "name": "Dark Flame",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006064",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_dark_flame.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "mech_2010_s5_nft",
+        "class": "Mech",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_mech_2010_s6_nft",
+            "displayOrder": 820100,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Before the battle starts, +1 [Scan] to your Deck. This Axie's Cards gain +10% Value.",
+            "name": "Trap Nullifier",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006050",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_trap_nullifier.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "mech_2011_s5_nft",
+        "class": "Mech",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_mech_2011_s6_nft",
+            "displayOrder": 820110,
+            "category": "Special",
+            "rarity": "Rare",
+            "description": "Take -10 DMG from Attacks.",
+            "name": "Steelskin",
+            "maxCopies": -1,
+            "tokenStandard": "ERC1155",
+            "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
+            "tokenId": "1006051",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_steelskin.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "neutral_1013_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_1013_s6",
+            "displayOrder": 110131,
+            "category": "Special",
+            "rarity": "Common",
+            "description": "This Axie's Summons gain +8 Max HP.",
+            "name": "Mini Legion",
+            "maxCopies": -1,
+            "tokenStandard": "",
+            "tokenAddress": "",
+            "tokenId": "",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_hybrid_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
+    },
+    {
+        "rune": "neutral_1010_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_1010_s6",
+            "displayOrder": 110101,
+            "category": "Special",
+            "rarity": "Common",
+            "description": "When your turn ends, heal 3% of Max HP.",
+            "name": "Leftover Potion",
+            "maxCopies": -1,
+            "tokenStandard": "",
+            "tokenAddress": "",
+            "tokenId": "",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_utility_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    },
+    {
+        "rune": "neutral_1011_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_1011_s6",
+            "displayOrder": 110111,
+            "category": "Special",
+            "rarity": "Common",
+            "description": "Attacks deal +10% DMG.",
+            "name": "Tough Strike",
+            "maxCopies": -1,
+            "tokenStandard": "",
+            "tokenAddress": "",
+            "tokenId": "",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_offensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
+    },
+    {
+        "rune": "neutral_1012_s5",
+        "class": "Neutral",
+        "craftable": true,
+        "weight": 100,
+        "hp": 0,
+        "hpPct": 0,
+        "item": {
+            "id": "rune_neutral_1012_s6",
+            "displayOrder": 110121,
+            "category": "Special",
+            "rarity": "Common",
+            "description": "Receive +10% Shield from Cards.",
+            "name": "Thick Shield",
+            "maxCopies": -1,
+            "tokenStandard": "",
+            "tokenAddress": "",
+            "tokenId": "",
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_neutral_defensive_1.png"
+        },
+        "season": {
+            "id": 7,
+            "name": "Season 6"
+        },
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
+    }
+  ]

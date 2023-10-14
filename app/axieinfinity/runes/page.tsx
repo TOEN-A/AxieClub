@@ -4,14 +4,43 @@ import { fetchNews } from '@/app/components/newsAndUpdatedList'
 import RunesList from './components/runesList'
 type News = Database['public']['Tables']['news']['Row']
 
-const filterJson = (runes: Rune[]) => {
-  const filtered = runes.filter((rune) => rune.item.id.includes('s6'))
+const filterJson = (runes: Rune[], season: string) => {
+  let filtered = runes
+    .filter((rune) => rune.season.name.includes(season))
+    .filter((rune) => rune.craftable === true)
+    // rune.item.nameが重複しているものを削除
+    .filter(
+      (rune, index, self) =>
+        self.findIndex((r) => r.item.name === rune.item.name) === index
+    )
   return filtered
 }
 
-async function fetchRunes() {
+//レアリティの優先順位を定義
+const rarityOrder: { [key: string]: number } = {
+  Mystic: 1,
+  Epic: 2,
+  Rare: 3,
+  Common: 4,
+}
+
+//クラスの優先順位を定義
+const classOrder: { [key: string]: number } = {
+  Neutral: 1,
+  Bird: 2,
+  Aquatic: 3,
+  Plant: 4,
+  Reptile: 5,
+  Beast: 6,
+  Bug: 7,
+  Dawn: 8,
+  Dusk: 9,
+  Mech: 10,
+}
+
+async function fetchRunes(offset: number) {
   const res = await fetch(
-    'https://api-gateway.skymavis.com/origins/v2/community/runes',
+    `https://api-gateway.skymavis.com/origins/v2/community/runes?offset=${offset}&limit=100`,
     {
       headers: new Headers({
         'X-API-Key': 'bvFGDxIjma8Lkk8dmnvGi5ONraerFaEe',
@@ -19,7 +48,7 @@ async function fetchRunes() {
       //cache: 'no-store',
       next: { revalidate: 3600 },
       // cache: 'force-cache',
-    },
+    }
   )
   if (!res.ok) {
     throw new Error('Failed to fetch data in server')
@@ -28,15 +57,56 @@ async function fetchRunes() {
   return gottonRunes
 }
 
+const fetchAllRunes = async () => {
+  let offset = 0
+  let allRunes: Rune[] = []
+
+  while (true) {
+    try {
+      const runesResponse = await fetchRunes(offset)
+      const runesEN = runesResponse._items
+
+      // もし取得したデータが空であれば、ループを終了
+      if (!runesEN || runesEN.length === 0) {
+        break
+      }
+
+      allRunes = allRunes.concat(runesEN)
+      offset += 100 // 次のページの offset
+
+      // ここで必要に応じて適切な条件でループを終了するか判定できます
+    } catch (error) {
+      console.error('Failed to fetch runes:', error)
+      break
+    }
+  }
+
+  return allRunes
+}
+
 const RunesPage = async () => {
-  const runesENResponse = await fetchRunes()
   const news = (await fetchNews()).find(
-    (item) => item.id === '19cdb6bc-b2ce-4500-b0d8-8516e4047640',
+    (item) => item.id === '19cdb6bc-b2ce-4500-b0d8-8516e4047640'
   ) as News
-  const runesEN = filterJson(runesENResponse._items)
+  const runesEN = await fetchAllRunes()
+  const runesENSeason6 = filterJson(runesEN, 'Season 6').sort((a, b) => {
+    // 第一の優先順位として Rarity を比較
+    const rarityA = a.item.rarity
+    const rarityB = b.item.rarity
+    const rarityComparison = rarityOrder[rarityA] - rarityOrder[rarityB]
+
+    // 第一の優先順位が同じ場合、第二の優先順位として class を比較
+    if (rarityComparison === 0) {
+      const classA = a.class
+      const classB = b.class
+      return classOrder[classA] - classOrder[classB]
+    }
+
+    return rarityComparison
+  })
   return (
-    <div className="m-10 mt-28 text-center h-screen">
-      <RunesList runesEN={runesEN} news={news}/>
+    <div className="m-10 mt-28 text-center h-full">
+      <RunesList runesEN={runesENSeason6} news={news} />
     </div>
   )
 }

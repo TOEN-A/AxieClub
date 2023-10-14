@@ -4,7 +4,7 @@ const nextConfig = {
     serverActions: true,
   },
   images: {
-    domains: ['ehzxpvbfwwaraguxdmzg.supabase.co'], // 画像のホスト名を指定
+    domains: ['ehzxpvbfwwaraguxdmzg.supabase.co', 'storage.googleapis.com'], // 画像のホスト名を指定
   },
   transpilePackages: ['three'],
 }

@@ -10,6 +10,7 @@ import RarityFilter from './rarityFilter'
 import { useState } from 'react'
 import { createContext } from 'react'
 import TiltCard from '@/app/motion/tiltCard'
+import RuneInfo from './runeInfo'
 
 type News = Database['public']['Tables']['news']['Row']
 
@@ -23,6 +24,8 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
   const [selectedRarity, setSelectedRarity] = useState<string[]>([])
   console.log(selectedClasses)
   console.log(selectedRarity)
+  console.log(runesEN)
+
 
   //クラスのフィルタボタンが押されたときにフィルタ用のステイトに値を保持
   const handleSelectClass = (buttonValue: string) => {
@@ -76,10 +79,21 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
             <RarityFilter handleSelectButton={handleSelectRarity} />
           </SelectedOption.Provider>
         </div>
-
-        <TiltCard index={1}>
-          <div>test</div>
-        </TiltCard>
+        <div className="flex flex-wrap gap-8 justify-center mt-10">
+            {runesEN.map((rune, index) => (
+              <TiltCard key={rune.rune} index={index}>
+                <RuneInfo
+                  key={rune.rune}
+                  axieClass={rune.class}
+                  name={rune.item.name}
+                  rarity={rune.item.rarity}
+                  season={rune.season.name}
+                  description={rune.item.description}
+                  imageUrl={rune.item.imageUrl}
+                />
+              </TiltCard>
+            ))}
+        </div>
       </div>
     </div>
   )

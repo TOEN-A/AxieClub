@@ -1,12 +1,12 @@
-import type { ObjectData } from './objectData.type'
+import type { ObjectData } from '../../models/objectData.type'
 
 export const colors: ObjectData = {
-  バード: '#FF0080',
-  アクア: 'blue',
-  プラント: 'green',
-  レプタイル: 'purple',
-  ビースト: 'orange',
-  バグ: 'red',
+  バード: '#FA59A0',
+  アクア: '#01EEF1',
+  プラント: '#A6CF1C',
+  レプタイル: '#9967FB',
+  ビースト: '#FCAF14',
+  バグ: '#E7403D',
   目: 'black',
   耳: 'black',
   口: 'black',

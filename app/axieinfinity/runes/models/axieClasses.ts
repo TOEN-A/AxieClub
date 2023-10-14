@@ -1,4 +1,4 @@
-import type { ObjectData } from '../../cards/models/objectData.type'
+import type { ObjectData } from '../../models/objectData.type'
 
 export const axieClasses: ObjectData[] = [
   { class: 'Neutral', jpClass: 'ニュートラル' },

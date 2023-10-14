@@ -2,18 +2,19 @@
 
 import BallCanvas from '@/app/canvas/Ball'
 import { rarity } from '../models/rarity'
-import React from 'react';
+import React from 'react'
 import { supabaseUrl } from '@/app/constants/url'
+import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
 
 const RarityFilter = ({
-    handleSelectButton,
-  }: {
-    handleSelectButton: (buttonValue: string) => void
-  }) => {
-
-    return (
-      <div className="flex flex-wrap gap-3 my-2 pt-4 pb-0 justify-center md:justify-center">
-        {rarity.map((info) => (
+  handleSelectButton,
+}: {
+  handleSelectButton: (buttonValue: string) => void
+}) => {
+  return (
+    <div className="flex flex-wrap gap-3 my-2 pt-4 pb-0 justify-center md:justify-center">
+      {rarity.map((info, index) => (
+        <FadeInSlideLeft key={info.rarity} delayTime={index * 0.2 + 1.2}>
           <div
             className="w-[100px] h-[100px] cursor-pointer"
             key={info.rarity}
@@ -26,9 +27,10 @@ const RarityFilter = ({
               selected={info.rarity}
             />
           </div>
-        ))}
-      </div>
-    )
-  }
-  
-  export default RarityFilter
+        </FadeInSlideLeft>
+      ))}
+    </div>
+  )
+}
+
+export default RarityFilter
