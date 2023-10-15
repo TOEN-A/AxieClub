@@ -4,7 +4,7 @@ import Image from 'next/image'
 import type { Item } from '../models/cards.type'
 import type { ObjectData } from '../../models/objectData.type'
 import HighlightAndHover from '@/app/components/highlightAndHover'
-import { cardsSubtext } from '../models/cardsSubtext'
+import { subtext } from '../../models/subtext'
 import { FadeIn } from '@/app/motion/fadeIn'
 import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
 
@@ -63,7 +63,7 @@ const CardsPart = ({
                 >
                   <HighlightAndHover
                     textWithHighlights={card.description}
-                    contentMap={cardsSubtext}
+                    contentMap={subtext}
                   />
                 </div>
               </div>

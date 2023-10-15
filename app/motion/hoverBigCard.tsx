@@ -3,7 +3,7 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { FadeIn } from './fadeIn'
 
-const TiltCard = ({
+const HoverBigCard = ({
   children,
   index,
 }: {
@@ -11,9 +11,8 @@ const TiltCard = ({
   index: number
 }) => {
   return (
-    <div className="xs:w-[250px] w-[90%]">
-      <FadeIn>
-        <Tilt>
+    <div className="xs:w-[250px] w-[90%] hover:w-[95%]">
+      <FadeIn delayTime={0}>
           <div
             className="w-full bg-black bg-opacity-50 
         p-[2px] rounded-[20px] shadow-card"
@@ -25,10 +24,9 @@ const TiltCard = ({
               {children}
             </div>
           </div>
-        </Tilt>
       </FadeIn>
     </div>
   )
 }
 
-export default TiltCard
+export default HoverBigCard

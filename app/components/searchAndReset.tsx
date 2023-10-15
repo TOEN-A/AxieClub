@@ -6,11 +6,13 @@ const SearchAndReset: React.FC<{
   handleSearch: () => void
   handleReset: () => void
   inputText: string
+  placeholder?: string
   handleInputChange: (event: React.ChangeEvent<HTMLInputElement>) => void
 }> = ({
   handleSearch,
   handleReset,
   inputText,
+  placeholder,
   handleInputChange,
 }) => {
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
@@ -27,7 +29,7 @@ const SearchAndReset: React.FC<{
         type="text"
         id="search-box"
         className="text-xs md:text-sm lg:text-base w-56 md:w-72 lg:w-[26rem] px-4 py-2 border border-gray-400 rounded-lg flex-1 mb-2 mr-1 shadow-md"
-        placeholder="カード名またはカード説明を入力"
+        placeholder={placeholder}
         onKeyDown={handleKeyDown}
         value={inputText}
         onChange={handleInputChange}

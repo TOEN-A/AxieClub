@@ -12,11 +12,11 @@ const RarityFilter = ({
   handleSelectButton: (buttonValue: string) => void
 }) => {
   return (
-    <div className="flex flex-wrap gap-3 my-2 pt-4 pb-0 justify-center md:justify-center">
+    <div className="flex flex-wrap gap-3 pb-0 justify-center md:justify-center">
       {rarity.map((info, index) => (
         <FadeInSlideLeft key={info.rarity} delayTime={index * 0.2 + 1.2}>
           <div
-            className="w-[100px] h-[100px] cursor-pointer"
+            className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] cursor-pointer"
             key={info.rarity}
             onClick={() => handleSelectButton(info.rarity)}
           >

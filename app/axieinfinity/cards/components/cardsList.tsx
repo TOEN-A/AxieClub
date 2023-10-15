@@ -7,7 +7,7 @@ import type { CardsApiResponse, Item } from '../models/cards.type'
 import Toggle from '@/app/components/toggle'
 import CardSection from './cardSection'
 import CardsPart from './cartsPart'
-import SearchAndReset from './searchAndReset'
+import SearchAndReset from '../../../components/searchAndReset'
 import SelectButton from './selectButton'
 import { axieClasses } from '../models/axieClasses'
 import { axieParts } from '../models/axieParts'
@@ -249,6 +249,7 @@ const CardsList: React.FC<{
               handleSearch={handleSearch}
               handleReset={handleReset}
               inputText={inputText}
+              placeholder="カード名・説明文で検索"
               handleInputChange={handleInputChange}
             />
             <div>

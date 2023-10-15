@@ -19,7 +19,8 @@ interface ContentMap {
 const HighlightAndHover: React.FC<{
   textWithHighlights: string
   contentMap: ContentMap
-}> = ({ textWithHighlights, contentMap }) => {
+  textColor?: string
+}> = ({ textWithHighlights, contentMap, textColor }) => {
   const [hoveredContent, setHoveredContent] = useState<string>('')
   const [hoveredContent2, setHoveredContent2] = useState<string>('')
   const [hoveredContent3, setHoveredContent3] = useState<string>('')
@@ -184,7 +185,9 @@ const HighlightAndHover: React.FC<{
           return (
             <span
               key={index}
-              className="relative inline-block text-yellow-200"
+              className={`relative inline-block ${
+                textColor ? textColor : 'text-yellow-200'
+              }`}
               onMouseEnter={(e) => handleHover(content, e)}
               onMouseLeave={handleHoverEnd}
             >
@@ -202,7 +205,9 @@ const HighlightAndHover: React.FC<{
           return (
             <span
               key={index}
-              className="relative inline-block text-yellow-200"
+              className={`relative inline-block ${
+                textColor ? textColor : 'text-yellow-200'
+              }`}
               onMouseEnter={(e) => handleHover2(content, e)}
               onMouseLeave={handleHoverEnd2}
             >
@@ -220,7 +225,9 @@ const HighlightAndHover: React.FC<{
           return (
             <span
               key={index}
-              className="relative inline-block text-yellow-200"
+              className={`relative inline-block ${
+                textColor ? textColor : 'text-yellow-200'
+              }`}
               onMouseEnter={(e) => handleHover3(content, e)}
               onMouseLeave={handleHoverEnd3}
             >
@@ -230,7 +237,12 @@ const HighlightAndHover: React.FC<{
           )
         } else {
           return (
-            <span key={index} className="relative inline-block text-yellow-200">
+            <span
+              key={index}
+              className={`relative inline-block ${
+                textColor ? textColor : 'text-yellow-200'
+              }`}
+            >
               {content}
             </span>
           )

@@ -30,7 +30,7 @@ const Ball = ({
         <mesh castShadow receiveShadow scale={scale}>
           <icosahedronGeometry args={[1, 1]} />
           <meshStandardMaterial
-            color={selectedClasses.includes(selected) ? 'lightblue' : '#fff8eb'}
+            color={selectedClasses.includes(selected) ? '#94A3B8' : '#fff8eb'}
             polygonOffset
             polygonOffsetFactor={-5}
             flatShading

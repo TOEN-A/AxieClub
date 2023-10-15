@@ -12,7 +12,7 @@
             "category": "Special",
             "rarity": "Mystic",
             "description": "{Solo}. Until <Round> 2, when your turn ends, lose 2 <Energy Fragment>. After that, when your turn starts, gain 3 Fragments.",
-            "name": "Shady Exchange",
+            "name": "シャーディー",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
             "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",

@@ -11,11 +11,11 @@ const ClassFilter = ({
   handleSelectButton: (buttonValue: string) => void
 }) => {
   return (
-    <div className="flex flex-wrap gap-3 my-2 pt-4 pb-0 justify-center md:justify-center">
+    <div className="flex flex-wrap pt-4 pb-0 justify-center md:justify-center">
       {axieClasses.map((axieClass, index) => (
         <FadeInSlideLeft key={axieClass.class} delayTime={index * 0.2}>
           <div
-            className="w-[100px] h-[100px] cursor-pointer"
+            className="w-[60px] h-[60px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] cursor-pointer"
             key={axieClass.class}
             onClick={() => handleSelectButton(axieClass.class)}
           >

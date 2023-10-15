@@ -6,7 +6,7 @@ interface ContentMap {
   }
 }
 
-export const cardsSubtext: ContentMap = {
+export const subtext: ContentMap = {
   Cleanse: {
     text: [
       'Cleanse: Remove 1 random Debufffromthetarget, up to 4 stacks or 4turns.',
