@@ -12,7 +12,7 @@ export default function NavBar() {
     <header className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 p-4 top-0 fixed w-full z-10">
       <nav className="flex items-center space-x-4 pl-4 lg:pl-44">
         <Link href="/">
-          <p className="text-white text-[15px] md:text-[18px] font-bold cursor-pointer flex hover:opacity-75">
+          <p className="text-white text-[13px] md:text-[18px] font-bold cursor-pointer flex hover:opacity-75">
             Axie&nbsp;| 日本語まとめサイト(仮)
           </p>
         </Link>

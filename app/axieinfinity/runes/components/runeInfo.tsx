@@ -47,7 +47,7 @@ const RuneInfo = ({
             alt={axieClass}
             className="w-[20px] mr-[2px]"
           />
-          <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black mr-2">
+          <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black mr-1">
             {isChecked ? axieClass : axieClassJP[axieClass]}
           </p>
           <Image
@@ -57,7 +57,7 @@ const RuneInfo = ({
             alt={rarity}
             className="w-[20px] mr-[2px]"
           />
-          <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black mr-2">
+          <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black mr-1">
             {isChecked ? rarity : rarityJP[rarity]}
           </p>
           <GiAbstract091 size={20} className="mr-[2px]" color='black' />
@@ -65,7 +65,7 @@ const RuneInfo = ({
             {isChecked ? season : season.replace('Season ', 'シーズン')}
           </p>
         </div>
-        <div className="text-[10px] md:text-[12px] lg:text-[15px] text-black mt-2 mr-2">
+        <div className="text-[11px] md:text-[12px] lg:text-[15px] text-black mt-2 mr-1">
           <HighlightAndHover
             textWithHighlights={description}
             contentMap={subtext}
