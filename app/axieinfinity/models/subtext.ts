@@ -6,7 +6,7 @@ interface ContentMap {
   }
 }
 
-export const cardsSubtext: ContentMap = {
+export const subtext: ContentMap = {
   Cleanse: {
     text: [
       'Cleanse: Remove 1 random Debufffromthetarget, up to 4 stacks or 4turns.',
@@ -72,7 +72,9 @@ export const cardsSubtext: ContentMap = {
     images: [],
   },
   Bleed: {
-    text: ['Bleed: Lose 15 HP whenever this Axie plays a Card.'],
+    text: [
+      "Bleed: Lose 12 HP whenever this Axie plays a Card. When each turn ends, if this Axie didn't lose HP from Bleed, -1 Bleed.",
+    ],
     images: [],
   },
   Jinx: {
@@ -216,7 +218,7 @@ export const cardsSubtext: ContentMap = {
   'Grievous Wound': {
     text: [
       'Grievous wound: After losing HP from Bleed, lose 10 HP per Gievous Wound, then apply 1 Grievous Wound. Max stack: 10.',
-      'Bleed: Lose 15 HP whenever this Axie plays a Card.',
+      "Bleed: Lose 12 HP whenever this Axie plays a Card. When each turn ends, if this Axie didn't lose HP from Bleed, -1 Bleed.",
     ],
     images: [],
   },
@@ -358,6 +360,73 @@ export const cardsSubtext: ContentMap = {
     ],
     images: [],
   },
+  Ambush: {
+    text: ['Ambush: Target the closest or furthest enemy.'],
+    images: [],
+  },
+  Solo: {
+    text: ['Solo: only 1 Axie per team can have this Effect.'],
+    images: [],
+  },
+  Round: {
+    text: ["Round: 1 Round includes 1 of your Turn and 1 Of the enemy's Turn."],
+    images: [],
+  },
+  bloodstorm: {
+    text: [
+      'bloodstorm : -1 Bleed from the target then all Enemy Axies -12 HP.',
+      "Bleed: Lose 12 HP whenever this Axie plays a Card. When each turn ends, if this Axie didn't lose HP from Bleed, -1 Bleed.",
+    ],
+    images: [],
+  },
+  Immortal: {
+    text: [
+      "Immortal: lnstead of dying. survive with 1 HP and can't die. When Immortalis lost, this Axie dies.",
+    ],
+    images: [],
+  },
+  GiantBubble: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/GiantBubble.png',
+    ],
+  },
+  ForestBreath: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/ForestBreath.png',
+    ],
+  },
+  ForestWrath: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/ForestWrath.png',
+    ],
+  },
+  VenomBurst: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/VenomBurst.png',
+    ],
+  },
+  Prayer: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/Prayer.png',
+    ],
+  },
+  Purge: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/Purge.png',
+    ],
+  },
+  Scan: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/Scan.png',
+    ],
+  },
   クレンズ: {
     text: [
       'クレンズ: 対象からランダムにデパフを1つ取り除く、最大4スタックまたは4ターンまで。',
@@ -425,7 +494,9 @@ export const cardsSubtext: ContentMap = {
     images: [],
   },
   ブリード: {
-    text: ['ブリード: このアクシーがカードをプレイする度に、12のHPを失う。毎ターンの終了時、このアクシーがブリードでHPを失っていなければ、ブリードを一つ減らす'],
+    text: [
+      'ブリード: このアクシーがカードをプレイする度に、12のHPを失う。毎ターンの終了時、このアクシーがブリードでHPを失っていなければ、ブリードを一つ減らす',
+    ],
     images: [],
   },
   ジンクス: {
@@ -716,9 +787,76 @@ export const cardsSubtext: ContentMap = {
     images: [],
   },
   アンブッシュ: {
+    text: ['アンブッシュ: 最も近いまたは最も遠い敵を選択する。'],
+    images: [],
+  },
+  ソロ: {
+    text: ['ソロ: チームごとにこの効果を持つアクシーは1体のみです。'],
+    images: [],
+  },
+  ラウンド: {
     text: [
-      'アンブッシュ: 最も近いまたは最も遠い敵を選択する。',
+      'ラウンド: 1ラウンドは、あなたのターン1回と敵のターン1回を含みます。',
     ],
     images: [],
+  },
+  AoE: {
+    text: ['AoE: 全体攻撃。特定のグループ内の全ての相手を対象とする能力。'],
+    images: [],
+  },
+  ブラッドストーム: {
+    text: [
+      'ブラッドストーム: 対象のブラッドを-1し、すべての敵アクシーのHPを12減らす。',
+      'ブリード: このアクシーがカードをプレイする度に、12のHPを失う。毎ターンの終了時、このアクシーがブリードでHPを失っていなければ、ブリードを一つ減らす',
+    ],
+    images: [],
+  },
+  イモータル: {
+    text: [
+      'イモータル: 死ぬ代わりに、1のHPで生き残り、死ぬことができなくなります。イモータルが失われると、このアクシーは死にます。',
+    ],
+    images: [],
+  },
+  ジャイアントバブル: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/GiantBubbleJP.png',
+    ],
+  },
+  フォレストブレス: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/ForestBreathJP.png',
+    ],
+  },
+  フォレストラース: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/ForestWrathJP.png',
+    ],
+  },
+  ヴェノムバースト: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/VenomBurstJP.png',
+    ],
+  },
+  プレアー: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/PrayerJP.png',
+    ],
+  },
+  パージ: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/PurgeJP.png',
+    ],
+  },
+  スキャン: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/ScanJP.png',
+    ],
   },
 }
