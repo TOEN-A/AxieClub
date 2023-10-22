@@ -27,7 +27,7 @@ const RuneInfo = ({
   return (
     <div className="flex flex-row gap-2 w-full">
       <div className="flex flex-wrap justify-center basis-1/5">
-        <div className="text-[12px] md:text-[13px] lg:text-[16px] text-black font-semibold w-full">
+        <div className="text-[11px] md:text-[13px] lg:text-[16px] text-black font-semibold w-full">
           {name}
         </div>
         <Image
@@ -45,9 +45,9 @@ const RuneInfo = ({
             height={40}
             width={40}
             alt={axieClass}
-            className="w-[20px] mr-1"
+            className="w-[20px] mr-[2px]"
           />
-          <p className="text-[11px] md:text-[12px] lg:text-[15px] text-black mr-2">
+          <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black mr-2">
             {isChecked ? axieClass : axieClassJP[axieClass]}
           </p>
           <Image
@@ -55,17 +55,17 @@ const RuneInfo = ({
             height={40}
             width={40}
             alt={rarity}
-            className="w-[20px] mr-1"
+            className="w-[20px] mr-[2px]"
           />
-          <p className="text-[11px] md:text-[12px] lg:text-[15px] text-black mr-2">
+          <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black mr-2">
             {isChecked ? rarity : rarityJP[rarity]}
           </p>
-          <GiAbstract091 size={20} className="mr-1" color='black' />
-          <p className="text-[11px] md:text-[12px] lg:text-[15px] text-black">
+          <GiAbstract091 size={20} className="mr-[2px]" color='black' />
+          <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black">
             {isChecked ? season : season.replace('Season ', 'シーズン')}
           </p>
         </div>
-        <div className="text-[11px] md:text-[12px] lg:text-[15px] text-black mt-2 mr-2">
+        <div className="text-[10px] md:text-[12px] lg:text-[15px] text-black mt-2 mr-2">
           <HighlightAndHover
             textWithHighlights={description}
             contentMap={subtext}

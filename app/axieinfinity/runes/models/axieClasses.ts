@@ -16,7 +16,7 @@ export const axieClasses: ObjectData[] = [
 export const axieClassJP: ObjectData = {
   Neutral: 'ニュートラル',
   Bird: 'バード',
-  Aquatic: 'アクアティック',
+  Aquatic: 'アクア',
   Plant: 'プラント',
   Reptile: 'レプタイル',
   Beast: 'ビースト',
