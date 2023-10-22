@@ -45,11 +45,6 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
   const [selectedClasses, setSelectedClasses] = useState<string[]>([])
   const [selectedRarity, setSelectedRarity] = useState<string[]>([])
   const [isChecked, setIsChecked] = useState(false)
-  console.log(runesJP.map((item) => item.item.id))
-  console.log(
-    1,
-    runesEN.map((item) => item.item.id)
-  )
 
   useEffect(() => {
     // キーワードのフィルタリング
