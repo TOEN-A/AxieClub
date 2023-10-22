@@ -25,12 +25,12 @@ const Ball = ({
   return (
     <>
       <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-        <ambientLight intensity={0.45} />
+        <ambientLight intensity={0.35} />
         <directionalLight position={[0.05, 0.1, 0.05]} />
         <mesh castShadow receiveShadow scale={scale}>
           <icosahedronGeometry args={[1, 1]} />
           <meshStandardMaterial
-            color={selectedClasses.includes(selected) ? '#94A3B8' : '#fff8eb'}
+            color={selectedClasses.includes(selected) ? '#66CDAA' : '#fff8eb'}
             polygonOffset
             polygonOffsetFactor={-5}
             flatShading

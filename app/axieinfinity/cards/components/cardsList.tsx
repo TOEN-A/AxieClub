@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import { Database } from '@/database.types'
 import { format } from 'date-fns'
-import type { CardsApiResponse, Item } from '../models/cards.type'
+import type { CardsApiResponse, Item } from '../models/ICards'
 import Toggle from '@/app/components/toggle'
 import CardSection from './cardSection'
 import CardsPart from './cartsPart'
@@ -14,6 +14,8 @@ import { axieParts } from '../models/axieParts'
 import { FadeInSlideDown } from '@/app/motion/fadeInSlideDown'
 
 type News = Database['public']['Tables']['news']['Row']
+
+const cardsJP: CardsApiResponse = require('../models/regularCardsJp.json')
 
 //IDでJsonファイルをフィルタリングする関数
 const filterJson = (cards: Item[], cardsIdList: number[]) => {
@@ -32,7 +34,6 @@ const CardsList: React.FC<{
   cardsENItems: Item[]
   news: News
 }> = ({ cardsENItems, news }) => {
-  const cardsJP: CardsApiResponse = require('../models/regularCardsJp.json')
   cardsJP._items.sort((a, b) => a.id - b.id)
   cardsENItems.sort((a, b) => a.id - b.id)
   const [selectedClass, setSelectedClass] = useState<string[]>([])
@@ -106,7 +107,6 @@ const CardsList: React.FC<{
     searchKeyword,
     isChecked,
     cardsENItems,
-    cardsJP._items,
     resetItems,
   ])
 

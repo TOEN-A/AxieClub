@@ -1,13 +1,13 @@
 [
   {
-      "rune": "neutral_4011_s5_nft",
+      "rune": "neutral_4011_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_neutral_4011_s6_nft",
+          "id": "rune_neutral_4011_s6",
           "displayOrder": 140110,
           "category": "Special",
           "rarity": "Mystic",
@@ -26,7 +26,7 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "neutral_4010_s5",
+      "rune": "neutral_4010_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
@@ -52,14 +52,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "bird_4010_s5_nft",
+      "rune": "bird_4010_s6",
       "class": "Bird",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bird_4010_s6_nft",
+          "id": "rune_bird_4010_s6",
           "displayOrder": 440100,
           "category": "Special",
           "rarity": "Mystic",
@@ -78,14 +78,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bird_4011_s5_nft",
+      "rune": "bird_4011_s6",
       "class": "Bird",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bird_4011_s6_nft",
+          "id": "rune_bird_4011_s6",
           "displayOrder": 440110,
           "category": "Special",
           "rarity": "Mystic",
@@ -104,14 +104,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "aquatic_4011_s5_nft",
+      "rune": "aquatic_4011_s6",
       "class": "Aquatic",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_aquatic_4011_s6_nft",
+          "id": "rune_aquatic_4011_s6",
           "displayOrder": 640110,
           "category": "Special",
           "rarity": "Mystic",
@@ -130,14 +130,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "aquatic_4010_s5_nft",
+      "rune": "aquatic_4010_s6",
       "class": "Aquatic",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_aquatic_4010_s6_nft",
+          "id": "rune_aquatic_4010_s6",
           "displayOrder": 640100,
           "category": "Special",
           "rarity": "Mystic",
@@ -156,14 +156,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "plant_4010_s5_nft",
+      "rune": "plant_4010_s6",
       "class": "Plant",
       "craftable": true,
       "weight": 100,
       "hp": 40,
       "hpPct": 0,
       "item": {
-          "id": "rune_plant_4010_s6_nft",
+          "id": "rune_plant_4010_s6",
           "displayOrder": 540100,
           "category": "Special",
           "rarity": "Mystic",
@@ -182,14 +182,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "plant_4011_s5_nft",
+      "rune": "plant_4011_s6",
       "class": "Plant",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_plant_4011_s6_nft",
+          "id": "rune_plant_4011_s6",
           "displayOrder": 540110,
           "category": "Special",
           "rarity": "Mystic",
@@ -208,14 +208,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "reptile_4011_s5_nft",
+      "rune": "reptile_4011_s6",
       "class": "Reptile",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_reptile_4011_s6_nft",
+          "id": "rune_reptile_4011_s6",
           "displayOrder": 740110,
           "category": "Special",
           "rarity": "Mystic",
@@ -234,14 +234,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "reptile_4010_s5_nft",
+      "rune": "reptile_4010_s6",
       "class": "Reptile",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_reptile_4010_s6_nft",
+          "id": "rune_reptile_4010_s6",
           "displayOrder": 740100,
           "category": "Special",
           "rarity": "Mystic",
@@ -260,14 +260,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "beast_4011_s5_nft",
+      "rune": "beast_4011_s6",
       "class": "Beast",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_beast_4011_s6_nft",
+          "id": "rune_beast_4011_s6",
           "displayOrder": 240110,
           "category": "Special",
           "rarity": "Mystic",
@@ -286,14 +286,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "beast_4010_s5_nft",
+      "rune": "beast_4010_s6",
       "class": "Beast",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_beast_4010_s6_nft",
+          "id": "rune_beast_4010_s6",
           "displayOrder": 240100,
           "category": "Special",
           "rarity": "Mystic",
@@ -312,14 +312,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bug_4010_s5_nft",
+      "rune": "bug_4010_s6",
       "class": "Bug",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bug_4010_s6_nft",
+          "id": "rune_bug_4010_s6",
           "displayOrder": 340100,
           "category": "Special",
           "rarity": "Mystic",
@@ -338,14 +338,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "bug_4011_s5_nft",
+      "rune": "bug_4011_s6",
       "class": "Bug",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bug_4011_s6_nft",
+          "id": "rune_bug_4011_s6",
           "displayOrder": 340110,
           "category": "Special",
           "rarity": "Mystic",
@@ -364,14 +364,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dawn_4011_s5_nft",
+      "rune": "dawn_4011_s6",
       "class": "Dawn",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dawn_4011_s6_nft",
+          "id": "rune_dawn_4011_s6",
           "displayOrder": 940110,
           "category": "Special",
           "rarity": "Mystic",
@@ -390,14 +390,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dawn_4010_s5_nft",
+      "rune": "dawn_4010_s6",
       "class": "Dawn",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dawn_4010_s6_nft",
+          "id": "rune_dawn_4010_s6",
           "displayOrder": 940100,
           "category": "Special",
           "rarity": "Mystic",
@@ -416,14 +416,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "dusk_4011_s5_nft",
+      "rune": "dusk_4011_s6",
       "class": "Dusk",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dusk_4011_s6_nft",
+          "id": "rune_dusk_4011_s6",
           "displayOrder": 1040110,
           "category": "Special",
           "rarity": "Mystic",
@@ -442,14 +442,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dusk_4010_s5_nft",
+      "rune": "dusk_4010_s6",
       "class": "Dusk",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dusk_4010_s6_nft",
+          "id": "rune_dusk_4010_s6",
           "displayOrder": 1040100,
           "category": "Special",
           "rarity": "Mystic",
@@ -468,14 +468,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "mech_4011_s5_nft",
+      "rune": "mech_4011_s6",
       "class": "Mech",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_mech_4011_s6_nft",
+          "id": "rune_mech_4011_s6",
           "displayOrder": 840110,
           "category": "Special",
           "rarity": "Mystic",
@@ -494,14 +494,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "mech_4010_s5_nft",
+      "rune": "mech_4010_s6",
       "class": "Mech",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_mech_4010_s6_nft",
+          "id": "rune_mech_4010_s6",
           "displayOrder": 840100,
           "category": "Special",
           "rarity": "Mystic",
@@ -520,14 +520,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "neutral_3011_s5_nft",
+      "rune": "neutral_3011_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_neutral_3011_s6_nft",
+          "id": "rune_neutral_3011_s6",
           "displayOrder": 130110,
           "category": "Special",
           "rarity": "Epic",
@@ -546,7 +546,7 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "neutral_3012_s5",
+      "rune": "neutral_3012_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
@@ -572,7 +572,7 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "neutral_3010_s5",
+      "rune": "neutral_3010_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
@@ -598,14 +598,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bird_3011_s5_nft",
+      "rune": "bird_3011_s6",
       "class": "Bird",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bird_3011_s6_nft",
+          "id": "rune_bird_3011_s6",
           "displayOrder": 430110,
           "category": "Special",
           "rarity": "Epic",
@@ -624,14 +624,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "bird_3010_s5_nft",
+      "rune": "bird_3010_s6",
       "class": "Bird",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bird_3010_s6_nft",
+          "id": "rune_bird_3010_s6",
           "displayOrder": 430100,
           "category": "Special",
           "rarity": "Epic",
@@ -650,14 +650,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bird_3012_s5_nft",
+      "rune": "bird_3012_s6",
       "class": "Bird",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bird_3012_s6_nft",
+          "id": "rune_bird_3012_s6",
           "displayOrder": 430120,
           "category": "Special",
           "rarity": "Epic",
@@ -676,14 +676,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "aquatic_3010_s5_nft",
+      "rune": "aquatic_3010_s6",
       "class": "Aquatic",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_aquatic_3010_s6_nft",
+          "id": "rune_aquatic_3010_s6",
           "displayOrder": 630100,
           "category": "Special",
           "rarity": "Epic",
@@ -702,14 +702,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "aquatic_3011_s5_nft",
+      "rune": "aquatic_3011_s6",
       "class": "Aquatic",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_aquatic_3011_s6_nft",
+          "id": "rune_aquatic_3011_s6",
           "displayOrder": 630110,
           "category": "Special",
           "rarity": "Epic",
@@ -728,14 +728,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "aquatic_3012_s5_nft",
+      "rune": "aquatic_3012_s6",
       "class": "Aquatic",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_aquatic_3012_s6_nft",
+          "id": "rune_aquatic_3012_s6",
           "displayOrder": 630120,
           "category": "Special",
           "rarity": "Epic",
@@ -754,14 +754,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "plant_3011_s5_nft",
+      "rune": "plant_3011_s6",
       "class": "Plant",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_plant_3011_s6_nft",
+          "id": "rune_plant_3011_s6",
           "displayOrder": 530110,
           "category": "Special",
           "rarity": "Epic",
@@ -780,14 +780,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "plant_3010_s5_nft",
+      "rune": "plant_3010_s6",
       "class": "Plant",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_plant_3010_s6_nft",
+          "id": "rune_plant_3010_s6",
           "displayOrder": 530100,
           "category": "Special",
           "rarity": "Epic",
@@ -806,14 +806,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "plant_3012_s5_nft",
+      "rune": "plant_3012_s6",
       "class": "Plant",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_plant_3012_s6_nft",
+          "id": "rune_plant_3012_s6",
           "displayOrder": 530120,
           "category": "Special",
           "rarity": "Epic",
@@ -832,14 +832,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "reptile_3011_s5_nft",
+      "rune": "reptile_3011_s6",
       "class": "Reptile",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_reptile_3011_s6_nft",
+          "id": "rune_reptile_3011_s6",
           "displayOrder": 730110,
           "category": "Special",
           "rarity": "Epic",
@@ -858,14 +858,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "reptile_3010_s5_nft",
+      "rune": "reptile_3010_s6",
       "class": "Reptile",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_reptile_3010_s6_nft",
+          "id": "rune_reptile_3010_s6",
           "displayOrder": 730100,
           "category": "Special",
           "rarity": "Epic",
@@ -884,14 +884,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "reptile_3012_s5_nft",
+      "rune": "reptile_3012_s6",
       "class": "Reptile",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_reptile_3012_s6_nft",
+          "id": "rune_reptile_3012_s6",
           "displayOrder": 730120,
           "category": "Special",
           "rarity": "Epic",
@@ -910,14 +910,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "beast_3012_s5_nft",
+      "rune": "beast_3012_s6",
       "class": "Beast",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_beast_3012_s6_nft",
+          "id": "rune_beast_3012_s6",
           "displayOrder": 230120,
           "category": "Special",
           "rarity": "Epic",
@@ -936,14 +936,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "beast_3010_s5_nft",
+      "rune": "beast_3010_s6",
       "class": "Beast",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_beast_3010_s6_nft",
+          "id": "rune_beast_3010_s6",
           "displayOrder": 230100,
           "category": "Special",
           "rarity": "Epic",
@@ -962,14 +962,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "beast_3011_s5_nft",
+      "rune": "beast_3011_s6",
       "class": "Beast",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_beast_3011_s6_nft",
+          "id": "rune_beast_3011_s6",
           "displayOrder": 230110,
           "category": "Special",
           "rarity": "Epic",
@@ -988,14 +988,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "bug_3012_s5_nft",
+      "rune": "bug_3012_s6",
       "class": "Bug",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bug_3012_s6_nft",
+          "id": "rune_bug_3012_s6",
           "displayOrder": 330120,
           "category": "Special",
           "rarity": "Epic",
@@ -1014,14 +1014,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bug_3010_s5_nft",
+      "rune": "bug_3010_s6",
       "class": "Bug",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bug_3010_s6_nft",
+          "id": "rune_bug_3010_s6",
           "displayOrder": 330100,
           "category": "Special",
           "rarity": "Epic",
@@ -1040,14 +1040,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bug_3011_s5_nft",
+      "rune": "bug_3011_s6",
       "class": "Bug",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bug_3011_s6_nft",
+          "id": "rune_bug_3011_s6",
           "displayOrder": 330110,
           "category": "Special",
           "rarity": "Epic",
@@ -1066,14 +1066,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dawn_3012_s5_nft",
+      "rune": "dawn_3012_s6",
       "class": "Dawn",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dawn_3012_s6_nft",
+          "id": "rune_dawn_3012_s6",
           "displayOrder": 930120,
           "category": "Special",
           "rarity": "Epic",
@@ -1092,14 +1092,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dawn_3011_s5_nft",
+      "rune": "dawn_3011_s6",
       "class": "Dawn",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dawn_3011_s6_nft",
+          "id": "rune_dawn_3011_s6",
           "displayOrder": 930110,
           "category": "Special",
           "rarity": "Epic",
@@ -1118,14 +1118,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dawn_3010_s5_nft",
+      "rune": "dawn_3010_s6",
       "class": "Dawn",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dawn_3010_s6_nft",
+          "id": "rune_dawn_3010_s6",
           "displayOrder": 930100,
           "category": "Special",
           "rarity": "Epic",
@@ -1144,14 +1144,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "dusk_3012_s5_nft",
+      "rune": "dusk_3012_s6",
       "class": "Dusk",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dusk_3012_s6_nft",
+          "id": "rune_dusk_3012_s6",
           "displayOrder": 1030120,
           "category": "Special",
           "rarity": "Epic",
@@ -1170,14 +1170,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dusk_3010_s5_nft",
+      "rune": "dusk_3010_s6",
       "class": "Dusk",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dusk_3010_s6_nft",
+          "id": "rune_dusk_3010_s6",
           "displayOrder": 1030100,
           "category": "Special",
           "rarity": "Epic",
@@ -1196,14 +1196,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dusk_3011_s5_nft",
+      "rune": "dusk_3011_s6",
       "class": "Dusk",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dusk_3011_s6_nft",
+          "id": "rune_dusk_3011_s6",
           "displayOrder": 1030110,
           "category": "Special",
           "rarity": "Epic",
@@ -1222,14 +1222,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "mech_3011_s5_nft",
+      "rune": "mech_3011_s6",
       "class": "Mech",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_mech_3011_s6_nft",
+          "id": "rune_mech_3011_s6",
           "displayOrder": 830110,
           "category": "Special",
           "rarity": "Epic",
@@ -1248,14 +1248,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "mech_3010_s5_nft",
+      "rune": "mech_3010_s6",
       "class": "Mech",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_mech_3010_s6_nft",
+          "id": "rune_mech_3010_s6",
           "displayOrder": 830100,
           "category": "Special",
           "rarity": "Epic",
@@ -1274,14 +1274,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "mech_3012_s5_nft",
+      "rune": "mech_3012_s6",
       "class": "Mech",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_mech_3012_s6_nft",
+          "id": "rune_mech_3012_s6",
           "displayOrder": 830120,
           "category": "Special",
           "rarity": "Epic",
@@ -1300,14 +1300,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "neutral_2011_s5_nft",
+      "rune": "neutral_2011_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_neutral_2011_s6_nft",
+          "id": "rune_neutral_2011_s6",
           "displayOrder": 120110,
           "category": "Special",
           "rarity": "Rare",
@@ -1326,14 +1326,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "neutral_2010_s5_nft",
+      "rune": "neutral_2010_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_neutral_2010_s6_nft",
+          "id": "rune_neutral_2010_s6",
           "displayOrder": 120100,
           "category": "Special",
           "rarity": "Rare",
@@ -1352,14 +1352,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bird_2011_s5_nft",
+      "rune": "bird_2011_s6",
       "class": "Bird",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bird_2011_s6_nft",
+          "id": "rune_bird_2011_s6",
           "displayOrder": 420110,
           "category": "Special",
           "rarity": "Rare",
@@ -1378,14 +1378,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bird_2010_s5_nft",
+      "rune": "bird_2010_s6",
       "class": "Bird",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bird_2010_s6_nft",
+          "id": "rune_bird_2010_s6",
           "displayOrder": 420100,
           "category": "Special",
           "rarity": "Rare",
@@ -1404,14 +1404,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "aquatic_2010_s5_nft",
+      "rune": "aquatic_2010_s6",
       "class": "Aquatic",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_aquatic_2010_s6_nft",
+          "id": "rune_aquatic_2010_s6",
           "displayOrder": 620100,
           "category": "Special",
           "rarity": "Rare",
@@ -1430,14 +1430,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "aquatic_2011_s5_nft",
+      "rune": "aquatic_2011_s6",
       "class": "Aquatic",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_aquatic_2011_s6_nft",
+          "id": "rune_aquatic_2011_s6",
           "displayOrder": 620110,
           "category": "Special",
           "rarity": "Rare",
@@ -1456,14 +1456,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "plant_2011_s5_nft",
+      "rune": "plant_2011_s6",
       "class": "Plant",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_plant_2011_s6_nft",
+          "id": "rune_plant_2011_s6",
           "displayOrder": 520110,
           "category": "Special",
           "rarity": "Rare",
@@ -1482,14 +1482,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "plant_2010_s5_nft",
+      "rune": "plant_2010_s6",
       "class": "Plant",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 8,
       "item": {
-          "id": "rune_plant_2010_s6_nft",
+          "id": "rune_plant_2010_s6",
           "displayOrder": 520100,
           "category": "Special",
           "rarity": "Rare",
@@ -1508,14 +1508,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "reptile_2011_s5_nft",
+      "rune": "reptile_2011_s6",
       "class": "Reptile",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_reptile_2011_s6_nft",
+          "id": "rune_reptile_2011_s6",
           "displayOrder": 720110,
           "category": "Special",
           "rarity": "Rare",
@@ -1534,14 +1534,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "reptile_2010_s5_nft",
+      "rune": "reptile_2010_s6",
       "class": "Reptile",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_reptile_2010_s6_nft",
+          "id": "rune_reptile_2010_s6",
           "displayOrder": 720100,
           "category": "Special",
           "rarity": "Rare",
@@ -1560,14 +1560,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "beast_2011_s5_nft",
+      "rune": "beast_2011_s6",
       "class": "Beast",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_beast_2011_s6_nft",
+          "id": "rune_beast_2011_s6",
           "displayOrder": 220110,
           "category": "Special",
           "rarity": "Rare",
@@ -1586,14 +1586,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "beast_2010_s5_nft",
+      "rune": "beast_2010_s6",
       "class": "Beast",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_beast_2010_s6_nft",
+          "id": "rune_beast_2010_s6",
           "displayOrder": 220100,
           "category": "Special",
           "rarity": "Rare",
@@ -1612,14 +1612,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bug_2011_s5_nft",
+      "rune": "bug_2011_s6",
       "class": "Bug",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bug_2011_s6_nft",
+          "id": "rune_bug_2011_s6",
           "displayOrder": 320110,
           "category": "Special",
           "rarity": "Rare",
@@ -1638,14 +1638,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "bug_2010_s5_nft",
+      "rune": "bug_2010_s6",
       "class": "Bug",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_bug_2010_s6_nft",
+          "id": "rune_bug_2010_s6",
           "displayOrder": 320100,
           "category": "Special",
           "rarity": "Rare",
@@ -1664,14 +1664,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "dawn_2010_s5_nft",
+      "rune": "dawn_2010_s6",
       "class": "Dawn",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dawn_2010_s6_nft",
+          "id": "rune_dawn_2010_s6",
           "displayOrder": 920100,
           "category": "Special",
           "rarity": "Rare",
@@ -1690,14 +1690,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dawn_2011_s5_nft",
+      "rune": "dawn_2011_s6",
       "class": "Dawn",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dawn_2011_s6_nft",
+          "id": "rune_dawn_2011_s6",
           "displayOrder": 920110,
           "category": "Special",
           "rarity": "Rare",
@@ -1716,14 +1716,14 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "dusk_2011_s5_nft",
+      "rune": "dusk_2011_s6",
       "class": "Dusk",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dusk_2011_s6_nft",
+          "id": "rune_dusk_2011_s6",
           "displayOrder": 1020110,
           "category": "Special",
           "rarity": "Rare",
@@ -1742,14 +1742,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "dusk_2010_s5_nft",
+      "rune": "dusk_2010_s6",
       "class": "Dusk",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_dusk_2010_s6_nft",
+          "id": "rune_dusk_2010_s6",
           "displayOrder": 1020100,
           "category": "Special",
           "rarity": "Rare",
@@ -1768,14 +1768,14 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "mech_2010_s5_nft",
+      "rune": "mech_2010_s6",
       "class": "Mech",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_mech_2010_s6_nft",
+          "id": "rune_mech_2010_s6",
           "displayOrder": 820100,
           "category": "Special",
           "rarity": "Rare",
@@ -1794,14 +1794,14 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "mech_2011_s5_nft",
+      "rune": "mech_2011_s6",
       "class": "Mech",
       "craftable": true,
       "weight": 100,
       "hp": 0,
       "hpPct": 0,
       "item": {
-          "id": "rune_mech_2011_s6_nft",
+          "id": "rune_mech_2011_s6",
           "displayOrder": 820110,
           "category": "Special",
           "rarity": "Rare",
@@ -1820,7 +1820,7 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "neutral_1013_s5",
+      "rune": "neutral_1013_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
@@ -1846,7 +1846,7 @@
       "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
   },
   {
-      "rune": "neutral_1010_s5",
+      "rune": "neutral_1010_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
@@ -1872,7 +1872,7 @@
       "_etag": "99b8196a16e4eb09293b757da13d9430"
   },
   {
-      "rune": "neutral_1011_s5",
+      "rune": "neutral_1011_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,
@@ -1898,7 +1898,7 @@
       "_etag": "24e2c1e7286670cda57d731d26f2a22d"
   },
   {
-      "rune": "neutral_1012_s5",
+      "rune": "neutral_1012_s6",
       "class": "Neutral",
       "craftable": true,
       "weight": 100,

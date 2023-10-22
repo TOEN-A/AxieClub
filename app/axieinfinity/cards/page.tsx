@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import { Database } from '@/database.types'
 import Spinner from '@/app/components/spinner'
 import CardsList from './components/cardsList'
-import { CardsApiResponse, Item } from './models/cards.type'
+import { CardsApiResponse, Item } from './models/ICards'
 import { fetchNews } from '@/app/components/newsAndUpdatedList'
 import { cardsIdList } from './models/cardsIdList'
 

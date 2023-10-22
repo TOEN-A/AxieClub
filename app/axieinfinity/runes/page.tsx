@@ -1,4 +1,4 @@
-import type { RunesApiResponse, Rune } from './models/runes.type'
+import type { RunesApiResponse, Rune } from './models/IRunes'
 import { Database } from '@/database.types'
 import { fetchNews } from '@/app/components/newsAndUpdatedList'
 import RunesList from './components/runesList'
@@ -13,6 +13,15 @@ const filterJson = (runes: Rune[], season: string) => {
       (rune, index, self) =>
         self.findIndex((r) => r.item.name === rune.item.name) === index
     )
+    .map(rune => {
+      if (rune.item.id.includes('_nft')) {
+        rune.item.id = rune.item.id.replace('_nft', '');
+      }
+      if (rune.rune.includes('_nft')) {
+        rune.rune = rune.rune.replace('_nft', '');
+      }
+      return rune;
+    });
   return filtered
 }
 
@@ -86,7 +95,7 @@ const fetchAllRunes = async () => {
 
 const RunesPage = async () => {
   const news = (await fetchNews()).find(
-    (item) => item.id === '19cdb6bc-b2ce-4500-b0d8-8516e4047640'
+    (item) => item.id === '9ef7f75e-b5af-4eb3-81fb-000d0da44722'
   ) as News
   const runesEN = await fetchAllRunes()
   const runesENSeason6 = filterJson(runesEN, 'Season 6').sort((a, b) => {
@@ -105,7 +114,7 @@ const RunesPage = async () => {
     return rarityComparison
   })
   return (
-    <div className="m-10 mt-28 text-center h-full">
+    <div className="m-10 pt-24 text-center h-full">
       <RunesList runesEN={runesENSeason6} news={news} />
     </div>
   )

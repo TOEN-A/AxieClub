@@ -4,7 +4,8 @@ import { supabaseUrl } from '@/app/constants/url'
 import { GiAbstract091 } from 'react-icons/gi'
 import HighlightAndHover from '@/app/components/highlightAndHover'
 import { subtext } from '../../models/subtext'
-import { sub } from 'date-fns'
+import { axieClassJP } from '../models/axieClasses'
+import { rarityJP } from '../models/rarity'
 
 const RuneInfo = ({
   axieClass,
@@ -13,6 +14,7 @@ const RuneInfo = ({
   season,
   description,
   imageUrl,
+  isChecked,
 }: {
   axieClass: string
   name: string
@@ -20,11 +22,14 @@ const RuneInfo = ({
   season: string
   description: string
   imageUrl: string
+  isChecked: boolean
 }) => {
   return (
     <div className="flex flex-row gap-2 w-full">
       <div className="flex flex-wrap justify-center basis-1/5">
-        <div className="text-[15px] md:text-[18px] lg:[21px] font-semibold w-full">{name}</div>
+        <div className="text-[12px] md:text-[13px] lg:text-[16px] font-semibold w-full">
+          {name}
+        </div>
         <Image
           src={imageUrl}
           height={80}
@@ -42,7 +47,9 @@ const RuneInfo = ({
             alt={axieClass}
             className="w-[20px] mr-1"
           />
-          <p className="text-[13px] md:text-[17px] lg:[19px] mr-2">{axieClass}</p>
+          <p className="text-[11px] md:text-[12px] lg:text-[15px] mr-2">
+            {isChecked ? axieClass : axieClassJP[axieClass]}
+          </p>
           <Image
             src={`${supabaseUrl}/storage/v1/object/public/images/rarityIcon/${rarity}.png`}
             height={40}
@@ -50,13 +57,22 @@ const RuneInfo = ({
             alt={rarity}
             className="w-[20px] mr-1"
           />
-          <p className="text-[12px] md:text-[16px] lg:[18px] mr-2">{rarity}</p>
-          <GiAbstract091 size={20} className="mr-1"/>
-          <p className="text-[12px] md:text-[16px] lg:[18px]">{season}</p>
+          <p className="text-[11px] md:text-[12px] lg:text-[15px] mr-2">
+            {isChecked ? rarity : rarityJP[rarity]}
+          </p>
+          <GiAbstract091 size={20} className="mr-1" />
+          <p className="text-[11px] md:text-[12px] lg:text-[15px]">
+            {isChecked ? season : season.replace('Season ', 'シーズン')}
+          </p>
         </div>
-        <div className="text-[12px] md:text-[16px] lg:[18px] mt-2">
-          <HighlightAndHover textWithHighlights={description} contentMap={subtext} textColor='text-blue-700'/>
-          </div>
+        <div className="text-[11px] md:text-[12px] lg:text-[15px] mt-2 mr-2">
+          <HighlightAndHover
+            textWithHighlights={description}
+            contentMap={subtext}
+            textColor="text-blue-700"
+            textAlignment='left'
+          />
+        </div>
       </div>
     </div>
   )

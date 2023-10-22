@@ -20,7 +20,8 @@ const HighlightAndHover: React.FC<{
   textWithHighlights: string
   contentMap: ContentMap
   textColor?: string
-}> = ({ textWithHighlights, contentMap, textColor }) => {
+  textAlignment?: string
+}> = ({ textWithHighlights, contentMap, textColor, textAlignment }) => {
   const [hoveredContent, setHoveredContent] = useState<string>('')
   const [hoveredContent2, setHoveredContent2] = useState<string>('')
   const [hoveredContent3, setHoveredContent3] = useState<string>('')
@@ -253,7 +254,7 @@ const HighlightAndHover: React.FC<{
     })
 
   return (
-    <div className="relative">
+    <div className={`relative  text-${textAlignment ? textAlignment : "center"}`}>
       <div>{parsedText}</div>
     </div>
   )
