@@ -859,4 +859,10 @@ export const subtext: ContentMap = {
       'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/ScanJP.png',
     ],
   },
+  スプラッシュDMG: {
+    text: [
+      'スプラッシュDMG:メインの対象へのDMGに基づき、他のすべての対象にDMGを与える。',
+    ],
+    images: [],
+  },
 }
