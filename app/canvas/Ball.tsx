@@ -61,7 +61,7 @@ const BallCanvas = ({
   selected: string
 }) => {
   return (
-    <Canvas>
+    <Canvas gl={{ powerPreference: 'high-performance' }}>
       <OrbitControls enableZoom={false} enablePan={false} />
       <Suspense>
         <Ball url={url} scale={scale} selected={selected} />
