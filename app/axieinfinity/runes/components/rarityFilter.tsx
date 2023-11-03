@@ -5,10 +5,13 @@ import { rarity } from '../models/rarity'
 import React from 'react'
 import { supabaseUrl } from '@/app/constants/url'
 import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
+import ForAndroidBall from '@/app/canvas/ForAndroidBall'
 
 const RarityFilter = ({
+  isAndroid,
   handleSelectButton,
 }: {
+  isAndroid: boolean
   handleSelectButton: (buttonValue: string) => void
 }) => {
   return (
@@ -20,12 +23,21 @@ const RarityFilter = ({
             key={info.rarity}
             onClick={() => handleSelectButton(info.rarity)}
           >
-            <BallCanvas
-              key={info.rarity}
-              url={`${supabaseUrl}/storage/v1/object/public/images/rarityIcon/${info.rarity}.png`}
-              scale={2.25}
-              selected={info.rarity}
-            />
+            {isAndroid ? (
+              <div className='mt-1 flex justify-center items-center'>
+                <ForAndroidBall
+                  url={`${supabaseUrl}/storage/v1/object/public/images/rarityIcon/${info.rarity}.png`}
+                  selected={info.rarity}
+                />
+              </div>
+            ) : (
+              <BallCanvas
+                key={info.rarity}
+                url={`${supabaseUrl}/storage/v1/object/public/images/rarityIcon/${info.rarity}.png`}
+                scale={2.25}
+                selected={info.rarity}
+              />
+            )}
           </div>
         </FadeInSlideLeft>
       ))}

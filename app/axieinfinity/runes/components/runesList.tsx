@@ -45,6 +45,15 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
   const [selectedClasses, setSelectedClasses] = useState<string[]>([])
   const [selectedRarity, setSelectedRarity] = useState<string[]>([])
   const [isChecked, setIsChecked] = useState(false)
+  const [isAndroid, setIsAndroid] = useState(false)
+
+  useEffect(() => {
+    // ユーザーエージェント文字列を取得
+    const userAgent = navigator.userAgent
+
+    // アンドロイド端末でアクセスされたかどうかを判別
+    setIsAndroid(/Android/i.test(userAgent))
+  }, [])
 
   useEffect(() => {
     // キーワードのフィルタリング
@@ -185,12 +194,12 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
           </FadeInSlideUp>
           <div>
             <SelectedOption.Provider value={selectedClasses}>
-              <ClassFilter handleSelectButton={handleSelectClass} />
+              <ClassFilter isAndroid={isAndroid} handleSelectButton={handleSelectClass} />
             </SelectedOption.Provider>
           </div>
           <div>
             <SelectedOption.Provider value={selectedRarity}>
-              <RarityFilter handleSelectButton={handleSelectRarity} />
+              <RarityFilter isAndroid={isAndroid} handleSelectButton={handleSelectRarity} />
             </SelectedOption.Provider>
           </div>
           <div className="flex flex-wrap gap-4 justify-center mt-10">
