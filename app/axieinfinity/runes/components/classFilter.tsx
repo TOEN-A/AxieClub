@@ -4,10 +4,13 @@ import BallCanvas from '@/app/canvas/Ball'
 import { axieClasses } from '../models/axieClasses'
 import { supabaseUrl } from '@/app/constants/url'
 import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
+import ForAndroidBall from '@/app/canvas/ForAndroidBall'
 
 const ClassFilter = ({
+  isAndroid,
   handleSelectButton,
 }: {
+  isAndroid: boolean
   handleSelectButton: (buttonValue: string) => void
 }) => {
   return (
@@ -19,12 +22,21 @@ const ClassFilter = ({
             key={axieClass.class}
             onClick={() => handleSelectButton(axieClass.class)}
           >
-            <BallCanvas
-              key={axieClass.class}
-              url={`${supabaseUrl}/storage/v1/object/public/images/classIcon/${axieClass.class}.png`}
-              scale={2.25}
-              selected={axieClass.class}
-            />
+            {isAndroid ? (
+              <div className="flex justify-center items-center">
+                <ForAndroidBall
+                  url={`${supabaseUrl}/storage/v1/object/public/images/classIcon/${axieClass.class}.png`}
+                  selected={axieClass.class}
+                />
+              </div>
+            ) : (
+              <BallCanvas
+                key={axieClass.class}
+                url={`${supabaseUrl}/storage/v1/object/public/images/classIcon/${axieClass.class}.png`}
+                scale={2.25}
+                selected={axieClass.class}
+              />
+            )}
           </div>
         </FadeInSlideLeft>
       ))}

@@ -21,10 +21,10 @@ const Ball = ({
 }) => {
   const [map] = useTexture([url || ''])
 
-  const selectedClasses = useContext(SelectedOption)
+  const selectedOptions = useContext(SelectedOption)
   const materialColor = useMemo(
-    () => (selectedClasses.includes(selected) ? '#66CDAA' : '#fff8eb'),
-    [selectedClasses, selected]
+    () => (selectedOptions.includes(selected) ? '#66CDAA' : '#fff8eb'),
+    [selectedOptions, selected]
   )
 
   return (

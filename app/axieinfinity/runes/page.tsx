@@ -114,7 +114,7 @@ const RunesPage = async () => {
     return rarityComparison
   })
   return (
-    <div className="m-10 pt-24 text-center h-full">
+    <div className="mt-10 mb-10 pt-24 text-center h-full">
       <RunesList runesEN={runesENSeason6} news={news} />
     </div>
   )

@@ -5,13 +5,12 @@ import { FadeIn } from './fadeIn'
 
 const HoverBigCard = ({
   children,
-  index,
 }: {
   children: React.ReactNode
   index: number
 }) => {
   return (
-    <div className="xs:w-[250px] w-[98%] hover:w-[100%] lg:w-[75%] lg:hover:w-[80%]">
+    <div className="xs:w-[250px] w-[93%] hover:w-[95%] lg:w-[75%] lg:hover:w-[80%]">
       <FadeIn delayTime={0}>
           <div
             className="w-full bg-black bg-opacity-50 
