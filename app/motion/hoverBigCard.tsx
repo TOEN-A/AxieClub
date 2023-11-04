@@ -10,7 +10,7 @@ const HoverBigCard = ({
   index: number
 }) => {
   return (
-    <div className="xs:w-[250px] w-[93%] hover:w-[95%] lg:w-[75%] lg:hover:w-[80%]">
+    <div className="xs:w-[250px] w-[93%] lg:w-[75%] lg:hover:w-[80%]">
       <FadeIn delayTime={0}>
           <div
             className="w-full bg-black bg-opacity-50 

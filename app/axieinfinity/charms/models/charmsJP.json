@@ -1,0 +1,2885 @@
+[
+  {
+      "class": "Neutral",
+      "potentialPoint": 5,
+      "code": "S6_Neutral_RocketStamp",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_4010_s6",
+          "displayOrder": 10140101,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Single Attacks)\nChange target to any Enemy or ally. Deal -15% DMG.",
+          "name": "Rocket Stamp",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_5001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 5,
+      "code": "S6_Neutral_Banish",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 25,
+      "shieldPct": 25,
+      "healPct": 25,
+      "item": {
+          "id": "ecard_neutral_4011_s6",
+          "displayOrder": 10140111,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Any)\n<Exile>. +25% Stats.",
+          "name": "Energy Drink M",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_5005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bird_AdditionalAttack",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_4011_s6_nft",
+          "displayOrder": 10440110,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Single Attacks)\nDeal 45% DMG to another random target.",
+          "name": "Storm Shuriken",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006047",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_storm_shuriken.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bird_Weak",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_4010_s6_nft",
+          "displayOrder": 10440100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Attacks)\nApply 2 {Weak}. +10% DMG to targets with {Weak}.",
+          "name": "Flamingo Hammer",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006046",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_5005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 4,
+      "code": "S6NFT_Aquatic_Jinx",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack",
+          "heal",
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -15,
+      "shieldPct": -15,
+      "healPct": -15,
+      "item": {
+          "id": "ecard_aquatic_4010_s6_nft",
+          "displayOrder": 10640100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Attacks/Heals/Shields)\nShuffle 1 [Jinx] into Enemy Discard Pile. -15% Stat.",
+          "name": "Paralyzing JellyFish",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006064",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_5005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 4,
+      "code": "S6NFT_Aquatic_SplashAttack",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_4011_s6_nft",
+          "displayOrder": 10640110,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Single Attacks)\nDeal 25% <Splash DMG>.",
+          "name": "Exploding Bombshell",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006065",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_exploding_bombshell.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 4,
+      "code": "S6NFT_Plant_Cleanse",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "heal",
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 20,
+      "healPct": 20,
+      "item": {
+          "id": "ecard_plant_4010_s6_nft",
+          "displayOrder": 10540100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Heals & Shields)\n+20% Stats. <Cleanse>: 2.\nBonus <Cleanse>: 2 on Single Targets.",
+          "name": "Red Sage",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006055",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_4010.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 4,
+      "code": "S6NFT_Plant_ExtraHeal",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack",
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_plant_4011_s6_nft",
+          "displayOrder": 10540110,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Attacks & Shields)\nShields heal the target for 40% of Shield granted. Attacks heal this Axie for 40% of Unblocked DMG.",
+          "name": "Oak Bud",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006056",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_oak_bud.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 4,
+      "code": "S6NFT_Reptile_DebuffPoison",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "debuff"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -10,
+      "shieldPct": -10,
+      "healPct": -10,
+      "item": {
+          "id": "ecard_reptile_4011_s6_nft",
+          "displayOrder": 10740110,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Debuffs)\nApply 4 {Poison} per Energy Cost to 1 random enemy Axie. -10% Stat.",
+          "name": "Gloves of Infection",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006074",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_glove_of_infection.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 4,
+      "code": "S6NFT_Reptile_BloodThorn",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_reptile_4010_s6_nft",
+          "displayOrder": 10740100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Any)\nLose 12 HP and +6 {Bloodspike}.",
+          "name": "Reptile's Energy Drink M",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006073",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_5004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 4,
+      "code": "S6NFT_Beast_Bleed",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -10,
+      "shieldPct": -10,
+      "healPct": -10,
+      "item": {
+          "id": "ecard_beast_4010_s6_nft",
+          "displayOrder": 10240100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Attacks)\nApply 2 {Bleed}. On targets with >4 {Bleed}, apply 1 {Grievous Wound}. -10% Stat.",
+          "name": "Hidden Razor",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006028",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_5005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 4,
+      "code": "S6NFT_Beast_RemnantBlockAttack",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 30,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_4011_s6_nft",
+          "displayOrder": 10240110,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Attacks)\nCan't grant <Energy Fragment>. +30% ATK.",
+          "name": "Mad Moon Mask",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006029",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_mad_moon_mask.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bug_Discard",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_4011_s6_nft",
+          "displayOrder": 10340110,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Attacks)\nDiscard 1 random Card per Energy Cost from Enemy Hand or Draw Pile, prioritize Enemy Hand.",
+          "name": "Mantis Dagger",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006038",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_mantis_dagger.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bug_Goo",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack",
+          "heal",
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -15,
+      "shieldPct": -15,
+      "healPct": -15,
+      "item": {
+          "id": "ecard_bug_4010_s6_nft",
+          "displayOrder": 10340100,
+          "category": "Special",
+          "rarity": "Mystic",
+          "description": "(Alter Attacks/Heals/Shields)\nShuffle 1 [Goo] into Enemy Discard Pile. -15% Stat.",
+          "name": "Lazy Snail",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006037",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_5005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 5,
+      "code": "S6_Neutral_Retain",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_3012_s6",
+          "displayOrder": 10130121,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n<Retain>.",
+          "name": "Scotch Tape",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_5004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 3,
+      "code": "S6_Neutral_DeathMark",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_3010_s6",
+          "displayOrder": 10130099,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Single Attacks)\nApply 3 {Death Mark}. Apply 3 {Bleed} to self.",
+          "name": "Bloodpact",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_bloodpact.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 5,
+      "code": "S6_Neutral_Degrade",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 20,
+      "shieldPct": 20,
+      "healPct": 20,
+      "item": {
+          "id": "ecard_neutral_3013_s6",
+          "displayOrder": 10130131,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n<Degrade>. +20% Stats.",
+          "name": "Energy Drink \bS",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_5006.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 4,
+      "code": "S6NFT_Neutral_SunStamp",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_3011_s6_nft",
+          "displayOrder": 10130110,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Single Attacks)\n<Ambush>. Deal -10% DMG.",
+          "name": "Sun Stamp",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006016",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 2,
+      "code": "S6NFT_Bird_Focus_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 6,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_3011_s6_nft",
+          "displayOrder": 10430110,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "Alter Multihit & <AoE> Attacks)\nATK +6. Max HP -6.",
+          "name": "Bird's Charm of Focus II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006043",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_5002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bird_SelfFeather",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_3012_s6_nft",
+          "displayOrder": 10430120,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n<Degrade>. +3 {Feather}.",
+          "name": "Bird's Energy Drink S",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006044",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_5004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 2,
+      "code": "S6NFT_Bird_Power_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 9,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_3010_s6_nft",
+          "displayOrder": 10430100,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Single Attacks)\nATK +9. Max HP -6.",
+          "name": "Bird's Charm of Power II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006042",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_5001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bird_AllyFeather",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_3013_s6_nft",
+          "displayOrder": 10430130,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n+1 {Feather} to allied Axies.",
+          "name": "Feather Fan",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006045",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 2,
+      "code": "S6NFT_Aquatic_Power_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 11,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_3010_s6_nft",
+          "displayOrder": 10630100,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Single Attacks)\nATK +11. Max HP -6.",
+          "name": "Aquatic's Charm of Power II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006060",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_5002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 4,
+      "code": "S6NFT_Aquatic_Retain",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_3012_s6_nft",
+          "displayOrder": 10630120,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n<Retain>. If Retained, gain 1 <Energy Fragment> when played.",
+          "name": "Sticky Octopus",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006062",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_5004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 4,
+      "code": "S6NFT_Aquatic_AllyBubble",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_3013_s6_nft",
+          "displayOrder": 10630130,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n+1 {Bubble} to allied Axies.",
+          "name": "Bubble Paste",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006063",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 2,
+      "code": "S6NFT_Aquatic_Focus_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 5,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_3011_s6_nft",
+          "displayOrder": 10630110,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Multihit & <AoE> Attacks)\nATK +5. Max HP -6.",
+          "name": "Aquatic's Charm of Focus II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006061",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_3011.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 2,
+      "code": "S6NFT_Plant_Faith_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "heal"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 0,
+      "shield": 0,
+      "heal": 13,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_plant_3011_s6_nft",
+          "displayOrder": 10530110,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Heals)\nHeal +13. Max HP -6.",
+          "name": "Plant's Charm of Faith II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006052",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_5002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 3,
+      "code": "S6NFT_Plant_Vitality_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 20,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -10,
+      "shieldPct": -10,
+      "healPct": -10,
+      "item": {
+          "id": "ecard_plant_3010_s6_nft",
+          "displayOrder": 10530100,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\nMax HP +20. -10% Stats.",
+          "name": "Plant's Charm of Vitality II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006051",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_3010.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 4,
+      "code": "S6NFT_Plant_Retain",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_plant_3012_s6_nft",
+          "displayOrder": 10530120,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n<Retain>. If Retained, +1 {Leaf} when played.",
+          "name": "Ancient Root",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006053",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_5004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 4,
+      "code": "S6NFT_Plant_AllyLeaf",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_plant_3013_s6_nft",
+          "displayOrder": 10530130,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n+1 {Leaf} to allied Axies.",
+          "name": "Leafy Pot",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006054",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 4,
+      "code": "S6NFT_Reptile_Retain",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_reptile_3012_s6_nft",
+          "displayOrder": 10730120,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n<Retain>. If Retained, heal 5% Max HP when played.",
+          "name": "Sticky Lizard",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006071",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_5003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 4,
+      "code": "S6NFT_Reptile_TauntAndThorn",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_reptile_3013_s6_nft",
+          "displayOrder": 10730130,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n+2 {Spike}. If this Axie doesn't have {Taunt}, apply 2 {Taunt} to self.",
+          "name": "Gecko Mask",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006072",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 2,
+      "code": "S6NFT_Reptile_Endurance_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "shield"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 0,
+      "shield": 13,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_reptile_3011_s6_nft",
+          "displayOrder": 10730110,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Shields)\nShield +13. Max HP -6.",
+          "name": "Reptile's Charm of \u001dEndurance II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006070",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_3011.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 3,
+      "code": "S6NFT_Reptile_Vitality_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 20,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -10,
+      "shieldPct": -10,
+      "healPct": -10,
+      "item": {
+          "id": "ecard_reptile_3010_s6_nft",
+          "displayOrder": 10730100,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\nMax HP +20. -10% Stats.",
+          "name": "Reptile's Charm of Vitality II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006069",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_5001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 2,
+      "code": "S6NFT_Beast_Focus_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 5,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_3011_s6_nft",
+          "displayOrder": 10230110,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Multihit & <AoE> Attacks)\nATK +5. Max HP -6.",
+          "name": "Beast's Charm of Focus II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006025",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_3011.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 2,
+      "code": "S6NFT_Beast_Power_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 11,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_3010_s6_nft",
+          "displayOrder": 10230100,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Single Attacks)\nATK +11. Max HP -6.",
+          "name": "Beast's Charm of Power II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006024",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_5001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 4,
+      "code": "S6NFT_Beast_AllyRage",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_3013_s6_nft",
+          "displayOrder": 10230130,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n+1 {Rage} to allied Axies.",
+          "name": "Mask of Frenzy",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006027",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 4,
+      "code": "S6NFT_Beast_SelfRage",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_3012_s6_nft",
+          "displayOrder": 10230120,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n<Degrade>. +2 {Rage}.",
+          "name": "Beast's Energy Drink S",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006026",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_5004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "a1be5aefa3aac82aad724cd175dc9807"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 2,
+      "code": "S6NFT_Bug_Power_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 9,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_3011_s6_nft",
+          "displayOrder": 10330110,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Single Attacks)\nATK +9. Max HP -6.",
+          "name": "Bug's Charm of Power II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006034",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_5002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 2,
+      "code": "S6NFT_Bug_Endurance_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "shield"
+      ],
+      "energy": 0,
+      "hp": -6,
+      "damage": 0,
+      "shield": 15,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_3010_s6_nft",
+          "displayOrder": 10330100,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Shields)\nShield +15. Max HP -6.",
+          "name": "Bug's Charm of Endurance II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006033",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_5001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bug_AttackToShield",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -50,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_3013_s6_nft",
+          "displayOrder": 10330130,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Attacks)\nGain 15 Shield. +35 bonus Shield per Energy Spent. -50% ATK.",
+          "name": "Bug's Energy Drink M",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006036",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_5004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 4,
+      "code": "S6NFT_Bug_SelfCocoon",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_3012_s6_nft",
+          "displayOrder": 10330120,
+          "category": "Special",
+          "rarity": "Epic",
+          "description": "(Alter Any)\n+2 {Cocoon}.",
+          "name": "Secret Cocoon",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006035",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_5003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 3,
+      "code": "S6NFT_Neutral_Dispel",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -15,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2018_s6_nft",
+          "displayOrder": 10120180,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single and AOE Attacks)\n-15% ATK. <Dispel>: 1.\nBonus <Dispel>: 3 on Single Targets.",
+          "name": "Black Sage",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006009",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_black_sage.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 4,
+      "code": "S6NFT_Neutral_BasicAttack",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2021_s6_nft",
+          "displayOrder": 10120209,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nWhen the battle starts, Exile this Card. +1 [Red Mirror] to your Deck.",
+          "name": "Red Mirror",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006012",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_red_mirror.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6NFT_Neutral_Faith_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "heal"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 6,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2014_s6_nft",
+          "displayOrder": 10120140,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Heals)\nHeal +6.",
+          "name": "Charm of Faith II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006005",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_2005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 4,
+      "code": "S6NFT_Neutral_BasicShield",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2022_s6_nft",
+          "displayOrder": 10120219,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nWhen the battle starts, Exile this Card. +1 [Blue Mirror] to your Deck.",
+          "name": "Blue Mirror",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006013",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_blue_mirror.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 2,
+      "code": "S6_Neutral_Innate",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 1,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2015_s6",
+          "displayOrder": 10120151,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\n<Innate>. Energy Cost +1.",
+          "name": "Pre Order Tag",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_5003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 2,
+      "code": "S6NFT_Neutral_Vitality_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 8,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2010_s6_nft",
+          "displayOrder": 10120100,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nMax HP +8.",
+          "name": "Charm of Vitality II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006001",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_2001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 3,
+      "code": "S6NFT_Neutral_Cleanse",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "shield",
+          "heal"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": -15,
+      "healPct": -15,
+      "item": {
+          "id": "ecard_neutral_2017_s6_nft",
+          "displayOrder": 10120170,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Heals & Shields)\n-15% Stats. <Cleanse>: 2.\nBonus <Cleanse>: 2 on Single Targets.",
+          "name": "White Sage",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006008",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_0001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6NFT_Neutral_Power_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 4,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2011_s6_nft",
+          "displayOrder": 10120110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single Attacks)\nATK +4.",
+          "name": "Charm of Power II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006002",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_2002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 3,
+      "code": "S6_Neutral_RemoveSecret",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -15,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2019_s6",
+          "displayOrder": 10120191,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single Attacks)\n<Detect>: 1. -15% ATK.",
+          "name": "Lens of Revelation",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_lens_of_revelation.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6_Neutral_Focus_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 2,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2012_s6",
+          "displayOrder": 10120121,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Multihit & <AoE> Attacks)\nATK +2.",
+          "name": "Charm of Focus II",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_2003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 3,
+      "code": "S6NFT_Neutral_Cure",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack",
+          "shield",
+          "heal"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": -15,
+      "shieldPct": -15,
+      "healPct": -15,
+      "item": {
+          "id": "ecard_neutral_2020_s6_nft",
+          "displayOrder": 10120200,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Attacks/Heals/Shields)\n<Purify>: 1. -15% Stats.",
+          "name": "Bean's Blessing",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006011",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_dawn_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 2,
+      "code": "S6NFT_Neutral_EarthStamp",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2016_s6_nft",
+          "displayOrder": 10120160,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single Attacks)\nChange target to a random enemy.\n+15% DMG on the closest enemy.",
+          "name": "Earth Stamp",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006007",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_4001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 4,
+      "code": "S6NFT_Neutral_BasicHeal",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2023_s6_nft",
+          "displayOrder": 10120229,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nWhen the battle starts, Exile this Card. +1 [Green Mirror] to your Deck.",
+          "name": "Green Mirror",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006014",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_green_mirror.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6NFT_Neutral_Endurance_2",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 6,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_2013_s6_nft",
+          "displayOrder": 10120130,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Shields)\nShield +6.",
+          "name": "Charm of Endurance II",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006004",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_2004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 1,
+      "code": "S6NFT_Bird_Power_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 5,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_2011_s6_nft",
+          "displayOrder": 10420110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single Attacks)\nATK +5.",
+          "name": "Bird's Charm of Power I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006039",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_4001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 3,
+      "code": "S6NFT_Bird_OnDraw",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_2013_s6_nft",
+          "displayOrder": 10420130,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nOn draw, deal 3 DMG to enemies.",
+          "name": "Secret Egg",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006041",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_5003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Bird",
+      "potentialPoint": 1,
+      "code": "S6NFT_Bird_Focus_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 4,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bird_2012_s6_nft",
+          "displayOrder": 10420120,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Multihit & <AoE> Attacks)\nATK +4.",
+          "name": "Bird's Charm of Focus I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006040",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bird_4002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 1,
+      "code": "S6NFT_Aquatic_Power_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 6,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_2011_s6_nft",
+          "displayOrder": 10620110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single Attacks)\nATK +6.",
+          "name": "Aquatic's Charm of Power I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006057",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_4002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 1,
+      "code": "S6NFT_Aquatic_Focus_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 3,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_2012_s6_nft",
+          "displayOrder": 10620120,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Multihit & <AoE> Attacks)\nATK +3.",
+          "name": "Aquatic's Charm of Focus I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006058",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_2012.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Aquatic",
+      "potentialPoint": 4,
+      "code": "S6NFT_Aquatic_SelfBubble",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_aquatic_2013_s6_nft",
+          "displayOrder": 10620130,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\n<Degrade>. +2 {Bubble}.",
+          "name": "Aquatic's Energy Drink S",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006059",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_aquatic_5003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 3,
+      "code": "S6NFT_Plant_OnDraw",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_plant_2013_s6_nft",
+          "displayOrder": 10520130,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nOn draw, heal 10 HP.",
+          "name": "Secret Sprout",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006050",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_5003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 1,
+      "code": "S6NFT_Plant_Faith_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "heal"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 7,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_plant_2012_s6_nft",
+          "displayOrder": 10520120,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Heals)\nHeal +7.",
+          "name": "Plant's Charm of Faith I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006049",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_4002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Plant",
+      "potentialPoint": 2,
+      "code": "S6NFT_Plant_Vitality_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 10,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_plant_2011_s6_nft",
+          "displayOrder": 10520110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nMax HP +10.",
+          "name": "Plant's Charm of Vitality I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006048",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_plant_2011.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 1,
+      "code": "S6NFT_Reptile_Endurance_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 7,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_reptile_2012_s6_nft",
+          "displayOrder": 10720120,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Shields)\nShield +7.",
+          "name": "Reptile's Charm of \u001dEndurance I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006067",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_2012.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 3,
+      "code": "S6NFT_Reptile_Poison",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_reptile_2013_s6_nft",
+          "displayOrder": 10720130,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Attacks)\nApply 2 {Poison}. +1 {Poison} on targets with < 15 {Poison}.",
+          "name": "Viper's Venom",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006068",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_5005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Reptile",
+      "potentialPoint": 2,
+      "code": "S6NFT_Reptile_Vitality_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 10,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_reptile_2011_s6_nft",
+          "displayOrder": 10720110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nMax HP +10.",
+          "name": "Reptile's Charm of Vitality I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006066",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_reptile_4001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 1,
+      "code": "S6NFT_Beast_Focus_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 3,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_2012_s6_nft",
+          "displayOrder": 10220120,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Multihit & <AoE> Attacks)\nATK +3.",
+          "name": "Beast's Charm of Focus I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006022",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_2012.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 1,
+      "code": "S6NFT_Beast_Power_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 6,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_2011_s6_nft",
+          "displayOrder": 10220110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single Attack)\nATK +6.",
+          "name": "Beast's Charm of Power I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006021",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_4001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Beast",
+      "potentialPoint": 3,
+      "code": "S6NFT_Beast_Unstable",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 20,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_beast_2013_s6_nft",
+          "displayOrder": 10220130,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Attacks)\n<Unstable>. +20% ATK.",
+          "name": "Beast's Energy Drink M",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006023",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_beast_5003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 1,
+      "code": "S6NFT_Bug_Power_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 5,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_2012_s6_nft",
+          "displayOrder": 10320120,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Single Attacks)\nATK +5.",
+          "name": "Bug's Charm of Power I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006031",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_4002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 3,
+      "code": "S6NFT_Bug_OnDraw",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_2013_s6_nft",
+          "displayOrder": 10320130,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Any)\nOn draw, gain 10 Shield.",
+          "name": "Trickster's Card",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006032",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_4003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
+  },
+  {
+      "class": "Bug",
+      "potentialPoint": 1,
+      "code": "S6NFT_Bug_Endurance_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 8,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_bug_2011_s6_nft",
+          "displayOrder": 10320110,
+          "category": "Special",
+          "rarity": "Rare",
+          "description": "(Alter Shields)\nShield +8.",
+          "name": "Bug's Charm of Endurance I",
+          "maxCopies": -1,
+          "tokenStandard": "ERC1155",
+          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
+          "tokenId": "2006030",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_bug_4001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6_Neutral_Vitality_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [],
+      "energy": 0,
+      "hp": 3,
+      "damage": 0,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_1010_s6",
+          "displayOrder": 10110101,
+          "category": "Special",
+          "rarity": "Common",
+          "description": "(Alter Any)\nMax HP +3.",
+          "name": "Charm of Vitality I",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_1001.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6_Neutral_Power_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "single_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 2,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_1011_s6",
+          "displayOrder": 10110111,
+          "category": "Special",
+          "rarity": "Common",
+          "description": "(Alter Single Attacks)\nATK +2.",
+          "name": "Charm of Power I",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_1002.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6_Neutral_Faith_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "heal"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 0,
+      "heal": 3,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_1014_s6",
+          "displayOrder": 10110141,
+          "category": "Special",
+          "rarity": "Common",
+          "description": "(Alter Heals)\nHeal +3.",
+          "name": "Charm of Faith I",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_1005.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6_Neutral_Endurance_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "shield"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 0,
+      "shield": 3,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_1013_s6",
+          "displayOrder": 10110131,
+          "category": "Special",
+          "rarity": "Common",
+          "description": "(Alter Shields)\nShield +3.",
+          "name": "Charm of Endurance I",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_1004.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
+  },
+  {
+      "class": "Neutral",
+      "potentialPoint": 1,
+      "code": "S6_Neutral_Focus_1",
+      "craftable": true,
+      "weight": 100,
+      "tags": [
+          "multihit",
+          "aoe_attack"
+      ],
+      "energy": 0,
+      "hp": 0,
+      "damage": 1,
+      "shield": 0,
+      "heal": 0,
+      "hpPct": 0,
+      "damagePct": 0,
+      "shieldPct": 0,
+      "healPct": 0,
+      "item": {
+          "id": "ecard_neutral_1012_s6",
+          "displayOrder": 10110121,
+          "category": "Special",
+          "rarity": "Common",
+          "description": "(Alter Multihit & <AoE> Attacks)\nATK +1.",
+          "name": "Charm of Focus I",
+          "maxCopies": -1,
+          "tokenStandard": "",
+          "tokenAddress": "",
+          "tokenId": "",
+          "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/ecard_neutral_1003.png"
+      },
+      "season": {
+          "id": 7,
+          "name": "Season 6"
+      },
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
+  }
+]

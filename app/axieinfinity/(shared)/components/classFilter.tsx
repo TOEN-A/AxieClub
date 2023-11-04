@@ -1,16 +1,18 @@
 'use client'
 
 import BallCanvas from '@/app/canvas/Ball'
-import { axieClasses } from '../models/axieClasses'
 import { supabaseUrl } from '@/app/constants/url'
 import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
 import ForAndroidBall from '@/app/canvas/ForAndroidBall'
+import { ObjectData } from '../models/objectData.type'
 
 const ClassFilter = ({
   isAndroid,
+  axieClasses,
   handleSelectButton,
 }: {
   isAndroid: boolean
+  axieClasses: ObjectData[]
   handleSelectButton: (buttonValue: string) => void
 }) => {
   return (

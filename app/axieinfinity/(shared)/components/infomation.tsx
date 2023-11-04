@@ -1,17 +1,20 @@
 import Image from 'next/image'
-import { colors } from '../models/colors'
 import { supabaseUrl } from '@/app/constants/url'
 import { GiAbstract091 } from 'react-icons/gi'
+import { RiMedal2Fill } from 'react-icons/ri'
+import { PiMedalFill } from 'react-icons/pi'
 import HighlightAndHover from '@/app/components/highlightAndHover'
-import { subtext } from '../../models/subtext'
-import { axieClassJP } from '../models/axieClasses'
+import { subtext } from '../models/subtext'
+import { axieClassJP } from '../../runes/models/axieClasses'
 import { rarityJP } from '../models/rarity'
 
-const RuneInfo = ({
+const Infomation = ({
   axieClass,
   name,
   rarity,
   season,
+  potentialPoint,
+  imageSize,
   description,
   imageUrl,
   isChecked,
@@ -20,14 +23,16 @@ const RuneInfo = ({
   name: string
   rarity: string
   season: string
+  potentialPoint?: number
   description: string
   imageUrl: string
+  imageSize?: 'small' | 'medium' | 'large'
   isChecked: boolean
 }) => {
   return (
     <div className="flex flex-row gap-2 w-full">
       <div className="flex flex-wrap justify-center basis-1/5">
-        <div className="text-[11px] md:text-[13px] lg:text-[16px] text-black font-semibold w-full">
+        <div className="flex justify-center items-center text-[11px] md:text-[13px] lg:text-[16px] text-black font-semibold w-full">
           {name}
         </div>
         <Image
@@ -35,7 +40,11 @@ const RuneInfo = ({
           height={80}
           width={80}
           alt={name}
-          className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px] mt-2"
+          className={
+            imageSize === 'small'
+              ? `w-[auto] h-[30px] md:h-[40px] lg:h-[60px] mt-2`
+              : `w-[auto] h-[50px] md:h-[60px] lg:h-[80px] mt-2`
+          }
         />
       </div>
       <div className="flex flex-wrap justify-start basis-4/5">
@@ -60,17 +69,31 @@ const RuneInfo = ({
           <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black mr-1">
             {isChecked ? rarity : rarityJP[rarity]}
           </p>
-          <GiAbstract091 size={20} className="mr-[2px]" color='black' />
+          <GiAbstract091 size={20} className="mr-[2px]" color="black" />
           <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black">
             {isChecked ? season : season.replace('Season ', 'シーズン')}
           </p>
         </div>
-        <div className="text-[11px] md:text-[12px] lg:text-[15px] text-black mt-2 mr-1">
+        {potentialPoint && (
+          <div className="flex justify-start items-start w-full mt-[1px]">
+            <PiMedalFill size={16} className="md:mt-[3px] mr-[2px]" color="black" />
+            {isChecked ? (
+              <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black">
+                potentialPoint: {potentialPoint}
+              </p>
+            ) : (
+              <p className="text-[10px] md:text-[12px] lg:text-[15px] text-black">
+                ポテンシャルポイント: {potentialPoint}
+              </p>
+            )}
+          </div>
+        )}
+        <div className="text-[11px] md:text-[12px] lg:text-[15px] text-black mt-1 mr-1">
           <HighlightAndHover
             textWithHighlights={description}
             contentMap={subtext}
             textColor="text-blue-700"
-            textAlignment='left'
+            textAlignment="left"
           />
         </div>
       </div>
@@ -78,4 +101,4 @@ const RuneInfo = ({
   )
 }
 
-export default RuneInfo
+export default Infomation

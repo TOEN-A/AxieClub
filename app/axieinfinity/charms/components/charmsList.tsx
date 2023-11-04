@@ -1,30 +1,30 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import { Rune } from '../models/IRunes'
+import { Charm } from '../models/ICharms'
 import { Database } from '@/database.types'
 import format from 'date-fns/format'
 import { FadeInSlideUp } from '@/app/motion/fadeInSlideUp'
-import ClassFilter from '../../(shared)/components/classFilter'
-import RarityFilter from '../../(shared)/components/rarityFilter'
 import { useState } from 'react'
 import { createContext } from 'react'
 import HoverBigCard from '@/app/motion/hoverBigCard'
-import Infomation from '../../(shared)/components/infomation'
 import SearchAndReset from '@/app/components/searchAndReset'
 import { FadeInSlideDown } from '@/app/motion/fadeInSlideDown'
 import Toggle from '@/app/components/toggle'
-import { axieClasses } from '../../runes/models/axieClasses'
+import { axieClasses } from '../models/axieClasses'
+import ClassFilter from '../../(shared)/components/classFilter'
+import RarityFilter from '../../(shared)/components/rarityFilter'
+import Infomation from '../../(shared)/components/infomation'
 
 type News = Database['public']['Tables']['news']['Row']
 
-const runesJP: Rune[] = require('../models/runesJP.json')
+const charmsJP: Charm[] = require('../models/charmsJP.json')
 
 export const SelectedOption = createContext<string[]>([])
 
 //ルーンの固有情報でJsonファイルをフィルタリングする関数
-const filterJson = (runes: Rune[], runesInfoList: string[]) => {
-  const filtered = runes.filter((rune) => runesInfoList.includes(rune.rune))
+const filterJson = (charms: Charm[], charmsInfoList: string[]) => {
+  const filtered = charms.filter((charm) => charmsInfoList.includes(charm.code))
   return filtered
 }
 
@@ -35,12 +35,12 @@ const toHiragana = (t: string): string =>
     String.fromCharCode(x.charCodeAt(0) - 0x60)
   )
 
-const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
-  runesEN,
+const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
+  charmsEN,
   news,
 }) => {
-  const [filteredRunes, setFilteredRunes] = useState<Rune[]>(runesJP)
-  const [resetRunes, setResetRunes] = useState(runesJP)
+  const [filteredCharms, setFilteredCharms] = useState<Charm[]>(charmsJP)
+  const [resetCharms, setResetCharms] = useState(charmsJP)
   const [inputText, setInputText] = useState<string>('')
   const [searchKeyword, setSearchKeyword] = useState<string[]>([])
   const [selectedClasses, setSelectedClasses] = useState<string[]>([])
@@ -60,55 +60,55 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
     // キーワードのフィルタリング
     if (searchKeyword.length > 0) {
       //日本語と英語のそれぞれで検索＆フィルタリング
-      const filteredByKeywordEN = runesEN.filter((rune) =>
+      const filteredByKeywordEN = charmsEN.filter((charm) =>
         searchKeyword.every(
           (keyword) =>
-            rune.item.name.toLowerCase().includes(keyword.toLowerCase()) ||
-            rune.item.description.toLowerCase().includes(keyword.toLowerCase())
+            charm.item.name.toLowerCase().includes(keyword.toLowerCase()) ||
+            charm.item.description.toLowerCase().includes(keyword.toLowerCase())
         )
       )
-      const filteredByKeywordJP = runesJP.filter((rune) =>
+      const filteredByKeywordJP = charmsJP.filter((charm) =>
         searchKeyword.every(
           (keyword) =>
-            toHiragana(rune.item.name).includes(toHiragana(keyword)) ||
-            toHiragana(rune.item.description).includes(toHiragana(keyword))
+            toHiragana(charm.item.name).includes(toHiragana(keyword)) ||
+            toHiragana(charm.item.description).includes(toHiragana(keyword))
         )
       )
 
       //ルーンの固有情報を抽出
-      const filteredByKeywordENRune = filteredByKeywordEN.map(
-        (item) => item.rune
+      const filteredByKeywordENCharm = filteredByKeywordEN.map(
+        (item) => item.code
       )
-      const filteredByKeywordJPRune = filteredByKeywordJP.map(
-        (item) => item.rune
+      const filteredByKeywordJPCharm = filteredByKeywordJP.map(
+        (item) => item.code
       )
 
-      //Runeの固有情報を結合
-      const combinedFilterdItemsRune = [
-        ...filteredByKeywordENRune,
-        ...filteredByKeywordJPRune,
+      //Charmの固有情報を結合
+      const combinedFilterdItemsCharm = [
+        ...filteredByKeywordENCharm,
+        ...filteredByKeywordJPCharm,
       ]
 
       //ルーンの固有情報を元にJsonファイルをフィルタリング
       const finalFilteredItems = filterJson(
-        resetRunes,
-        combinedFilterdItemsRune
+        resetCharms,
+        combinedFilterdItemsCharm
       )
 
-      setFilteredRunes(finalFilteredItems)
+      setFilteredCharms(finalFilteredItems)
     } else {
-      setFilteredRunes(resetRunes)
+      setFilteredCharms(resetCharms)
     }
-  }, [searchKeyword, runesEN, resetRunes])
+  }, [searchKeyword, charmsEN, resetCharms])
 
   //トグルで日⇔英を切替
   const handleToggleENJP = () => {
     setIsChecked((prevChecked) => !prevChecked)
-    const currentFilteredItemsId = filteredRunes.map((item) => item.rune)
-    setFilteredRunes(
-      filterJson(isChecked ? runesJP : runesEN, currentFilteredItemsId)
+    const currentFilteredItemsId = filteredCharms.map((item) => item.code)
+    setFilteredCharms(
+      filterJson(isChecked ? charmsJP : charmsEN, currentFilteredItemsId)
     )
-    setResetRunes(isChecked ? runesJP : runesEN)
+    setResetCharms(isChecked ? charmsJP : charmsEN)
   }
 
   //検索のインプットを保存
@@ -189,7 +189,7 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
               handleSearch={handleSearch}
               handleReset={handleReset}
               inputText={inputText}
-              placeholder="ルーン名・説明文で検索"
+              placeholder="チャーム名・説明文で検索"
               handleInputChange={handleInputChange}
             />
           </FadeInSlideUp>
@@ -204,25 +204,27 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
             </SelectedOption.Provider>
           </div>
           <div className="flex flex-wrap gap-4 justify-center mt-10">
-            {filteredRunes.map((rune, index) => {
+            {filteredCharms.map((charm, index) => {
               if (
                 selectedClasses.length === 0 ||
-                selectedClasses.includes(rune.class)
+                selectedClasses.includes(charm.class)
               ) {
                 if (
                   selectedRarity.length === 0 ||
-                  selectedRarity.includes(rune.item.rarity)
+                  selectedRarity.includes(charm.item.rarity)
                 ) {
                   return (
-                    <HoverBigCard key={rune.rune} index={index}>
+                    <HoverBigCard key={charm.code} index={index}>
                       <Infomation
-                        key={rune.rune}
-                        axieClass={rune.class}
-                        name={rune.item.name}
-                        rarity={rune.item.rarity}
-                        season={rune.season.name}
-                        description={rune.item.description}
-                        imageUrl={rune.item.imageUrl}
+                        key={charm.code}
+                        axieClass={charm.class}
+                        name={charm.item.name}
+                        rarity={charm.item.rarity}
+                        season={charm.season.name}
+                        potentialPoint={charm.potentialPoint}
+                        description={charm.item.description}
+                        imageUrl={charm.item.imageUrl}
+                        imageSize={"small"}
                         isChecked={isChecked}
                       />
                     </HoverBigCard>
@@ -237,4 +239,4 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
   )
 }
 
-export default RunesList
+export default CharmList

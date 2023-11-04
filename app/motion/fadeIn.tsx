@@ -11,7 +11,7 @@ export const FadeIn = ({
 }) => {
   const [ref, inView] = useInView({
     triggerOnce: true, // 一度だけアニメーションをトリガーする
-    threshold: 0.2, // 画面に20%以上表示されたらトリガー
+    threshold: 0.1, // 画面に10%以上表示されたらトリガー
   })
 
   return (
