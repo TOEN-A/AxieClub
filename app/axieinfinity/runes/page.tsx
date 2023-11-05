@@ -4,6 +4,11 @@ import { fetchNews } from '@/app/components/newsAndUpdatedList'
 import RunesList from './components/runesList'
 type News = Database['public']['Tables']['news']['Row']
 
+export const metadata = {
+  title: 'アクシーインフィニティオリジンズ(AxieInfinityOrigins)のルーン一覧',
+  description: 'S6最新のルーン情報',
+}
+
 const filterJson = (runes: Rune[], season: string) => {
   let filtered = runes
     .filter((rune) => rune.season.name.includes(season))

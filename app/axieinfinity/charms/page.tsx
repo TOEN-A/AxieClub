@@ -4,6 +4,11 @@ import { fetchNews } from '@/app/components/newsAndUpdatedList'
 import CharmsList from './components/charmsList'
 type News = Database['public']['Tables']['news']['Row']
 
+export const metadata = {
+  title: 'アクシーインフィニティオリジンズ(AxieInfinityOrigins)のチャーム一覧',
+  description: 'S6最新のチャーム情報',
+}
+
 const filterJson = (charms: Charm[], season: string) => {
   let filtered = charms
     .filter((charm) => charm.season.name.includes(season))
@@ -95,7 +100,7 @@ const fetchAllCharms = async () => {
 
 const CharmsPage = async () => {
   const news = (await fetchNews()).find(
-    (item) => item.id === '9ef7f75e-b5af-4eb3-81fb-000d0da44722'
+    (item) => item.id === '12930285-792b-4a67-8e81-ba662f6016dc'
   ) as News
   const charmsEN = await fetchAllCharms()
   const charmsENSeason6 = filterJson(charmsEN, 'Season 6').sort((a, b) => {

@@ -236,7 +236,7 @@ const CardsList: React.FC<{
             <FadeInSlideDown>
               <div className="flex flex-col items-center">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 font-sans font-bold mb-1">
-                  ORIGINS {news.title}
+                  {news.title}
                 </h1>
                 <p className="text-gray-600 mb-4">
                   <strong className="mr-2">更新日:</strong>
