@@ -19,7 +19,7 @@ const RarityFilter = ({
       {rarity.map((info, index) => (
         <FadeInSlideLeft key={info.rarity} delayTime={index * 0.2 + 1.2}>
           <div
-            className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] cursor-pointer"
+            className="w-[55px] h-[55px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] cursor-pointer"
             key={info.rarity}
             onClick={() => handleSelectButton(info.rarity)}
           >

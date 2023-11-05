@@ -20,7 +20,7 @@ const ClassFilter = ({
       {axieClasses.map((axieClass, index) => (
         <FadeInSlideLeft key={axieClass.class} delayTime={index * 0.2}>
           <div
-            className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] cursor-pointer"
+            className="w-[55px] h-[55px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] cursor-pointer"
             key={axieClass.class}
             onClick={() => handleSelectButton(axieClass.class)}
           >
