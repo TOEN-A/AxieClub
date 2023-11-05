@@ -126,6 +126,7 @@ const CardsList: React.FC<{
     setResetItems(isChecked ? cardsJP._items : cardsENItems)
   }
 
+  //トグルでシーズンの最新カード表示を切替
   const handleToggleSeazon = () => {
     setIsCheckedSeazon((prevChecked) => !prevChecked)
     if (isChecked) {
