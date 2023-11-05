@@ -2,9 +2,9 @@
 
 import Image from 'next/image'
 import type { Item } from '../models/ICards'
-import type { ObjectData } from '../../models/objectData.type'
+import type { ObjectData } from '../../(shared)/models/objectData.type'
 import HighlightAndHover from '@/app/components/highlightAndHover'
-import { subtext } from '../../models/subtext'
+import { subtext } from '../../(shared)/models/subtext'
 import { FadeIn } from '@/app/motion/fadeIn'
 import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
 

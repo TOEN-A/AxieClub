@@ -1,4 +1,4 @@
-import type { ObjectData } from '../../models/objectData.type'
+import type { ObjectData } from '../../(shared)/models/objectData.type'
 
 export const colors: ObjectData = {
   バード: '#FA59A0',

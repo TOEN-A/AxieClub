@@ -125,7 +125,8 @@ export const subtext: ContentMap = {
   },
   Feather: {
     text: [
-      'Feather: Each hit +1 DMG up to +20. When your turn ends, if this Axie attacked, -1 Feather. Losing all Feather resets bonus DMG to 0. Maxstack: 10.',
+      'Feather: Whenever this Axie attacks, it gains 1 Plume per hit then other allies with Feather gain 1 Plume. When your turn ends, if this Axie attacked, it loses 1 Feather. Max Stacks: 10.',
+      'Plume: Attacks deal +1 DMG per stack. When this Axie loses all {Feather}, it loses all {Plumes}. This is not a Buff, Debuff, Secret, or Power. Max Stacks: 20.'
     ],
     images: [],
   },
@@ -153,7 +154,7 @@ export const subtext: ContentMap = {
   },
   Rage: {
     text: [
-      'Rage: Attacks deal +1 DMG per stack. Take +1 DMG per stack when Attacked. At 10 stacks, consume all Rage to enter Fury form.',
+      'Rage: Attacks deal +1 DMG per stack. Take +1 DMG per stack when Attacked. On your turn, at 10 stacks, consume all Rage to enter Fury form. Max Stack: 10.',
       "Fury: +1 Energy. Deal +50 % DMG, can't grant Energy Fragment, and can't gain, Rage til the turn ends.",
       'Energy Fragment: Collecting enoughEnergy Fragments will cause an Energy Burst',
       'Energy Burst: When created, at the start of your turn, gain 1 extra Energy until the end of the battle.',
@@ -163,7 +164,7 @@ export const subtext: ContentMap = {
   Fury: {
     text: [
       "Fury: +1 Energy. Deal +50 % DMG, can't grant Energy Fragment, and can't gain, Rage til the turn ends.",
-      'Rage: Attacks deal +1 DMG per stack. Take +1 DMG per stack when Attacked. At 10 stacks, consume all Rage to enter Fury form.',
+      'Rage: Attacks deal +1 DMG per stack. Take +1 DMG per stack when Attacked. On your turn, at 10 stacks, consume all Rage to enter Fury form. Max Stack: 10.',
       'Energy Fragment: Collecting enoughEnergy Fragments will cause an Energy Burst',
       'Energy Burst: When created, at the start of your turn, gain 1 extra Energy until the end of the battle.',
     ],
@@ -195,7 +196,7 @@ export const subtext: ContentMap = {
 
   'Death Mark': {
     text: [
-      'Death Mark: Whenever the enemy plays an Attack, takes 15 Pure DMG per Energy cost of the Attack.',
+      'Death Mark: Take Pure DMG from Attacks. Whenever the enemy plays an Attack, take 12 <Pure DMG> per Energy Cost of the Attack.',
       'Pure DMG: Deal DMG that ignores Shield.',
     ],
     images: [],
@@ -350,7 +351,7 @@ export const subtext: ContentMap = {
   },
   'Snake Jar': {
     text: [
-      "Snake jar: If this Unit doesn't die in 6 turns. deal 100 DMG to all enemies. Can't be Dispelled.",
+      "Snake jar: If this unit doesn't die in 6 turns, deal DMG to all Enemies = 1.5x Snake Jar's Base Shield. Can't be dispelled.",
     ],
     images: [],
   },
@@ -863,6 +864,18 @@ export const subtext: ContentMap = {
     text: [
       'スプラッシュDMG:メインの対象へのDMGに基づき、他のすべての対象にDMGを与える。',
     ],
+    images: [],
+  },
+  ディグレード: {
+    text: [
+      'ディグレード:ターン終了時、カードがまだ手札にある場合、カードをエグザイルし、その後1コンフューズドカードを捨て山に入れる。エセリアルはディグレードを上書きする。',
+    ],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/curseCards/JP/ConfusedJP.png',
+    ],
+  },
+  エグザイル: {
+    text: ['エグザイル:プレイ時、このカードはバトルから削除される。'],
     images: [],
   },
 }

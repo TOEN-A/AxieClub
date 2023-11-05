@@ -1,4 +1,4 @@
-import type { ObjectData } from '../../models/objectData.type'
+import type { ObjectData } from './objectData.type'
 
 export const rarity: ObjectData[] = [
   { rarity: 'Mystic', color: '#B04DFF' },

@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import type { ObjectData } from '../../models/objectData.type'
+import type { ObjectData } from '../../(shared)/models/objectData.type'
 import { FadeInSlideLeft } from '@/app/motion/fadeInSlideLeft'
 
 const CardSection = ({

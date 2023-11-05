@@ -8,9 +8,6 @@ export const axieClasses: ObjectData[] = [
   { class: 'Reptile' },
   { class: 'Beast' },
   { class: 'Bug' },
-  { class: 'Dawn' },
-  { class: 'Dusk' },
-  { class: 'Mech' },
 ]
 
 export const axieClassJP: ObjectData = {
@@ -21,7 +18,4 @@ export const axieClassJP: ObjectData = {
   Reptile: 'レプタイル',
   Beast: 'ビースト',
   Bug: 'バグ',
-  Dawn: 'ドーン',
-  Dusk: 'ダスク',
-  Mech: 'メック',
 }
