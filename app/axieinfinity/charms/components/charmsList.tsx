@@ -20,7 +20,7 @@ type News = Database['public']['Tables']['news']['Row']
 
 const charmsJP: Charm[] = require('../models/charmsJP.json')
 
-export const SelectedOption = createContext<string[]>([])
+export const SelectedCharmOption = createContext<string[]>([])
 
 //ルーンの固有情報でJsonファイルをフィルタリングする関数
 const filterJson = (charms: Charm[], charmsInfoList: string[]) => {
@@ -47,6 +47,8 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
   const [selectedRarity, setSelectedRarity] = useState<string[]>([])
   const [isChecked, setIsChecked] = useState(false)
   const [isAndroid, setIsAndroid] = useState(false)
+
+  console.log(selectedClasses)
 
   useEffect(() => {
     // ユーザーエージェント文字列を取得
@@ -194,14 +196,14 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
             />
           </FadeInSlideUp>
           <div>
-            <SelectedOption.Provider value={selectedClasses}>
+            <SelectedCharmOption.Provider value={selectedClasses}>
               <ClassFilter isAndroid={isAndroid} axieClasses={axieClasses} handleSelectButton={handleSelectClass} />
-            </SelectedOption.Provider>
+            </SelectedCharmOption.Provider>
           </div>
           <div>
-            <SelectedOption.Provider value={selectedRarity}>
+            <SelectedCharmOption.Provider value={selectedRarity}>
               <RarityFilter isAndroid={isAndroid} handleSelectButton={handleSelectRarity} />
-            </SelectedOption.Provider>
+            </SelectedCharmOption.Provider>
           </div>
           <div className="flex flex-wrap gap-4 justify-center mt-10">
             {filteredCharms.map((charm, index) => {

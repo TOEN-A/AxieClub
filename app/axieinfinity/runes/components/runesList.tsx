@@ -20,7 +20,7 @@ type News = Database['public']['Tables']['news']['Row']
 
 const runesJP: Rune[] = require('../models/runesJP.json')
 
-export const SelectedOption = createContext<string[]>([])
+export const SelectedRuneOption = createContext<string[]>([])
 
 //ルーンの固有情報でJsonファイルをフィルタリングする関数
 const filterJson = (runes: Rune[], runesInfoList: string[]) => {
@@ -194,14 +194,14 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
             />
           </FadeInSlideUp>
           <div>
-            <SelectedOption.Provider value={selectedClasses}>
+            <SelectedRuneOption.Provider value={selectedClasses}>
               <ClassFilter isAndroid={isAndroid} axieClasses={axieClasses} handleSelectButton={handleSelectClass} />
-            </SelectedOption.Provider>
+            </SelectedRuneOption.Provider>
           </div>
           <div>
-            <SelectedOption.Provider value={selectedRarity}>
+            <SelectedRuneOption.Provider value={selectedRarity}>
               <RarityFilter isAndroid={isAndroid} handleSelectButton={handleSelectRarity} />
-            </SelectedOption.Provider>
+            </SelectedRuneOption.Provider>
           </div>
           <div className="flex flex-wrap gap-4 justify-center mt-10">
             {filteredRunes.map((rune, index) => {

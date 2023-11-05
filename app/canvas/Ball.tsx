@@ -8,7 +8,8 @@ import {
   useTexture,
 } from '@react-three/drei'
 import { useContext } from 'react'
-import { SelectedOption } from '../axieinfinity/runes/components/runesList'
+import { SelectedRuneOption } from '../axieinfinity/runes/components/runesList'
+import { SelectedCharmOption } from '../axieinfinity/charms/components/charmsList'
 
 const Ball = ({
   url,
@@ -21,7 +22,10 @@ const Ball = ({
 }) => {
   const [map] = useTexture([url || ''])
 
-  const selectedOptions = useContext(SelectedOption)
+  const selectedRuneOptions = useContext(SelectedRuneOption)
+  const selectedCharmOptions = useContext(SelectedCharmOption)
+  const selectedOptions = selectedRuneOptions.length !== 0 ? selectedRuneOptions : selectedCharmOptions
+
   const materialColor = useMemo(
     () => (selectedOptions.includes(selected) ? '#66CDAA' : '#fff8eb'),
     [selectedOptions, selected]

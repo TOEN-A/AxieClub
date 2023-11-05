@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import Image from 'next/image'
-import { SelectedOption } from '../axieinfinity/runes/components/runesList'
+import { SelectedRuneOption } from '../axieinfinity/runes/components/runesList'
 
 const ForAndroidBall = ({
   url,
@@ -9,7 +9,7 @@ const ForAndroidBall = ({
   url?: string
   selected: string
 }) => {
-  const selectedOption = useContext(SelectedOption)
+  const selectedOption = useContext(SelectedRuneOption)
   return (
     <div className="w-[70%] h-[70%]">
       <div
