@@ -126,7 +126,7 @@ export const subtext: ContentMap = {
   Feather: {
     text: [
       'Feather: Whenever this Axie attacks, it gains 1 Plume per hit then other allies with Feather gain 1 Plume. When your turn ends, if this Axie attacked, it loses 1 Feather. Max Stacks: 10.',
-      'Plume: Attacks deal +1 DMG per stack. When this Axie loses all {Feather}, it loses all {Plumes}. This is not a Buff, Debuff, Secret, or Power. Max Stacks: 20.'
+      'Plume: Attacks deal +1 DMG per stack. When this Axie loses all {Feather}, it loses all {Plumes}. This is not a Buff, Debuff, Secret, or Power. Max Stacks: 20.',
     ],
     images: [],
   },
@@ -428,6 +428,32 @@ export const subtext: ContentMap = {
       'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/Scan.png',
     ],
   },
+  'Blue Mirror': {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/BlueMirror.png',
+    ],
+  },
+  'Red Mirror': {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/RedMirror.png',
+    ],
+  },
+  'Green Mirror': {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/EN/GreenMirror.png',
+    ],
+  },
+  Degrade: {
+    text: [
+      'Degrade:When your turn ends, if the card is still in Hand, Exile the card, then put 1 Confused card into Discard Pile.Ethereal overrides Degrade.',
+    ],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/curseCards/JP/Confused.png',
+    ],
+  },
   クレンズ: {
     text: [
       'クレンズ: 対象からランダムにデパフを1つ取り除く、最大4スタックまたは4ターンまで。',
@@ -474,7 +500,7 @@ export const subtext: ContentMap = {
   },
   アンステーブル: {
     text: [
-      'アンステーブル: プレイ時、カードをエグザイルし、その後1枚のコンフューズドカードを捨て山に置く。バニッシュはアンステーブルを上書きする。',
+      'アンステーブル: プレイ時、カードをエグサイルし、その後1枚のコンフューズドカードを捨て山に置く。バニッシュはアンステーブルを上書きする。',
     ],
     images: [
       'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/curseCards/JP/ConfusedJP.png',
@@ -662,7 +688,7 @@ export const subtext: ContentMap = {
     ],
   },
   エグサイル: {
-    text: ['エグザイル: プレイ時、このカードはバトルから削除されます。'],
+    text: ['エグサイル: プレイ時、このカードはバトルから削除されます。'],
     images: [],
   },
   スクライ: {
@@ -874,8 +900,22 @@ export const subtext: ContentMap = {
       'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/curseCards/JP/ConfusedJP.png',
     ],
   },
-  エグザイル: {
-    text: ['エグザイル:プレイ時、このカードはバトルから削除される。'],
-    images: [],
+  ブルーミラー: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/BlueMirrorJP.png',
+    ],
+  },
+  レッドミラー: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/RedMirrorJP.png',
+    ],
+  },
+  グリーンミラー: {
+    text: [],
+    images: [
+      'https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/toolCards/JP/GreenMirrorJP.png',
+    ],
   },
 }
