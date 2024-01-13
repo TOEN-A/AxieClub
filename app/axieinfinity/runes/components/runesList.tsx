@@ -46,6 +46,7 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
   const [selectedClasses, setSelectedClasses] = useState<string[]>([])
   const [selectedRarity, setSelectedRarity] = useState<string[]>([])
   const [isChecked, setIsChecked] = useState(false)
+  const [isCheckedSeazon, setIsCheckedSeazon] = useState(false)
   const [isAndroid, setIsAndroid] = useState(false)
 
   useEffect(() => {
@@ -104,11 +105,32 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
   //トグルで日⇔英を切替
   const handleToggleENJP = () => {
     setIsChecked((prevChecked) => !prevChecked)
+    if (isCheckedSeazon) {
+      setIsCheckedSeazon(false)
+    }
     const currentFilteredItemsId = filteredRunes.map((item) => item.rune)
     setFilteredRunes(
       filterJson(isChecked ? runesJP : runesEN, currentFilteredItemsId)
     )
     setResetRunes(isChecked ? runesJP : runesEN)
+  }
+
+  //トグルでシーズンの最新カード表示を切替
+  const handleToggleSeazon = () => {
+    setIsCheckedSeazon((prevChecked) => !prevChecked)
+    if (isChecked) {
+      setIsChecked(false)
+    }
+    const currentFilteredItemsId = filteredRunes.map((item) => item.rune)
+    //runesJpからisChangedがtrueのものを抽出
+    const filteredBySeazon = runesJP.filter((rune) => rune.isChanged)
+    setFilteredRunes(
+      filterJson(
+        isCheckedSeazon ? runesJP : filteredBySeazon,
+        currentFilteredItemsId
+      )
+    )
+    setResetRunes(isCheckedSeazon ? runesJP : filteredBySeazon)
   }
 
   //検索のインプットを保存
@@ -163,6 +185,15 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
       <div className="absolute top-[72px] right-0 lg:right-44 m-4">
         <FadeInSlideDown>
           <Toggle
+            isChecked={isCheckedSeazon}
+            handleToggle={handleToggleSeazon}
+            text="S7で変更されたルーン(日本語限定)"
+          />
+        </FadeInSlideDown>
+      </div>
+      <div className="absolute top-[100px] right-0 lg:right-44 m-4">
+        <FadeInSlideDown>
+          <Toggle
             isChecked={isChecked}
             handleToggle={handleToggleENJP}
             text="日本語/英語 切替"
@@ -195,12 +226,19 @@ const RunesList: React.FC<{ runesEN: Rune[]; news: News }> = ({
           </FadeInSlideUp>
           <div>
             <SelectedRuneOption.Provider value={selectedClasses}>
-              <ClassFilter isAndroid={isAndroid} axieClasses={axieClasses} handleSelectButton={handleSelectClass} />
+              <ClassFilter
+                isAndroid={isAndroid}
+                axieClasses={axieClasses}
+                handleSelectButton={handleSelectClass}
+              />
             </SelectedRuneOption.Provider>
           </div>
           <div>
             <SelectedRuneOption.Provider value={selectedRarity}>
-              <RarityFilter isAndroid={isAndroid} handleSelectButton={handleSelectRarity} />
+              <RarityFilter
+                isAndroid={isAndroid}
+                handleSelectButton={handleSelectRarity}
+              />
             </SelectedRuneOption.Provider>
           </div>
           <div className="flex flex-wrap gap-4 justify-center mt-10">

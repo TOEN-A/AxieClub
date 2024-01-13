@@ -39,6 +39,7 @@ export interface Charm {
   item: Item
   season: Season
   _etag: string
+  isChanged?: boolean
 }
 
 // データ全体の型定義

@@ -217,7 +217,7 @@ const CardsList: React.FC<{
           <Toggle
             isChecked={isCheckedSeazon}
             handleToggle={handleToggleSeazon}
-            text="S6で変更されたカード(日本語限定)"
+            text="S7で変更されたカード(日本語限定)"
           />
         </FadeInSlideDown>
       </div>

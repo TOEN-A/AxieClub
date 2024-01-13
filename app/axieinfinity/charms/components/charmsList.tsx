@@ -22,7 +22,7 @@ const charmsJP: Charm[] = require('../models/charmsJP.json')
 
 export const SelectedCharmOption = createContext<string[]>([])
 
-//ルーンの固有情報でJsonファイルをフィルタリングする関数
+//チャームの固有情報でJsonファイルをフィルタリングする関数
 const filterJson = (charms: Charm[], charmsInfoList: string[]) => {
   const filtered = charms.filter((charm) => charmsInfoList.includes(charm.code))
   return filtered
@@ -46,6 +46,7 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
   const [selectedClasses, setSelectedClasses] = useState<string[]>([])
   const [selectedRarity, setSelectedRarity] = useState<string[]>([])
   const [isChecked, setIsChecked] = useState(false)
+  const [isCheckedSeazon, setIsCheckedSeazon] = useState(false)
   const [isAndroid, setIsAndroid] = useState(false)
 
   console.log(selectedClasses)
@@ -77,7 +78,7 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
         )
       )
 
-      //ルーンの固有情報を抽出
+      //チャームの固有情報を抽出
       const filteredByKeywordENCharm = filteredByKeywordEN.map(
         (item) => item.code
       )
@@ -91,7 +92,7 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
         ...filteredByKeywordJPCharm,
       ]
 
-      //ルーンの固有情報を元にJsonファイルをフィルタリング
+      //チャームの固有情報を元にJsonファイルをフィルタリング
       const finalFilteredItems = filterJson(
         resetCharms,
         combinedFilterdItemsCharm
@@ -105,6 +106,9 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
 
   //トグルで日⇔英を切替
   const handleToggleENJP = () => {
+    if (isCheckedSeazon) {
+      setIsCheckedSeazon(false)
+    }
     setIsChecked((prevChecked) => !prevChecked)
     const currentFilteredItemsId = filteredCharms.map((item) => item.code)
     setFilteredCharms(
@@ -112,6 +116,25 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
     )
     setResetCharms(isChecked ? charmsJP : charmsEN)
   }
+
+    //トグルでシーズンの最新表示を切替
+    const handleToggleSeazon = () => {
+      setIsCheckedSeazon((prevChecked) => !prevChecked)
+      if (isChecked) {
+        setIsChecked(false)
+      }
+      const currentFilteredItemsId = filteredCharms.map((item) => item.code)
+      //charmsJpからisChangedがtrueのものを抽出
+      const filteredBySeazon = charmsJP.filter((charm) => charm.isChanged)
+      setFilteredCharms(
+        filterJson(
+          isCheckedSeazon ? charmsJP : filteredBySeazon,
+          currentFilteredItemsId
+        )
+      )
+      setResetCharms(isCheckedSeazon ? charmsJP : filteredBySeazon)
+    }
+  
 
   //検索のインプットを保存
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -162,7 +185,16 @@ const CharmList: React.FC<{ charmsEN: Charm[]; news: News }> = ({
 
   return (
     <>
-      <div className="absolute top-[72px] right-0 lg:right-44 m-4">
+    <div className="absolute top-[72px] right-0 lg:right-44 m-4">
+        <FadeInSlideDown>
+          <Toggle
+            isChecked={isCheckedSeazon}
+            handleToggle={handleToggleSeazon}
+            text="S7で変更されたチャーム(日本語限定)"
+          />
+        </FadeInSlideDown>
+      </div>
+      <div className="absolute top-[100px] right-0 lg:right-44 m-4">
         <FadeInSlideDown>
           <Toggle
             isChecked={isChecked}
