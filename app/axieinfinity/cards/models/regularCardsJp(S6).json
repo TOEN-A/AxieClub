@@ -36,7 +36,7 @@
     {
       "id": 30500201,
       "name": "ターニップ",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。<ターニップロケット>を4つ与える。",
+      "description": "任意の味方を選択。<ターニップロケット>を4つ与える。",
       "partClass": "Plant",
       "partType": "Back",
       "partValue": 2,
@@ -47,8 +47,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "heal", "buff"],
-      "_etag": "a61e63cf59f019a7d6e9d1ee0f70e5d4",
-      "isChanged":true
+      "_etag": "a61e63cf59f019a7d6e9d1ee0f70e5d4"
     },
     {
       "id": 40201201,
@@ -69,7 +68,7 @@
     {
       "id": 30200401,
       "name": "クローバー",
-      "description": "このカードの回復量と同じHPを持つ<クローバー>を召喚する。",
+      "description": "<クローバー>を召喚する。",
       "partClass": "Plant",
       "partType": "Ears",
       "partValue": 4,
@@ -80,8 +79,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "summon"],
-      "_etag": "ce7291a754fa005e314db894375368f5",
-      "isChanged":true
+      "_etag": "ce7291a754fa005e314db894375368f5"
     },
     {
       "id": 40301001,
@@ -97,7 +95,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "71e8e9809afa724f7a3558601bc16794"
+      "_etag": "71e8e9809afa724f7a3558601bc16794",
+      "isChanged": true
     },
     {
       "id": 60100201,
@@ -113,7 +112,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "cleanse"],
-      "_etag": "dae32962a82994df1f67944529d1f615"
+      "_etag": "dae32962a82994df1f67944529d1f615",
+      "isChanged": true
     },
     {
       "id": 60500601,
@@ -134,7 +134,7 @@
     {
       "id": 50500201,
       "name": "スネイルシェル",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次に対象が攻撃されたとき、敵の捨て山に1～2つの<グー>を追加する。",
+      "description": "任意の味方を選択。次に対象が攻撃されたとき、敵の捨て山に1つの<グー>を追加する。",
       "partClass": "Bug",
       "partType": "Back",
       "partValue": 2,
@@ -145,13 +145,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "curse"],
-      "_etag": "bd57443c87d4dd61750b8175d06caba0",
-      "isChanged":true
+      "_etag": "bd57443c87d4dd61750b8175d06caba0"
     },
     {
       "id": 30501201,
       "name": "パンプキン",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。対象が次に攻撃を受ける際、カードを1枚引く。",
+      "description": "任意の味方を選択。対象が次に攻撃を受ける際、カードを1枚引く。",
       "partClass": "Plant",
       "partType": "Back",
       "partValue": 12,
@@ -162,13 +161,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "card", "draw"],
-      "_etag": "e6d8d4b64dfc7250d740d99798a5b3be",
-      "isChanged":true
+      "_etag": "e6d8d4b64dfc7250d740d99798a5b3be"
     },
     {
       "id": 30601201,
       "name": "ホットバット",
-      "description": "任意の味方または敵を選択。敵には<リバースヒール>を与える。敵の捨て山に<バーン>を2つ追加する。",
+      "description": "任意の味方を選択。敵の捨て山に<バーン>を2つ追加する。",
       "partClass": "Plant",
       "partType": "Tail",
       "partValue": 12,
@@ -179,8 +177,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "curse"],
-      "_etag": "7a3237b1e0981fda9fb3aebaaed497aa",
-      "isChanged":true
+      "_etag": "7a3237b1e0981fda9fb3aebaaed497aa"
     },
     {
       "id": 40400601,
@@ -196,7 +193,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "65a49e443a0100b318dc3ef31ba93a73"
+      "_etag": "65a49e443a0100b318dc3ef31ba93a73",
+      "isChanged": true
     },
     {
       "id": 10500801,
@@ -212,12 +210,13 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "92f130b2ef6929a0f38fa9ce2ae2ee3d"
+      "_etag": "92f130b2ef6929a0f38fa9ce2ae2ee3d",
+      "isChanged": true
     },
     {
       "id": 20301001,
       "name": "ピラニア",
-      "description": "<アンブッシュ>。対象が<アラート>でなければ、未ブロックのダメージの25%を<スティール>する。",
+      "description": "最も近いまたは遠い敵を対象にする。未ブロックのダメージの25%を<スティール>する。",
       "partClass": "Aquatic",
       "partType": "Mouth",
       "partValue": 10,
@@ -228,8 +227,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "8c8784c15c604a6db060858c0a9883e1",
-      "isChanged":true
+      "_etag": "8c8784c15c604a6db060858c0a9883e1"
     },
     {
       "id": 20401001,
@@ -245,7 +243,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "dispel"],
-      "_etag": "5c73a046ed70c15b025799970fb578cf"
+      "_etag": "5c73a046ed70c15b025799970fb578cf",
+      "isChanged": true
     },
     {
       "id": 40501201,
@@ -266,7 +265,7 @@
     {
       "id": 30400801,
       "name": "ストロベリーショートケーキ",
-      "description": "任意の味方または敵を選択。敵には<リバースヒール>を与える。手札に<ストロベリー>を+2追加する。",
+      "description": "任意の味方を選択。手札に<ストロベリー>を+2追加する。",
       "partClass": "Plant",
       "partType": "Horn",
       "partValue": 8,
@@ -277,13 +276,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "card"],
-      "_etag": "53709beb14b371c21d1601ed0a4831da",
-      "isChanged":true
+      "_etag": "53709beb14b371c21d1601ed0a4831da"
     },
     {
       "id": 50400601,
       "name": "キャタピラーズ",
-      "description": "ランダムな敵を攻撃する。対象が<フィアー>を持つ場合、ランダムな敵1体に<フィアー>を3つ与える。それ以外の場合には<フィアー>を3回与える",
+      "description": "シールドを持つ対象には<ヘックス>を4つ与える。それ以外の場合は、<フィアー>を4つ与える。",
       "partClass": "Bug",
       "partType": "Horn",
       "partValue": 6,
@@ -294,8 +292,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "4849202dbd63206f93c0eef9da7f37a2",
-      "isChanged":true
+      "_etag": "4849202dbd63206f93c0eef9da7f37a2"
     },
     {
       "id": 60601001,
@@ -311,12 +308,13 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "non_multihit", "aoe_attack"],
-      "_etag": "51d28b1575b915fd0d82381cc26d1a47"
+      "_etag": "51d28b1575b915fd0d82381cc26d1a47",
+      "isChanged": true
     },
     {
       "id": 10501001,
       "name": "ティンバー",
-      "description": "任意の味方をシールドする。<ブルワーク>を+1する。次のターン、味方が攻撃を受けるたびに<ランバーシールド>を手札に加える。(上限:3枚)",
+      "description": "任意の味方をシールドする。次のターン、味方が攻撃を受けるたびに<ランバーシールド>を手札に加える。(上限:3枚)",
       "partClass": "Beast",
       "partType": "Back",
       "partValue": 10,
@@ -327,8 +325,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield"],
-      "_etag": "0bab011037488eeda84cf3fb93244b89",
-      "isChanged":true
+      "_etag": "0bab011037488eeda84cf3fb93244b89"
     },
     {
       "id": 20600801,
@@ -376,7 +373,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "606060646b97c1750377daa17f92de1e"
+      "_etag": "606060646b97c1750377daa17f92de1e",
+      "isChanged": true
     },
     {
       "id": 30401001,
@@ -408,7 +406,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "a67ebf8023a8e2968a53755fdd991b29"
+      "_etag": "a67ebf8023a8e2968a53755fdd991b29",
+      "isChanged": true
     },
     {
       "id": 10500601,
@@ -424,7 +423,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "72ee86eb053c055bcd6d243048aaf5d2"
+      "_etag": "72ee86eb053c055bcd6d243048aaf5d2",
+      "isChanged": true
     },
     {
       "id": 10600601,
@@ -440,12 +440,13 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "buff"],
-      "_etag": "1bb505c16bf5b2d17572145a08a5eb23"
+      "_etag": "1bb505c16bf5b2d17572145a08a5eb23",
+      "isChanged": true
     },
     {
       "id": 50300401,
       "name": "ピンサー",
-      "description": "味方をシールドする。次に敵が<キープ>を使用するとき、その捨て山に1～2つの<グー>を追加する。<イニシャル>でない場合、<ブルワーク>を-1する。",
+      "description": "味方をシールドする。次に敵が<キープ>を使用するとき、その捨て山に1つの<グー>を追加する。",
       "partClass": "Bug",
       "partType": "Mouth",
       "partValue": 4,
@@ -456,8 +457,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "curse"],
-      "_etag": "a45dfbe6f78043bbfaed7b527b4b9cd5",
-      "isChanged":true
+      "_etag": "a45dfbe6f78043bbfaed7b527b4b9cd5"
     },
     {
       "id": 50401001,
@@ -478,7 +478,7 @@
     {
       "id": 20200201,
       "name": "ニモ",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。デッキ内のニモカード1枚につき<エナジーフラグメント>を1獲得する(上限:フラグメント3)",
+      "description": "任意の味方を選択。デッキ内のニモカード1枚につき<エナジーフラグメント>を1獲得する(上限:フラグメント3)",
       "partClass": "Aquatic",
       "partType": "Ears",
       "partValue": 2,
@@ -489,8 +489,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "energy"],
-      "_etag": "44cf18196700656cb2e3583fc70d07f4",
-      "isChanged":true
+      "_etag": "44cf18196700656cb2e3583fc70d07f4"
     },
     {
       "id": 60400401,
@@ -506,12 +505,13 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "buff", "non_multihit"],
-      "_etag": "9a8aae59c1d753f12cb0a6a0b228d6b9"
+      "_etag": "9a8aae59c1d753f12cb0a6a0b228d6b9",
+      "isChanged": true
     },
     {
       "id": 50601001,
       "name": "ピューピー",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、対象が少なくとも70のシールドを失った場合、味方のアクシーに<コクーン>を3つ追加する。",
+      "description": "任意の味方を選択。次のターン、対象が少なくとも70のシールドを失った場合、味方のアクシーに<コクーン>を3つ追加する。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 10,
@@ -522,8 +522,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "buff"],
-      "_etag": "460de5685ba43c9cf65b54e63e2a0c84",
-      "isChanged":true
+      "_etag": "460de5685ba43c9cf65b54e63e2a0c84"
     },
     {
       "id": 20300201,
@@ -544,7 +543,7 @@
     {
       "id": 20500801,
       "name": "スポンジ",
-      "description": "<リテイン>。味方のアクシーをシールドする。<ブルワーク>を+1する。任意の味方を対象とする。最大3個の<バブル>を<バブルボム>に変換する。",
+      "description": "<リテイン>。味方のアクシーをシールドする。任意の味方を対象とする。最大3個の<バブル>を<バブルボム>に変換する。",
       "partClass": "Aquatic",
       "partType": "Back",
       "partValue": 8,
@@ -555,8 +554,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "buff", "shield"],
-      "_etag": "1de19032dcf839327b5c7b45dbcd5648",
-      "isChanged":true
+      "_etag": "1de19032dcf839327b5c7b45dbcd5648"
     },
     {
       "id": 40200801,
@@ -577,7 +575,7 @@
     {
       "id": 60400801,
       "name": "スケーリースプーン",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、攻撃によって対象のシールドが破壊された場合、攻撃者を6回<ディスペル>する。",
+      "description": "任意の味方を選択。次のターン、攻撃によって対象のシールドが破壊された場合、攻撃者を6回<ディスペル>する。",
       "partClass": "Reptile",
       "partType": "Horn",
       "partValue": 8,
@@ -589,7 +587,7 @@
       "stage": 1,
       "tags": ["secret", "shield", "dispel"],
       "_etag": "1eb5d3dc082b368a3fe4cc07263b5869",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 10200201,
@@ -605,7 +603,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "270de983c115a402fc9a6191aecc018d"
+      "_etag": "270de983c115a402fc9a6191aecc018d",
+      "isChanged": true
     },
     {
       "id": 20100801,
@@ -626,7 +625,7 @@
     {
       "id": 50601201,
       "name": "ソーニーキャタピラー",
-      "description": "敵のデッキにある<グー>ごとにホーナスで10のダメージを追加する（最大90のボーナスダメージ）。<イニシャル>の場合、<ブルワーク>を-1し、与えたダメージと等しいシールドを得る。それ以外の場合、<ブルワーク>を+1する",
+      "description": "敵のデッキにある<グー>ごとにホーナスで10のダメージを追加する。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 12,
@@ -637,8 +636,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "5a09931c078d913d191ef3c9aaedc743",
-      "isChanged":true
+      "_etag": "5a09931c078d913d191ef3c9aaedc743"
     },
     {
       "id": 10401001,
@@ -659,7 +657,7 @@
     {
       "id": 40101001,
       "name": "ロビン",
-      "description": "<リトルロビン>を召喚する。フォーカスチャームで攻撃力を変更可能",
+      "description": "<リトルロビン>を召喚する。",
       "partClass": "Bird",
       "partType": "Eyes",
       "partValue": 10,
@@ -670,8 +668,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "summon"],
-      "_etag": "a85317a054bf30cccf945b7dbb0a116b",
-      "isChanged":true
+      "_etag": "a85317a054bf30cccf945b7dbb0a116b"
     },
     {
       "id": 60401001,
@@ -719,7 +716,8 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "cleanse", "buff", "heal"],
-      "_etag": "2146c51bde341547d88bf8040363089e"
+      "_etag": "2146c51bde341547d88bf8040363089e",
+      "isChanged": true
     },
     {
       "id": 30600201,
@@ -751,7 +749,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "aoe_attack"],
-      "_etag": "4171f56a83ee517dd33d5eba21b706ea"
+      "_etag": "4171f56a83ee517dd33d5eba21b706ea",
+      "isChanged": true
     },
     {
       "id": 20500401,
@@ -772,7 +771,7 @@
     {
       "id": 50300201,
       "name": "モスキート",
-      "description": "任意の敵・味方を選択。対象が<アラート>でなければ、30HPを<スティール>する。",
+      "description": "任意の敵・味方を選択。30HPを<スティール>する。",
       "partClass": "Bug",
       "partType": "Mouth",
       "partValue": 2,
@@ -783,8 +782,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "bea67ff5b927f8b644e14611baa14bf0",
-      "isChanged":true
+      "_etag": "bea67ff5b927f8b644e14611baa14bf0"
     },
     {
       "id": 40200601,
@@ -800,12 +798,13 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "4c5e9ef3b11fdf7d1a731ed243785489"
+      "_etag": "4c5e9ef3b11fdf7d1a731ed243785489",
+      "isChanged": true
     },
     {
       "id": 40400201,
       "name": "エッグシェル",
-      "description": "3回攻撃する。+3<エッグシェル>を得る。",
+      "description": "2回攻撃する。+3<エッグシェル>を得る。",
       "partClass": "Bird",
       "partType": "Horn",
       "partValue": 2,
@@ -816,8 +815,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit", "buff"],
-      "_etag": "546f2ef67a27bcdb8bc29528f3fa83e0",
-      "isChanged":true
+      "_etag": "546f2ef67a27bcdb8bc29528f3fa83e0"
     },
     {
       "id": 40400801,
@@ -833,7 +831,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit", "dispel"],
-      "_etag": "84242bc127fa3ef8610db63b577965f1"
+      "_etag": "84242bc127fa3ef8610db63b577965f1",
+      "isChanged": true
     },
     {
       "id": 60101001,
@@ -854,7 +853,7 @@
     {
       "id": 50600201,
       "name": "アント",
-      "description": "<ブルワーク>を+1する。次のターン、自分に<トーント>を3つ与える。",
+      "description": "次のターン、自分に<トーント>を3つ与える。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 2,
@@ -866,7 +865,7 @@
       "stage": 1,
       "tags": ["skill", "shield", "taunt"],
       "_etag": "9f2e5e451d91c04891e83db889491e9e",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 10200601,
@@ -983,7 +982,7 @@
     {
       "id": 50200801,
       "name": "リーフバグ",
-      "description": "<リテイン>。任意の味方を選択。<ブルワーク>を+1する。<コクーン>を+2する。<リテイン>するターンごとに<コクーン>を+1する。(上限:<コクーン>+3)",
+      "description": "<リテイン>。任意の味方を選択。<コクーン>を+2する。<リテイン>するターンごとに<コクーン>を+1する。(上限:<コクーン>+3)",
       "partClass": "Bug",
       "partType": "Ears",
       "partValue": 8,
@@ -994,13 +993,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "buff"],
-      "_etag": "e9e026d0a3d7d53c89b2de58812cbc13",
-      "isChanged":true
+      "_etag": "e9e026d0a3d7d53c89b2de58812cbc13"
     },
     {
       "id": 50400201,
       "name": "ラギング",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次に敵がスキルまたはシークレットを使用するとき、その捨て山に1～2つの<グー>を追加する。",
+      "description": "任意の味方を選択。次に敵がスキルまたはシークレットを使用するとき、その捨て山に1つの<グー>を追加する。",
       "partClass": "Bug",
       "partType": "Horn",
       "partValue": 2,
@@ -1011,13 +1009,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "curse"],
-      "_etag": "21c407eff4193806e31384e4f422b93f",
-      "isChanged":true
+      "_etag": "21c407eff4193806e31384e4f422b93f"
     },
     {
       "id": 50200601,
       "name": "イヤーブリージング",
-      "description": "味方にシールドをATKの20%分与える。敵の捨て山に<グー>を1枚加える。<イニシャル>の場合、-1<ブルワーク>して、味方全員にATKの75%のシールドを与える。それ以外の場合、<ブルワーク>を+1し、ATKに等しいシールドを得る",
+      "description": "味方にシールドをATKの20%分与える。敵の捨て山に<グー>を1枚加える。",
       "partClass": "Bug",
       "partType": "Ears",
       "partValue": 6,
@@ -1028,13 +1025,12 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "curse"],
-      "_etag": "ebc12ac25465f6bfe4532fae0bd4ff4f",
-      "isChanged":true
+      "_etag": "ebc12ac25465f6bfe4532fae0bd4ff4f"
     },
     {
       "id": 30500801,
       "name": "ウォータリングカン",
-      "description": "任意の味方をシールドする。<ブルワーク>を+1する。次のターン、味方が攻撃を受けるたびに<ピュアウォーター>を手札に加える(上限:3枚)。",
+      "description": "任意の味方をシールドする。次のターン、味方が攻撃を受けるたびに<ピュアウォーター>を手札に加える(上限:3枚)。",
       "partClass": "Plant",
       "partType": "Back",
       "partValue": 8,
@@ -1045,13 +1041,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield"],
-      "_etag": "9d1a76b00017997429ee4778fbef412c",
-      "isChanged":true
+      "_etag": "9d1a76b00017997429ee4778fbef412c"
     },
     {
       "id": 40501001,
       "name": "キングフィッシャー",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、<ガード>を1つ得る。<ガード>が誘発したとき、シールドを2失うごとに<ヴェンジェンス>を1つ得る。",
+      "description": "任意の味方を選択。次に対象が攻撃を受ける際、85のダメージを反射する。",
       "partClass": "Bird",
       "partType": "Back",
       "partValue": 10,
@@ -1062,8 +1057,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret"],
-      "_etag": "884264be8f893f33bcf3bf8bcb1c270b",
-      "isChanged":true
+      "_etag": "884264be8f893f33bcf3bf8bcb1c270b"
     },
     {
       "id": 20400201,
@@ -1084,7 +1078,7 @@
     {
       "id": 30201201,
       "name": "ロータス",
-      "description": "任意の味方を選択。<ピュリファイ>:3。<イニシャル>の場合、<ブルワーク>を-1してシールド量だけ回復する。それ以外の場合<ブルワーク>を+1",
+      "description": "任意の味方を選択。<ピュリファイ>:3。",
       "partClass": "Plant",
       "partType": "Ears",
       "partValue": 12,
@@ -1095,8 +1089,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "cure"],
-      "_etag": "72947fe0d5b0d4c45e300043933ef234",
-      "isChanged":true
+      "_etag": "72947fe0d5b0d4c45e300043933ef234"
     },
     {
       "id": 30200201,
@@ -1112,7 +1105,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "c7b1c29d2e23ae4b356549d99710df02"
+      "_etag": "c7b1c29d2e23ae4b356549d99710df02",
+      "isChanged": true
     },
     {
       "id": 30300201,
@@ -1133,7 +1127,7 @@
     {
       "id": 30500401,
       "name": "シイタケ",
-      "description": "このカードの回復量と同じHPを持つ<マッシュルーム>を召喚する。",
+      "description": "<マッシュルーム>を召喚する。",
       "partClass": "Plant",
       "partType": "Back",
       "partValue": 4,
@@ -1144,8 +1138,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "summon"],
-      "_etag": "55d4740279de34bcd5b55f21d48821a9",
-      "isChanged":true
+      "_etag": "55d4740279de34bcd5b55f21d48821a9"
     },
     {
       "id": 60600201,
@@ -1198,7 +1191,7 @@
     {
       "id": 40300801,
       "name": "ハングリーバード",
-      "description": "<アンブッシュ>。<ピュリファイ>:1。対象が<アラート>でなければ、10HP<スティール>する。",
+      "description": "10HP<スティール>する。<ピュリファイ>:1。",
       "partClass": "Bird",
       "partType": "Mouth",
       "partValue": 8,
@@ -1209,13 +1202,12 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "cure"],
-      "_etag": "a0dbf91a0307988f9a64ad886f6a9070",
-      "isChanged":true
+      "_etag": "a0dbf91a0307988f9a64ad886f6a9070"
     },
     {
       "id": 20500201,
       "name": "ハーミット",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、<ガード>を1つ得る。<ガード>が誘発したとき、シールドを40失うごとにフラグメントを1つ得る（上限: 3）",
+      "description": "任意の味方を選択。対象が次に攻撃を受ける際、ダメージをブロックする。",
       "partClass": "Aquatic",
       "partType": "Back",
       "partValue": 2,
@@ -1226,8 +1218,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret"],
-      "_etag": "62782849fe2b2fa9ffddfce2afe7af25",
-      "isChanged":true
+      "_etag": "62782849fe2b2fa9ffddfce2afe7af25"
     },
     {
       "id": 50201001,
@@ -1259,7 +1250,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "card"],
-      "_etag": "19ef3d848864b2d6f584810a42739ff2"
+      "_etag": "19ef3d848864b2d6f584810a42739ff2",
+      "isChanged": true
     },
     {
       "id": 20601001,
@@ -1280,7 +1272,7 @@
     {
       "id": 30501001,
       "name": "ミント",
-      "description": "味方全体にシールドを付与する。<クレンザー>を+3する。イニシャルでない場合、<ブルワーク>を-1する。",
+      "description": "味方全体にシールドを付与する。<クレンザー>を+3する。",
       "partClass": "Plant",
       "partType": "Back",
       "partValue": 10,
@@ -1292,7 +1284,7 @@
       "stage": 1,
       "tags": ["skill", "shield", "buff"],
       "_etag": "2469f31893df2309dd52ab93ebef81a7",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 40600601,
@@ -1313,7 +1305,7 @@
     {
       "id": 10400401,
       "name": "インプ",
-      "description": "<リテイン>。<フューリー>形態ではATKが+35される。",
+      "description": "<リテイン>。<フューリー>形態ではATKが+45される。",
       "partClass": "Beast",
       "partType": "Horn",
       "partValue": 4,
@@ -1324,8 +1316,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "03521f97fb30d705bdedbc1da64f1d28",
-      "isChanged":true
+      "_etag": "03521f97fb30d705bdedbc1da64f1d28"
     },
     {
       "id": 20500601,
@@ -1389,7 +1380,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "e01d37900a399e2e1970e50d11b09bf1"
+      "_etag": "e01d37900a399e2e1970e50d11b09bf1",
+      "isChanged": true
     },
     {
       "id": 30100201,
@@ -1410,7 +1402,7 @@
     {
       "id": 60200601,
       "name": "カーブドスパイン",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。対象が次に攻拏を受ける際、攻撃者に<ブリード>を6つ与える。",
+      "description": "任意の味方を選択。対象が次に攻拏を受ける際、攻撃者に<ブリード>を6つ与える。",
       "partClass": "Reptile",
       "partType": "Ears",
       "partValue": 6,
@@ -1422,7 +1414,7 @@
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
       "_etag": "4d1f299ee2b5cf6dd719fb7630272c5a",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 50301001,
@@ -1438,7 +1430,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "813e6793ee0785b34926210a6e0fdc7e"
+      "_etag": "813e6793ee0785b34926210a6e0fdc7e",
+      "isChanged": true
     },
     {
       "id": 10200801,
@@ -1470,7 +1463,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "46ef4670aa9614f815ce5288ee083805"
+      "_etag": "46ef4670aa9614f815ce5288ee083805",
+      "isChanged": true
     },
     {
       "id": 30200801,
@@ -1491,7 +1485,7 @@
     {
       "id": 40500201,
       "name": "バルーン",
-      "description": "ランダムな敵を攻撃する。対象が<フィアー>を持つ場合<フィアー>を-1し、敵全体に対象の最大HPの8%のDMGを与える。それ以外の場合には<フィアー>を3回与える",
+      "description": "シールドを持つ対象に対しては、4ターンの間<ヘックス>を与える。それ以外の場合、4つの<フィアー>を与える。",
       "partClass": "Bird",
       "partType": "Back",
       "partValue": 2,
@@ -1502,8 +1496,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "792edc59e45cf7e780c9fce590892a04",
-      "isChanged":true
+      "_etag": "792edc59e45cf7e780c9fce590892a04"
     },
     {
       "id": 60300401,
@@ -1599,7 +1592,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit", "card"],
-      "_etag": "5ea60cef258343884c387d0991c16bd5"
+      "_etag": "5ea60cef258343884c387d0991c16bd5",
+      "isChanged": true
     },
     {
       "id": 20100401,
@@ -1652,7 +1646,7 @@
     {
       "id": 50400401,
       "name": "アンテナ",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。3枚<スクライ>する。<バニッシュ>。",
+      "description": "任意の味方を選択。3枚<スクライ>する。<バニッシュ>。",
       "partClass": "Bug",
       "partType": "Horn",
       "partValue": 4,
@@ -1663,8 +1657,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "card", "scry"],
-      "_etag": "bb7796294f0c8742623279dffb752136",
-      "isChanged":true
+      "_etag": "bb7796294f0c8742623279dffb752136"
     },
     {
       "id": 50500801,
@@ -1717,7 +1710,7 @@
     {
       "id": 60400201,
       "name": "ウンコ",
-      "description": "任意の味方を対象とする。<ブルワーク>を+1する。最も近い敵にシールドのステータスと同じダメージを与える。敵の捨山に<グー>を1つ加える。",
+      "description": "任意の味方を対象とする。最も近い敵にシールドのステータスと同じダメージを与える。敵の捨山に<グー>を1つ加える。",
       "partClass": "Reptile",
       "partType": "Horn",
       "partValue": 2,
@@ -1728,13 +1721,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "curse"],
-      "_etag": "db4c9e262c780f18e5c9f3b9cee5517b",
-      "isChanged":true
+      "_etag": "db4c9e262c780f18e5c9f3b9cee5517b"
     },
     {
       "id": 60501201,
       "name": "クロック",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次に敵がスキルまたはシークレットカードを使用する際、<ブリード>を6つ与える。",
+      "description": "任意の味方を選択。次に敵がスキルまたはシークレットカードを使用する際、<ブリード>を6つ与える。",
       "partClass": "Reptile",
       "partType": "Back",
       "partValue": 12,
@@ -1746,7 +1738,7 @@
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
       "_etag": "79a1ce1b6840d9febb6ec01290e27887",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 10200401,
@@ -1847,7 +1839,7 @@
     {
       "id": 50401201,
       "name": "リーフバグ",
-      "description": "<リテイン>。任意の味方を選択。<ブルワーク>を+1する。<コクーン>を+2する。<リテイン>するターンごとに<コクーン>を+1する。(上限:<コクーン>+3)",
+      "description": "<リテイン>。任意の味方を選択。<コクーン>を+2する。<リテイン>するターンごとに<コクーン>を+1する。(上限:<コクーン>+3)",
       "partClass": "Bug",
       "partType": "Horn",
       "partValue": 12,
@@ -1858,8 +1850,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "buff"],
-      "_etag": "19b27068b202566f39a0d2d2fc99ea45",
-      "isChanged":true
+      "_etag": "19b27068b202566f39a0d2d2fc99ea45"
     },
     {
       "id": 20401201,
@@ -1923,12 +1914,13 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "c61d19c786d559cd5a5126d34bba2b1e"
+      "_etag": "c61d19c786d559cd5a5126d34bba2b1e",
+      "isChanged": true
     },
     {
       "id": 20200801,
       "name": "インクリング",
-      "description": "<アンブッシュ>、<イニシャル>: 敵の山札に<ジンクス>を1枚加える。<イニシャル>でない場合、捨て山に1枚加える",
+      "description": "最も近いまたは遠い敵を選択し、敵の捨て山に<ジンクス>を1枚加える。",
       "partClass": "Aquatic",
       "partType": "Ears",
       "partValue": 8,
@@ -1939,8 +1931,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "curse"],
-      "_etag": "5b9fa56dff2d3e2f0463dc2aa82a0d9d",
-      "isChanged":true
+      "_etag": "5b9fa56dff2d3e2f0463dc2aa82a0d9d"
     },
     {
       "id": 30200601,
@@ -1961,7 +1952,7 @@
     {
       "id": 50600401,
       "name": "ツインテール",
-      "description": "任意の味方を選択。<リミット>1:次のターン、ターゲットが攻撃された場合、敵の手札からランダムに1枚捨てる。<ブルワーク>を+1する。",
+      "description": "任意の味方を選択。<リミット>1:次のターン、ターゲットが攻撃された場合、敵の手札からランダムに1枚捨てる。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 4,
@@ -1973,12 +1964,12 @@
       "stage": 1,
       "tags": ["secret", "shield"],
       "_etag": "39364ea0d8ec9f37cfff6947455f37bb",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 60500801,
       "name": "インディアンスター",
-      "description": "任意の味方を選択。<リミット>1:次のターン、対象は被ダメージ時に失われたシールドの50%を反射する。このカードをプレイすると、反射率が+15%される(上限100%反射)。<ブルワーク>を+1する。",
+      "description": "任意の味方を選択。<リミット>1:次のターン、対象は被ダメージ時に失われたシールドの50%を反射する。このカードをプレイすると、反射率が+15%される(上限100%反射)。",
       "partClass": "Reptile",
       "partType": "Back",
       "partValue": 8,
@@ -1989,8 +1980,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield"],
-      "_etag": "03dd0b0d77fb95f4b02335f673b802d9",
-      "isChanged":true
+      "_etag": "03dd0b0d77fb95f4b02335f673b802d9"
     },
     {
       "id": 30300801,
@@ -2011,7 +2001,7 @@
     {
       "id": 30601001,
       "name": "ポテトリーフ",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、対象が攻撃を受けた場合、攻撃者に<スリープ>を3つ与える。",
+      "description": "任意の味方を選択。次のターン、対象が攻撃を受けた場合、攻撃者に<スリープ>を3つ与える。",
       "partClass": "Plant",
       "partType": "Tail",
       "partValue": 10,
@@ -2022,8 +2012,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
-      "_etag": "f8e367a35ac2de0837df8a2bbc4864db",
-      "isChanged":true
+      "_etag": "f8e367a35ac2de0837df8a2bbc4864db"
     },
     {
       "id": 30400201,
@@ -2039,7 +2028,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "buff"],
-      "_etag": "912ab3f5c50c21a403c335679385c94f"
+      "_etag": "912ab3f5c50c21a403c335679385c94f",
+      "isChanged": true
     },
     {
       "id": 30400401,
@@ -2088,7 +2078,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "non_multihit", "single_attack", "buff"],
-      "_etag": "779b8409e5261da518315af33eedd241"
+      "_etag": "779b8409e5261da518315af33eedd241",
+      "isChanged": true
     },
     {
       "id": 10600201,
@@ -2168,12 +2159,13 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "4ee5f049fdfd567df3385d0e9c002428"
+      "_etag": "4ee5f049fdfd567df3385d0e9c002428",
+      "isChanged": true
     },
     {
       "id": 60501001,
       "name": "レッドイヤー",
-      "description": "味方にシールドを与える。次に敵が<キープ>を使用する際、<エナジーフラグメント>を2つ獲得する。<イニシャル>でない場合、<ブルワーク>を-1する。",
+      "description": "味方にシールドを与える。次に敵が<キープ>を使用する際、<エナジーフラグメント>を2つ獲得する。",
       "partClass": "Reptile",
       "partType": "Back",
       "partValue": 10,
@@ -2184,13 +2176,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield"],
-      "_etag": "8b1aa73923c893a78b32402693bd03ad",
-      "isChanged":true
+      "_etag": "8b1aa73923c893a78b32402693bd03ad"
     },
     {
       "id": 10400601,
       "name": "メリー",
-      "description": "任意の味方を選択する。<イニシャル>の場合、<ブルワーク>を-1し、基本シールドの50%を味方に与える。それ以外の場合、<ブルワーク>+1する。",
+      "description": "任意の味方を選択する。<イニシャル>:基本シールドの50%を味方に与える。",
       "partClass": "Beast",
       "partType": "Horn",
       "partValue": 6,
@@ -2201,13 +2192,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield"],
-      "_etag": "d2cce938f6e34f75a8d30a75e00f4972",
-      "isChanged":true
+      "_etag": "d2cce938f6e34f75a8d30a75e00f4972"
     },
     {
       "id": 30301001,
       "name": "サイレンスウィスパー",
-      "description": "任意の味方か敵を選択。味方には4つの<サイレンスウィスパー>を与え、敵には<リバースヒール>を与え、<イニシャル>場合には2つの<スリープ>を与える。",
+      "description": "任意の味方を選択。3ターンの間、対象の<ポイズン>はHPを減らす代わりに1スタックごとに3HP回復する。",
       "partClass": "Plant",
       "partType": "Mouth",
       "partValue": 10,
@@ -2218,13 +2208,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "buff"],
-      "_etag": "dbd6bb17651b32002564676a83773776",
-      "isChanged":true
+      "_etag": "dbd6bb17651b32002564676a83773776"
     },
     {
       "id": 50600801,
       "name": "グラベルアント",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。対象が次に攻撃を受ける際、攻撃者に<フィアー>を4つ与える。",
+      "description": "任意の味方を選択。対象が次に攻撃を受ける際、攻撃者に<フィアー>を4つ与える。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 8,
@@ -2235,13 +2224,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
-      "_etag": "395f9fce085ed47de711c8dcec95ce37",
-      "isChanged":true
+      "_etag": "395f9fce085ed47de711c8dcec95ce37"
     },
     {
       "id": 20200601,
       "name": "バブルメーカー",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。味方アクシーに<バブル>を+1与える。<ブルワーク>2個につき<バブル>+1のボーナス",
+      "description": "<リターン>。任意の味方を選択。<バブル>を+2する。ターン終了時にプレイされていない場合、他の味方アクシーに<バブル>を+1与える。",
       "partClass": "Aquatic",
       "partType": "Ears",
       "partValue": 6,
@@ -2252,8 +2240,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "buff"],
-      "_etag": "f2b30c0b14d704065213b9f9b40adb75",
-      "isChanged":true
+      "_etag": "f2b30c0b14d704065213b9f9b40adb75"
     },
     {
       "id": 40300401,
@@ -2274,7 +2261,7 @@
     {
       "id": 60201001,
       "name": "スワール",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。シールドのステータスと同じたけHPを回復する。<コンフューズド>を1枚敵の山札にシャッフルする。",
+      "description": "任意の味方を選択。シールドのステータスと同じたけHPを回復する。<コンフューズド>を1枚敵の山札にシャッフルする。",
       "partClass": "Reptile",
       "partType": "Ears",
       "partValue": 10,
@@ -2285,8 +2272,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield", "curse"],
-      "_etag": "e21471fb12bcd869723ebef1b0676ea9",
-      "isChanged":true
+      "_etag": "e21471fb12bcd869723ebef1b0676ea9"
     },
     {
       "id": 10600801,
@@ -2307,7 +2293,7 @@
     {
       "id": 30400601,
       "name": "ローズバッド",
-      "description": "任意の味方を選択。5回クレンズし、<クレンザー>を5与える。",
+      "description": "任意の味方を選択。<クレンザー>を10与える。",
       "partClass": "Plant",
       "partType": "Horn",
       "partValue": 6,
@@ -2319,7 +2305,7 @@
       "stage": 1,
       "tags": ["skill", "heal", "buff"],
       "_etag": "81718204c2fb347d23bd5da777b4626f",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 30600401,
@@ -2335,7 +2321,8 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "taunt"],
-      "_etag": "edb36009bba3eea200078e3b86ff1222"
+      "_etag": "edb36009bba3eea200078e3b86ff1222",
+      "isChanged": true
     },
     {
       "id": 40401201,
@@ -2351,7 +2338,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit", "buff"],
-      "_etag": "8fd48aebf304acef41552fcb45a53eac"
+      "_etag": "8fd48aebf304acef41552fcb45a53eac",
+      "isChanged": true
     },
     {
       "id": 10400801,
@@ -2372,7 +2360,7 @@
     {
       "id": 30201001,
       "name": "ホロウ",
-      "description": "このカードの回復量と同じHPを失う。失ったHPの2倍のHPを持つ<トランク>を召喚する。",
+      "description": "<トランク>を召喚する。75HPを失う。",
       "partClass": "Plant",
       "partType": "Ears",
       "partValue": 10,
@@ -2383,13 +2371,12 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "hp_consume", "summon"],
-      "_etag": "6eca81d0c58d4f4f193a04b12a745559",
-      "isChanged":true
+      "_etag": "6eca81d0c58d4f4f193a04b12a745559"
     },
     {
       "id": 40100201,
       "name": "メイビス",
-      "description": "<メイビス>を召喚する。パワーチャームで攻撃力を変更可能",
+      "description": "<メイビス>を召喚する。",
       "partClass": "Bird",
       "partType": "Eyes",
       "partValue": 2,
@@ -2400,8 +2387,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "summon"],
-      "_etag": "b79c3772c81f059f0fdaefabaeb6a74c",
-      "isChanged":true
+      "_etag": "b79c3772c81f059f0fdaefabaeb6a74c"
     },
     {
       "id": 60100801,
@@ -2433,7 +2419,8 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "curse"],
-      "_etag": "092f2f6ae92f1b9ce913f15c0e6fb57e"
+      "_etag": "092f2f6ae92f1b9ce913f15c0e6fb57e",
+      "isChanged": true
     },
     {
       "id": 10501201,
@@ -2470,7 +2457,7 @@
     {
       "id": 60400601,
       "name": "セラステス",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、<ガード>を1つ得る。<ガード>が誘発したとき、シールドを15失うごとに攻撃者に1<ポイズン>と1<ブリード>を与える。",
+      "description": "任意の味方を選択。対象が次に攻撃を受ける際、85のダメージを反射する。",
       "partClass": "Reptile",
       "partType": "Horn",
       "partValue": 6,
@@ -2481,8 +2468,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret"],
-      "_etag": "f2997b3b670cf52c19b8d50723e30181",
-      "isChanged":true
+      "_etag": "f2997b3b670cf52c19b8d50723e30181"
     },
     {
       "id": 20501001,
@@ -2498,12 +2484,13 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit"],
-      "_etag": "f92de322d8a71415835d862fb8d41e0a"
+      "_etag": "f92de322d8a71415835d862fb8d41e0a",
+      "isChanged": true
     },
     {
       "id": 10600401,
       "name": "ライス",
-      "description": "<アンブッシュ>。対象が<アラート>でなければ、<エナジーフラグメント>を1つ奪う。<カンニング>1つ毎に10%のボーナスダメージを与える。",
+      "description": "この攻撃で相手のHPが減った場合、<エナジーフラグメント>を1つ奪う。",
       "partClass": "Beast",
       "partType": "Tail",
       "partValue": 4,
@@ -2514,8 +2501,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "energy", "non_multihit"],
-      "_etag": "c9a0b14a9b46f05c162333a7fbd8657f",
-      "isChanged":true
+      "_etag": "c9a0b14a9b46f05c162333a7fbd8657f"
     },
     {
       "id": 60200801,
@@ -2536,7 +2522,7 @@
     {
       "id": 60500201,
       "name": "ボーンセイル",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、対象かデパフを受ける場合、そのデパフは代わりに発生源に適用される。",
+      "description": "任意の味方を選択。次のターン、対象かデパフを受ける場合、そのデパフは代わりに発生源に適用される。",
       "partClass": "Reptile",
       "partType": "Back",
       "partValue": 2,
@@ -2547,8 +2533,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield"],
-      "_etag": "8252247d693b63cc0a924a4b7f9024d3",
-      "isChanged":true
+      "_etag": "8252247d693b63cc0a924a4b7f9024d3"
     },
     {
       "id": 30500601,
@@ -2564,12 +2549,13 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "heal", "cleanse", "buff"],
-      "_etag": "445c4cd81216babc3e8100ee156976c2"
+      "_etag": "445c4cd81216babc3e8100ee156976c2",
+      "isChanged": true
     },
     {
       "id": 50501201,
       "name": "スパイキーウィング",
-      "description": "<アンブッシュ>。<ピュアダメージ>を与える。ターゲットがシールドを持っていない場合+10 DMG。それ以外の場合、<アラート>でなければ、与えたダメージの30%に等しいシールドを<スティール>する。",
+      "description": "<ピュアダメージ>を与える。与えたダメージの30%に等しいシールドを盗む。",
       "partClass": "Bug",
       "partType": "Back",
       "partValue": 12,
@@ -2580,8 +2566,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "pure"],
-      "_etag": "76b58b7cef2b722f6a41e1432d9024ab",
-      "isChanged":true
+      "_etag": "76b58b7cef2b722f6a41e1432d9024ab"
     },
     {
       "id": 30100801,
@@ -2618,7 +2603,7 @@
     {
       "id": 40500601,
       "name": "レイヴン",
-      "description": "<アンブッシュ>、<イニシャル>: 敵の山札に<ジンクス>を1枚加える。<イニシャル>でない場合、捨て山に1枚加える",
+      "description": "最も近い敵または最も遠い敵を選択。敵の捨て札に<ジンクス>を+1する。",
       "partClass": "Bird",
       "partType": "Back",
       "partValue": 6,
@@ -2629,8 +2614,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "curse"],
-      "_etag": "e0b2e980b45e6f3537048ccb6d67c9d9",
-      "isChanged":true
+      "_etag": "e0b2e980b45e6f3537048ccb6d67c9d9"
     },
     {
       "id": 20201001,
@@ -2662,12 +2646,13 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "cleanse"],
-      "_etag": "47ed2bc5676b28bc301f290af5793d4d"
+      "_etag": "47ed2bc5676b28bc301f290af5793d4d",
+      "isChanged": true
     },
     {
       "id": 60600801,
       "name": "スネークジャー",
-      "description": "任意の味方のアクシーを対象にする。<スネークジャー>を与える。<イニシャル>の場合、<ブルワーク>+1する。それ以外の場合、このカードのシールドの数値分HPを減らす。",
+      "description": "任意の味方のアクシーを対象にする。<スネークジャー>を与え、このカードのシールドの数値分HPを減らす。",
       "partClass": "Reptile",
       "partType": "Tail",
       "partValue": 8,
@@ -2679,7 +2664,7 @@
       "stage": 1,
       "tags": ["skill", "heal", "buff"],
       "_etag": "22abc4dd20e73f486b33317a2b38489f",
-      "isChanged":true
+      "isChanged": true
     },
     {
       "id": 10201001,
@@ -2700,7 +2685,7 @@
     {
       "id": 40600201,
       "name": "スワロー",
-      "description": "ランダムな敵を攻撃する。<イニシャル>:20のHPを失う。対象のシールドを最大で100まで破壊し、破壊したシールドの50%をボーナスダメージとして与える。",
+      "description": "<イニシャル>:対象のシールドを最大で120まで破壊し、20のHPを失う。",
       "partClass": "Bird",
       "partType": "Tail",
       "partValue": 2,
@@ -2711,8 +2696,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "non_multihit", "single_attack"],
-      "_etag": "01c2eade7efa7af88304b7682ed37c8e",
-      "isChanged":true
+      "_etag": "01c2eade7efa7af88304b7682ed37c8e"
     },
     {
       "id": 20101001,
@@ -2776,7 +2760,8 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "aoe_attack", "debuff"],
-      "_etag": "50c7a04f0ae905bacbbedb544f2cac04"
+      "_etag": "50c7a04f0ae905bacbbedb544f2cac04",
+      "isChanged": true
     },
     {
       "id": 10100201,
@@ -2829,7 +2814,7 @@
     {
       "id": 50400801,
       "name": "プライヤーズ",
-      "description": "<アンブッシュ>。<ピュアダメージ>を与える。ターゲットがシールドを持っていない場合+10 DMG。それ以外の場合、<アラート>でなければ、与えたダメージの30%に等しいシールドを<スティール>する。",
+      "description": "<ピュアダメージ>を与える。与えたダメージの30%に等しいシールドを盗む。",
       "partClass": "Bug",
       "partType": "Horn",
       "partValue": 8,
@@ -2840,8 +2825,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "pure"],
-      "_etag": "fe01d64a464b58b709a0cb35a3e9e2be",
-      "isChanged":true
+      "_etag": "fe01d64a464b58b709a0cb35a3e9e2be"
     },
     {
       "id": 60200401,
@@ -2862,7 +2846,7 @@
     {
       "id": 20600601,
       "name": "タッドポール",
-      "description": "<アンブッシュ>、<イニシャル>: 敵の山札に<ジンクス>を1枚加える。<イニシャル>でない場合、捨て山に1枚加える",
+      "description": "最も近いまたは最も遠い敵を対象にする。敵の捨て山に<ジンクス>を1つ追加する。",
       "partClass": "Aquatic",
       "partType": "Tail",
       "partValue": 6,
@@ -2873,8 +2857,7 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "curse"],
-      "_etag": "19a6ab9bc757cd8bbd807a15d1423be6",
-      "isChanged":true
+      "_etag": "19a6ab9bc757cd8bbd807a15d1423be6"
     },
     {
       "id": 30300401,
@@ -2895,7 +2878,7 @@
     {
       "id": 50300801,
       "name": "キュートバニー",
-      "description": "ランダムな敵を攻撃する。対象が<フィアー>を持つ場合<フィアー>を-1し、<フィアー>を持つ全ての敵からATKの30%をHPとして奪う。それ以外の場合には<フィアー>を3回与える",
+      "description": "シールドを持つ対象には<ヘックス>を4つ与える。それ以外の場合は、<フィアー>を4つ与える。",
       "partClass": "Bug",
       "partType": "Mouth",
       "partValue": 8,
@@ -2906,8 +2889,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "debuff"],
-      "_etag": "0a4b3d435019bd2c7d9ceca662432637",
-      "isChanged":true
+      "_etag": "0a4b3d435019bd2c7d9ceca662432637"
     },
     {
       "id": 10100401,
@@ -2960,7 +2942,7 @@
     {
       "id": 20400401,
       "name": "ティールシェル",
-      "description": "任意の味方を選択。このターンにプレイされたカードごとに、+15のシールドを与える。60のシールドを得るごとに+1<ブルワーク>",
+      "description": "任意の味方を選択。このターンにこのカードの前にプレイされたカードごとに、+20のシールドを与える。",
       "partClass": "Aquatic",
       "partType": "Horn",
       "partValue": 4,
@@ -2971,8 +2953,7 @@
       "abilityType": "Skill",
       "stage": 1,
       "tags": ["skill", "shield"],
-      "_etag": "3444fe3ebb07756ba2bc1080abdce6e8",
-      "isChanged":true
+      "_etag": "3444fe3ebb07756ba2bc1080abdce6e8"
     },
     {
       "id": 40100801,
@@ -2988,12 +2969,13 @@
       "abilityType": "AttackRanged",
       "stage": 1,
       "tags": ["attack", "multihit"],
-      "_etag": "5d4ab661bd21e606aec461f29555e30e"
+      "_etag": "5d4ab661bd21e606aec461f29555e30e",
+      "isChanged": true
     },
     {
       "id": 50600601,
       "name": "フィッシュスナック",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。対象が次に攻撃を受ける際、攻撃者に<ウィーク>を4つ与える。",
+      "description": "任意の味方を選択。対象が次に攻撃を受ける際、攻撃者に<ウィーク>を4つ与える。",
       "partClass": "Bug",
       "partType": "Tail",
       "partValue": 6,
@@ -3004,8 +2986,7 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
-      "_etag": "1c50260b8e7e38cce4a3359bdf42a92c",
-      "isChanged":true
+      "_etag": "1c50260b8e7e38cce4a3359bdf42a92c"
     },
     {
       "id": 60301001,
@@ -3053,12 +3034,13 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "non_multihit", "single_attack"],
-      "_etag": "765800a8fecc119de805c946e8840185"
+      "_etag": "765800a8fecc119de805c946e8840185",
+      "isChanged": true
     },
     {
       "id": 30600601,
       "name": "ハツネ",
-      "description": "任意の味方を選択。<ブルワーク>を+1する。次のターン、対象以外の味方のアクシーが攻撃されたとき、対象に<トーント>を1回与える。",
+      "description": "任意の味方を選択。次のターン、最初にシールドを獲得した敵に<フラジャイル>を4つ与える。",
       "partClass": "Plant",
       "partType": "Tail",
       "partValue": 6,
@@ -3069,13 +3051,12 @@
       "abilityType": "Secret",
       "stage": 1,
       "tags": ["secret", "shield", "debuff"],
-      "_etag": "df4cb3e9cd5065fe9f2adff2b3b7afe7",
-      "isChanged": true
+      "_etag": "df4cb3e9cd5065fe9f2adff2b3b7afe7"
     },
     {
       "id": 50200401,
       "name": "ビートルスパイク",
-      "description": "<アンブッシュ>。<ピュアダメージ>を与える。ターゲットがシールドを持っていない場合+10 DMG。それ以外の場合、<アラート>でなければ、与えたダメージの30%に等しいシールドを<スティール>する。",
+      "description": "<ピュアダメージ>を与える。与えたダメージの30%に等しいシールドを盗む。",
       "partClass": "Bug",
       "partType": "Ears",
       "partValue": 4,
@@ -3086,8 +3067,7 @@
       "abilityType": "AttackMelee",
       "stage": 1,
       "tags": ["attack", "single_attack", "non_multihit", "pure"],
-      "_etag": "fa51b22577eb265c564c05a7428f72ff",
-      "isChanged":true
+      "_etag": "fa51b22577eb265c564c05a7428f72ff"
     },
     {
       "id": 60201201,

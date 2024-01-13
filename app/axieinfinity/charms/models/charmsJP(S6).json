@@ -72,114 +72,6 @@
       "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
-      "class": "Neutral",
-      "potentialPoint": 4,
-      "code": "S6_Neutral_DeadlySpell",
-      "craftable": true,
-      "weight": 100,
-      "tags": [],
-      "energy": 0,
-      "hp": 0,
-      "damage": 0,
-      "shield": 0,
-      "heal": 0,
-      "hpPct": 0,
-      "damagePct": 25,
-      "shieldPct": 25,
-      "healPct": 25,
-      "item": {
-          "id": "ecard_neutral_4011_s7",
-          "displayOrder": 10140111,
-          "category": "Special",
-          "rarity": "Mystic",
-          "description": "(呪いの変更)敵に呪いカードが5枚以上ある場合、ランダムに2枚を取り除き、敵全体にDMG（対象の最大HPの10%）を与える。",
-          "name": "デッドリースペル",
-          "maxCopies": -1,
-          "tokenStandard": "",
-          "tokenAddress": "",
-          "tokenId": "",
-          "imageUrl": "https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/NewImages/DeadlySpell.png"
-      },
-      "season": {
-          "id": 7,
-          "name": "Season 6"
-      },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
-  },
-  {
-      "class": "Neutral",
-      "potentialPoint": 5,
-      "code": "S6_Neutral_DiscountCoupon",
-      "craftable": true,
-      "weight": 100,
-      "tags": [],
-      "energy": 0,
-      "hp": 0,
-      "damage": 0,
-      "shield": 0,
-      "heal": 0,
-      "hpPct": 0,
-      "damagePct": 25,
-      "shieldPct": 25,
-      "healPct": 25,
-      "item": {
-          "id": "ecard_neutral_4011_s7",
-          "displayOrder": 10140111,
-          "category": "Special",
-          "rarity": "Mystic",
-          "description": "(2エナジー攻撃の変更)ATKを-50%、エナジーコストを-1。",
-          "name": "ディスカウントクーポン",
-          "maxCopies": -1,
-          "tokenStandard": "",
-          "tokenAddress": "",
-          "tokenId": "",
-          "imageUrl": "https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/NewImages/DiscountCoupon.png"
-      },
-      "season": {
-          "id": 7,
-          "name": "Season 6"
-      },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
-  },
-  {
-      "class": "Neutral",
-      "potentialPoint": 4,
-      "code": "S6_Neutral_WoodenIdol",
-      "craftable": true,
-      "weight": 100,
-      "tags": [],
-      "energy": 0,
-      "hp": 0,
-      "damage": 0,
-      "shield": 0,
-      "heal": 0,
-      "hpPct": 0,
-      "damagePct": 25,
-      "shieldPct": 25,
-      "healPct": 25,
-      "item": {
-          "id": "ecard_neutral_4011_s7",
-          "displayOrder": 10140111,
-          "category": "Special",
-          "rarity": "Mystic",
-          "description": "(2エナジー攻撃の変更)ATKを+10%。ターン開始時このカードが山札か手札にある場合、<ピュリファイ>1する。",
-          "name": "ウッデンアイドル",
-          "maxCopies": -1,
-          "tokenStandard": "",
-          "tokenAddress": "",
-          "tokenId": "",
-          "imageUrl": "https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/NewImages/WoodenIdol.png"
-      },
-      "season": {
-          "id": 7,
-          "name": "Season 6"
-      },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
-  },
-  {
       "class": "Bird",
       "potentialPoint": 4,
       "code": "S6NFT_Bird_AdditionalAttack",
@@ -202,7 +94,7 @@
           "displayOrder": 10440110,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(単体攻撃の変更)別のランタムな対象に対して15%のダメージを4回与える。",
+          "description": "(単体攻撃の変更)別のランタムな対象に対して45%のダメージ",
           "name": "ストームシュリケン",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -214,8 +106,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
       "class": "Bird",
@@ -240,7 +131,7 @@
           "displayOrder": 10440100,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(攻撃の変更)<ウィーク>を2つ付与する。<ウィーク>の対象に対してダメージが+10%。デバフとしてカウントする。",
+          "description": "(攻撃の変更)<ウィーク>を2つ付与する。<ウィーク>の対象に対してダメージが+10%",
           "name": "フラミンゴ・ハンマー",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -252,8 +143,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
       "class": "Aquatic",
@@ -280,7 +170,7 @@
           "displayOrder": 10640100,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(攻撃、回復、シールドの変更)1枚の<ジンクス>を敵の捨て山にシャッフルする。ステータス-10%。呪いカードとしてカウントする。",
+          "description": "(攻撃、回復、シールドの変更)1枚の<ジンクス>を敵の捨て山にシャッフルする。ステータス-15%",
           "name": "パラライジング・ジェリーフィッシュ",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -292,8 +182,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "172a6d5233e8993ca9c324d3ab275dd9",
-      "isChanged": true
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
   },
   {
       "class": "Aquatic",
@@ -318,7 +207,7 @@
           "displayOrder": 10640110,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(単体攻撃の変更)もしターゲットに他の味方がいない場合、25%のダメージを与える。それ以外の場合、<スプラッシュダメージ>を25%を与える",
+          "description": "(単体攻撃の変更)<スプラッシュダメージ>を25%を与える",
           "name": "エクスプローディング・ボムシェル",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -330,8 +219,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
       "class": "Plant",
@@ -369,8 +257,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
       "class": "Plant",
@@ -468,7 +355,7 @@
           "displayOrder": 10740100,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(変更)最大HPの2.5%を失い、失ったHP分の<ブラッドスパイク>を得る。",
+          "description": "(変更)12のHPを失い、<ブラッドスパイク>を+6する",
           "name": "レプタイル・エナジー・ドリンクM",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -480,8 +367,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
       "class": "Beast",
@@ -506,7 +392,7 @@
           "displayOrder": 10240100,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(攻撃の変更)<ブリード>を2与える。<ブリード>が4以上の対象には<グリーバスウーンド>を1与える。ステータス-10%。デバフとしてカウントする。",
+          "description": "(攻撃の変更)<ブリード>を2与える。<ブリード>が4以上の対象には<グリーバスウーンド>を1与える。ステータス-10%",
           "name": "ヒドゥン・レイザー",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -518,8 +404,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "f8302e9d69524097e03e2e6540d5099f",
-      "isChanged": true
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
   },
   {
       "class": "Beast",
@@ -544,7 +429,7 @@
           "displayOrder": 10240110,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(攻撃の変更)<エナジーフラグメント>を1つ失う。ATKが+30%",
+          "description": "(攻撃の変更)<エナジーフラグメント>を付与できない。ATKが+30%",
           "name": "マッドムーン・マスク",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -556,8 +441,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
       "class": "Bug",
@@ -621,7 +505,7 @@
           "displayOrder": 10340100,
           "category": "Special",
           "rarity": "Mystic",
-          "description": "(攻撃、回復、シールドの変更)1枚の<グー>を敵の捨て山にシャッフルする。ステータス-10%。呪いカードとしてカウントする。",
+          "description": "(攻撃、回復、シールドの変更)1枚の<グー>を敵の捨て山にシャッフルする。ステータス-15%",
           "name": "レイジー・スネイル",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -633,8 +517,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
       "class": "Neutral",
@@ -694,7 +577,7 @@
           "displayOrder": 10130099,
           "category": "Special",
           "rarity": "Epic",
-          "description": "(単体攻撃変更)<デスマーク>を3与える。自身に<ブリード>を3与える。デバフとしてカウントする。",
+          "description": "(単体攻撃変更)<デスマーク>を3与える。自身に<ブリード>を3与える。",
           "name": "ブラッドパクト",
           "maxCopies": -1,
           "tokenStandard": "",
@@ -706,8 +589,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
       "class": "Neutral",
@@ -780,82 +662,6 @@
           "name": "Season 6"
       },
       "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
-  },
-  {
-      "class": "Neutral",
-      "potentialPoint": 3,
-      "code": "S6NFT_Neutral_CursedDoll",
-      "craftable": true,
-      "weight": 100,
-      "tags": [
-          "single_attack"
-      ],
-      "energy": 0,
-      "hp": 0,
-      "damage": 0,
-      "shield": 0,
-      "heal": 0,
-      "hpPct": 0,
-      "damagePct": 0,
-      "shieldPct": 0,
-      "healPct": 0,
-      "item": {
-          "id": "ecard_neutral_3011_s7_nft",
-          "displayOrder": 10130110,
-          "category": "Special",
-          "rarity": "Epic",
-          "description": "(呪いの変更)<アラート>を持っていないランダムな敵から10HP<スティール>する。",
-          "name": "カースドドール",
-          "maxCopies": -1,
-          "tokenStandard": "ERC1155",
-          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
-          "tokenId": "2006016",
-          "imageUrl": "https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/NewImages/CursedDoll.png"
-      },
-      "season": {
-          "id": 7,
-          "name": "Season 6"
-      },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
-    },
-  {
-      "class": "Neutral",
-      "potentialPoint": 3,
-      "code": "S6NFT_Neutral_PurifyingIncense",
-      "craftable": true,
-      "weight": 100,
-      "tags": [
-          "single_attack"
-      ],
-      "energy": 0,
-      "hp": 0,
-      "damage": 0,
-      "shield": 0,
-      "heal": 0,
-      "hpPct": 0,
-      "damagePct": 0,
-      "shieldPct": 0,
-      "healPct": 0,
-      "item": {
-          "id": "ecard_neutral_3011_s7_nft",
-          "displayOrder": 10130110,
-          "category": "Special",
-          "rarity": "Epic",
-          "description": "(攻撃、回復、シールドの変更)<イニシャル>: <ピュリファイ>1。<イニシャル>でない場合、味方を2回<クレンズ>するか、敵を1回<ディスペル>する。",
-          "name": "ピュリファイングインセンス",
-          "maxCopies": -1,
-          "tokenStandard": "ERC1155",
-          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
-          "tokenId": "2006016",
-          "imageUrl": "https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/NewImages/PurifyingIncense.png"
-      },
-      "season": {
-          "id": 7,
-          "name": "Season 6"
-      },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
   },
   {
       "class": "Bird",
@@ -1072,8 +878,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "172a6d5233e8993ca9c324d3ab275dd9",
-      "isChanged": true
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
   },
   {
       "class": "Aquatic",
@@ -1206,7 +1011,7 @@
           "displayOrder": 10530100,
           "category": "Special",
           "rarity": "Epic",
-          "description": "(変更)最大HP+21。ステータスが-10%",
+          "description": "(変更)最大HP+20。ステータスが-10%",
           "name": "プラント・チャーム・オブ・バイタリティⅡ",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -1218,8 +1023,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
       "class": "Plant",
@@ -1419,7 +1223,7 @@
           "displayOrder": 10730100,
           "category": "Special",
           "rarity": "Epic",
-          "description": "(シールドの変更)シールド+21。最大HP-10",
+          "description": "(シールドの変更)シールド+13。最大HP-6",
           "name": "レプタイル・チャーム・オブ・バイタリティⅡ",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -1431,8 +1235,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
       "class": "Beast",
@@ -1676,7 +1479,7 @@
           "displayOrder": 10330130,
           "category": "Special",
           "rarity": "Epic",
-          "description": "(攻撃の変更)攻撃前に対象に15シールドを与える。シールドを15得る。エナジーを消費するごとに+25のボーナスシールド。",
+          "description": "(攻撃の変更)シールドを15得る。エナジーを消費するごとに+35のボーナスシールド。ATK-50%。",
           "name": "バグズ・エナジー・ドリンクM",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -1688,8 +1491,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
       "class": "Bug",
@@ -1712,7 +1514,7 @@
           "displayOrder": 10330120,
           "category": "Special",
           "rarity": "Epic",
-          "description": "(変更)味方のアクシーに<コクーン>を+1する。",
+          "description": "(変更)<コクーン>+2",
           "name": "シークレット・コクーン",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -1724,8 +1526,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "172a6d5233e8993ca9c324d3ab275dd9",
-      "isChanged": true
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
   },
   {
       "class": "Neutral",
@@ -1763,8 +1564,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "f8302e9d69524097e03e2e6540d5099f",
-      "isChanged": true
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
   },
   {
       "class": "Neutral",
@@ -1871,8 +1671,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "f8302e9d69524097e03e2e6540d5099f",
-      "isChanged": true
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
   },
   {
       "class": "Neutral",
@@ -1930,7 +1729,7 @@
           "displayOrder": 10120100,
           "category": "Special",
           "rarity": "Rare",
-          "description": "(変更)最大HP+10",
+          "description": "(変更)最大HP+8",
           "name": "チャーム・オブ・バイタリティⅡ",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -1942,8 +1741,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "f8302e9d69524097e03e2e6540d5099f",
-      "isChanged": true
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
   },
   {
       "class": "Neutral",
@@ -1981,8 +1779,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "f8302e9d69524097e03e2e6540d5099f",
-      "isChanged": true
+      "_etag": "f8302e9d69524097e03e2e6540d5099f"
   },
   {
       "class": "Neutral",
@@ -2245,44 +2042,6 @@
       "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
-      "class": "Neutral",
-      "potentialPoint": 2,
-      "code": "S6NFT_Neutral_NoviceSpel",
-      "craftable": true,
-      "weight": 100,
-      "tags": [
-          "shield"
-      ],
-      "energy": 0,
-      "hp": 0,
-      "damage": 0,
-      "shield": 6,
-      "heal": 0,
-      "hpPct": 0,
-      "damagePct": 0,
-      "shieldPct": 0,
-      "healPct": 0,
-      "item": {
-          "id": "ecard_neutral_2013_s6_nft",
-          "displayOrder": 10120130,
-          "category": "Special",
-          "rarity": "Rare",
-          "description": "(呪いの変更)ランダムな敵1体のHPを7回復するか、シールドを7回復するか、7DMG与える。",
-          "name": "ノービススペル",
-          "maxCopies": -1,
-          "tokenStandard": "ERC1155",
-          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
-          "tokenId": "2006004",
-          "imageUrl": "https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/NewImages/NoviceSpell.png"
-      },
-      "season": {
-          "id": 7,
-          "name": "Season 6"
-      },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
-  },
-  {
       "class": "Bird",
       "potentialPoint": 1,
       "code": "S6NFT_Bird_Power_1",
@@ -2503,42 +2262,6 @@
       "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
-      "class": "Aquatic",
-      "potentialPoint": 4,
-      "code": "S6NFT_Aquatic_BubbleWand",
-      "craftable": true,
-      "weight": 100,
-      "tags": [],
-      "energy": 0,
-      "hp": 0,
-      "damage": 0,
-      "shield": 0,
-      "heal": 0,
-      "hpPct": 0,
-      "damagePct": 0,
-      "shieldPct": 0,
-      "healPct": 0,
-      "item": {
-          "id": "ecard_aquatic_2013_s7_nft",
-          "displayOrder": 10620130,
-          "category": "Special",
-          "rarity": "Rare",
-          "description": "(追加効果)エナジーを消費するごとに<バブル>を+1する。",
-          "name": "バブル・ワンド",
-          "maxCopies": -1,
-          "tokenStandard": "ERC1155",
-          "tokenAddress": "0x814A9C959a3Ef6CA44b5e2349e3bBa9845393947",
-          "tokenId": "2006059",
-          "imageUrl": "https://ehzxpvbfwwaraguxdmzg.supabase.co/storage/v1/object/public/images/NewImages/BubbleWand.png"
-      },
-      "season": {
-          "id": 7,
-          "name": "Season 6"
-      },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
-  },
-  {
       "class": "Plant",
       "potentialPoint": 3,
       "code": "S6NFT_Plant_OnDraw",
@@ -2631,7 +2354,7 @@
           "displayOrder": 10520110,
           "category": "Special",
           "rarity": "Rare",
-          "description": "(変更)最大HP+12",
+          "description": "(変更)最大HP+10",
           "name": "プラント・チャーム・オブ・バイタリティⅠ",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -2643,8 +2366,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "90358f92a5d994e86c0ab960c407d704",
-      "isChanged": true
+      "_etag": "90358f92a5d994e86c0ab960c407d704"
   },
   {
       "class": "Reptile",
@@ -2706,7 +2428,7 @@
           "displayOrder": 10720130,
           "category": "Special",
           "rarity": "Rare",
-          "description": "(攻撃の変更)<ポイズン>を2つ与える。<ポイズン>が15以下の対象には<ポイズン>を1つ追加する。デバフとしてカウントする。",
+          "description": "(攻撃の変更)<ポイズン>を2つ与える。<ポイズン>が15以下の対象には<ポイズン>を1つ追加する。",
           "name": "バイパーズ・ベノム",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -2718,8 +2440,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af",
-      "isChanged": true
+      "_etag": "e54f6d389d5ce73fce6bde0f91efe4af"
   },
   {
       "class": "Reptile",
@@ -2742,7 +2463,7 @@
           "displayOrder": 10720110,
           "category": "Special",
           "rarity": "Rare",
-          "description": "(変更)最大HP+12",
+          "description": "(変更)最大HP+10",
           "name": "レプタイル・チャーム・オブ・バイタリティⅠ",
           "maxCopies": -1,
           "tokenStandard": "ERC1155",
@@ -2754,8 +2475,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "172a6d5233e8993ca9c324d3ab275dd9",
-      "isChanged": true
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
   },
   {
       "class": "Beast",
@@ -2999,7 +2719,7 @@
           "displayOrder": 10110101,
           "category": "Special",
           "rarity": "Common",
-          "description": "(変更)最大HP+4",
+          "description": "(変更)最大HP+3",
           "name": "バイタリティチャームⅠ",
           "maxCopies": -1,
           "tokenStandard": "",
@@ -3011,8 +2731,7 @@
           "id": 7,
           "name": "Season 6"
       },
-      "_etag": "172a6d5233e8993ca9c324d3ab275dd9",
-      "isChanged": true
+      "_etag": "172a6d5233e8993ca9c324d3ab275dd9"
   },
   {
       "class": "Neutral",

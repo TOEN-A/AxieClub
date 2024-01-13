@@ -11,7 +11,7 @@
             "displayOrder": 140110,
             "category": "Special",
             "rarity": "Mystic",
-            "description": "<ソロ>。<ラウンド>2まで、ターン終了時に<エナジーフラグメント>2つを失う。その後、ターン開始時に3つの<フラグメント>を獲得する。あなたが<フラグメント>を得たとき、味方を5HP回復し、全ての敵に5DMGを与える。",
+            "description": "<ソロ>。<ラウンド>2まで、ターン終了時に<エナジーフラグメント>2つを失う。その後、ターン開始時に3つのフラグメントを獲得する。",
             "name": "シェイディ・エクスチェンジ",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -23,8 +23,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e",
-        "isChanged": true
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
     },
     {
         "rune": "neutral_4010_s6",
@@ -128,8 +127,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "aquatic_4010_s6",
@@ -143,7 +141,7 @@
             "displayOrder": 640100,
             "category": "Special",
             "rarity": "Mystic",
-            "description": "<ソロ>。ターン開始時、<バブル>を+1する。このアクシーのを<バブルボム>は対象の最大HPの2%を<ピュアダメージ>として与える。",
+            "description": "<ソロ>。ターン開始時、<バブル>を+1する。このアクシーのを<バブルボム>はダメージが+50%増加する。",
             "name": "ハート・オブ・オーシャン",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -155,8 +153,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "plant_4010_s6",
@@ -196,7 +193,7 @@
             "displayOrder": 540110,
             "category": "Special",
             "rarity": "Mystic",
-            "description": "<ソロ>。このアクシーのヒールは対象の味方を30%の値でヒール/<リバースヒール>する。このアクシーのオーバーヒールは対象にシールドとして付与され、最もHPの低い敵にDMGとして与えられる。",
+            "description": "<ソロ>。回復ステータスを+20%する。このアクシーが過剰回復するたびに、その量が対象にシールドとして与えられ、1体のランダムな敵にダメージとして与える。",
             "name": "ヒーリング・パルス",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -208,8 +205,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "reptile_4011_s6",
@@ -301,7 +297,7 @@
             "displayOrder": 240100,
             "category": "Special",
             "rarity": "Mystic",
-            "description": "<ソロ>。ターン開始時、<レイジ>を+2する。このアクシーの<レイジ>は、現在のスタックごとに+2の追加ダメージを与える。<フューリー>フォームの時、与えるダメージを+10%増加する。",
+            "description": "<ソロ>。ターン開始時、<レイジ>を+2する。このアクシーの<レイジ>は、現在のスタックごとに+2の追加ダメージを与える。",
             "name": "エンドレスアンガー",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -313,8 +309,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "bug_4010_s6",
@@ -432,14 +427,13 @@
             "displayOrder": 1040110,
             "category": "Special",
             "rarity": "Mystic",
-            "description": "<ソロ>。このアクシーが1体の敵をターゲットにしたとき、6%のHPを失い、敵アクシーを1回<ディスペル>し、敵アクシーは6%のHPを失う。",
+            "description": "<ソロ>。ターン開始時、すべての味方のアクシーはHPを6%失い、カードのステータスを+6%する。",
             "name": "ソウル・イーター",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
             "tokenAddress": "0xC25970724f032aF21d801978C73653c440CF787c",
             "tokenId": "1006070",
-            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_soul_eater.png",
-            "isChanged": true
+            "imageUrl": "https://storage.googleapis.com/origin-production/assets/item/rune_soul_eater.png"
         },
         "season": {
             "id": 7,
@@ -459,7 +453,7 @@
             "displayOrder": 1040100,
             "category": "Special",
             "rarity": "Mystic",
-            "description": "<ソロ>。ターン開始時、奇数<ラウンド>に、1～6<フィアー>を全ての敵アクシーに与える。<コンフューズド>は1～6倍のダメージを敵に与える。",
+            "description": "<ソロ>。ターン開始時、奇数<ラウンド>に、3<ヘックス>/3<フィアー>をランダムに敵アクシーに与える。",
             "name": "グルーミーダイス",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -471,8 +465,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "mech_4011_s6",
@@ -486,7 +479,7 @@
             "displayOrder": 840110,
             "category": "Special",
             "rarity": "Mystic",
-            "description": "<ソロ>。バトル中1回、このアクシーが死亡する場合、2ターンの間<イモータル>を獲得、全デパフを<クレンズ>、全ての<トーント>を失い、<イモータル>状態時に+20%バリュー。",
+            "description": "<ソロ>。バトル中1回、このアクシーが死亡する場合、2ターンの間<イモータル>を獲得、全デパフを<クレンズ>、全ての<トーント>を失い、<イモータル>状態時に+30%バリュー。",
             "name": "ラストスタンド",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -498,8 +491,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e",
-        "isChanged": true
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
     },
     {
         "rune": "mech_4010_s6",
@@ -525,8 +517,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "24e2c1e7286670cda57d731d26f2a22d",
-        "isChanged": true
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
     },
     {
         "rune": "neutral_3011_s6",
@@ -552,8 +543,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e",
-        "isChanged": true
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
     },
     {
         "rune": "neutral_3012_s6",
@@ -657,8 +647,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "bird_3012_s6",
@@ -880,7 +869,7 @@
             "displayOrder": 730100,
             "category": "Special",
             "rarity": "Epic",
-            "description": "<ソロ>。バトル開始前、あなたのデッキに<ヴェノムバースト>を+1する。消費エナジー1つにつき3<ポイズン>をランダムな敵1体に与える。",
+            "description": "<ソロ>。バトル開始前、あなたのデッキに<ヴェノムバースト>を+1する。消費エナジー1つにつき2<ポイズン>をランダムな敵1体に与える。",
             "name": "ヴェノムマスター",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -892,8 +881,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "reptile_3012_s6",
@@ -945,8 +933,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e",
-        "isChanged": true
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
     },
     {
         "rune": "beast_3010_s6",
@@ -1038,7 +1025,7 @@
             "displayOrder": 330100,
             "category": "Special",
             "rarity": "Epic",
-            "description": "<ソロ>。ターン開始時、最も近くの敵アクシーから10～20のHPを<スティール>し、+1<コクーン>を得る。もし15以上のHPを<スティール>した場合、他の味方全員に<コクーン>+1する。",
+            "description": "<ソロ>。ターン開始時、最もシールドの多い敵アクシーから35%のシールドを奪う。シールドを持つアクシーがいない場合、敵アクシーから6のHPを<スティール>する。",
             "name": "リーチ",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -1050,8 +1037,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "bug_3011_s6",
@@ -1169,7 +1155,7 @@
             "displayOrder": 1030120,
             "category": "Special",
             "rarity": "Epic",
-            "description": "<ソロ>。ターン開始時、敵よりも<エナジーフラグメント>や<エナジーバースト>のレベルが低ければ、フラグメントを1つ<スティール>する。ターン終了時、10+(フラグメントの4倍に相当するHP)を回復する。",
+            "description": "<ソロ>。ターン開始時、敵よりも<エナジーフラグメント>や<エナジーバースト>のレベルが低ければ、フラグメントを1つ奪う。ターン終了時、フラグメントの4倍に相当するHPを回復する。",
             "name": "ムーンライト・シーフ",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -1181,8 +1167,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "dusk_3010_s6",
@@ -1248,7 +1233,7 @@
             "displayOrder": 830110,
             "category": "Special",
             "rarity": "Epic",
-            "description": "<ソロ>。カードからのシールドを+10%受け取る。カードから累積的に受け取った75シールドごとに、<エナジーフラグメント>を1つ獲得。",
+            "description": "<ソロ>。カードからのシールドを+15%受け取る。カードから累積的に受け取った75シールドごとに、<エナジーフラグメント>を1つ獲得。",
             "name": "アダプティブ・プログラム",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -1260,8 +1245,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "mech_3010_s6",
@@ -1275,7 +1259,7 @@
             "displayOrder": 830100,
             "category": "Special",
             "rarity": "Epic",
-            "description": "<ソロ>。15%のダメージを攻撃者に反射する。シールドがある間、受けるダメージが-20%減少する。",
+            "description": "<ソロ>。シールドがある間、ダメージが+20%増加し、受けるダメージが-20%減少する。",
             "name": "ザップ・アーマー",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -1287,8 +1271,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "mech_3012_s6",
@@ -1484,7 +1467,7 @@
             "displayOrder": 520110,
             "category": "Special",
             "rarity": "Rare",
-            "description": "最大HP+8%。このアクシーの召喚獣が死亡した時、最も近くにいる敵アクシーにDMGとして(このアクシーの現在HPの8%)を与える。",
+            "description": "このアクシーの召喚獣は最大HPが+14される。このアクシーの召喚獣が死亡すると、最も近い敵アクシーにこのアクシーの現在のHPの8%に相当するダメージを与える。",
             "name": "デスティニー・リーフ",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -1496,8 +1479,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "plant_2010_s6",
@@ -1511,7 +1493,7 @@
             "displayOrder": 520100,
             "category": "Special",
             "rarity": "Rare",
-            "description": "戦闘開始時、<リーフ>を+2する。このアクシーが<リーフ>を持っている場合、攻撃によるDMGを-10%する。リーフを持っている場合、ボーナスで-5%する。",
+            "description": "バトル開始時、<リーフ>を+2する。最大HPが8%増加する。",
             "name": "ウェイ・オブ・プラント",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -1523,8 +1505,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "24e2c1e7286670cda57d731d26f2a22d",
-        "isChanged": true
+        "_etag": "24e2c1e7286670cda57d731d26f2a22d"
     },
     {
         "rune": "reptile_2011_s6",
@@ -1746,7 +1727,7 @@
             "displayOrder": 1020110,
             "category": "Special",
             "rarity": "Rare",
-            "description": "ターン終了時、最も近い敵のアクシーは敵のデッキ内の呪いカードごとに5HPを失う。(上限:30HP)",
+            "description": "ターン終了時、最も近い敵のアクシーは敵のデッキ内の呪いカードごとに5ダメージを受ける(上限:25ダメージ)",
             "name": "カースド・リチュアル",
             "maxCopies": -1,
             "tokenStandard": "ERC1155",
@@ -1758,8 +1739,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "99b8196a16e4eb09293b757da13d9430",
-        "isChanged": true
+        "_etag": "99b8196a16e4eb09293b757da13d9430"
     },
     {
         "rune": "dusk_2010_s6",
@@ -1851,7 +1831,7 @@
             "displayOrder": 110131,
             "category": "Special",
             "rarity": "Common",
-            "description": "あなたのターンのスタート時、このアクシー以外の味方いる場合、最も近い敵に6DMGを与える。",
+            "description": "このアクシーの召喚獣は最大HPが+8増加する。",
             "name": "ミニレジオン",
             "maxCopies": -1,
             "tokenStandard": "",
@@ -1863,8 +1843,7 @@
             "id": 7,
             "name": "Season 6"
         },
-        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e",
-        "isChanged": true
+        "_etag": "18a02fdea66f89b3fc0220d7a8e41a2e"
     },
     {
         "rune": "neutral_1010_s6",

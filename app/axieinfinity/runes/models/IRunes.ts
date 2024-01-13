@@ -27,6 +27,7 @@ export interface Rune {
   item: Item
   season: Season
   _etag: string
+  isChanged?: boolean
 }
 
 export interface RunesApiResponse {
